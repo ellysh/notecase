@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoteCase", "NoteCase.vcproj", "{41A644A6-3231-45DF-B3F8-F951BEAF1E3E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D01E4617-CB1C-4A25-AB53-FF749FC15924} = {D01E4617-CB1C-4A25-AB53-FF749FC15924}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib_static", "src\lib\zlib\zlib_static.vcproj", "{D01E4617-CB1C-4A25-AB53-FF749FC15924}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NotecaseLauncher", "tools\NotecaseLauncher\NotecaseLauncher.vcproj", "{AE288C61-1ED9-4551-B749-644F2C4AA23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41A644A6-3231-45DF-B3F8-F951BEAF1E3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41A644A6-3231-45DF-B3F8-F951BEAF1E3E}.Debug|Win32.Build.0 = Debug|Win32
+		{41A644A6-3231-45DF-B3F8-F951BEAF1E3E}.Release|Win32.ActiveCfg = Release|Win32
+		{41A644A6-3231-45DF-B3F8-F951BEAF1E3E}.Release|Win32.Build.0 = Release|Win32
+		{D01E4617-CB1C-4A25-AB53-FF749FC15924}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D01E4617-CB1C-4A25-AB53-FF749FC15924}.Debug|Win32.Build.0 = Debug|Win32
+		{D01E4617-CB1C-4A25-AB53-FF749FC15924}.Release|Win32.ActiveCfg = Release|Win32
+		{D01E4617-CB1C-4A25-AB53-FF749FC15924}.Release|Win32.Build.0 = Release|Win32
+		{AE288C61-1ED9-4551-B749-644F2C4AA23E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE288C61-1ED9-4551-B749-644F2C4AA23E}.Debug|Win32.Build.0 = Debug|Win32
+		{AE288C61-1ED9-4551-B749-644F2C4AA23E}.Release|Win32.ActiveCfg = Release|Win32
+		{AE288C61-1ED9-4551-B749-644F2C4AA23E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

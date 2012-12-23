@@ -1,0 +1,1761 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NoteCase\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-10-08 11:03+0800\n"
+"Last-Translator: befow <befow9s@qq.com>\n"
+"Language-Team: NoteCase team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: ..\\src\\\n"
+"X-Poedit-Country: Shanghai\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AboutDlg.cpp:58
+msgid "About Notecase"
+msgstr "关于Notecase"
+
+#: AboutDlg.cpp:92
+msgid " - Version "
+msgstr "-版本"
+
+#: AboutDlg.cpp:106
+msgid "Website:"
+msgstr "网站"
+
+#: AboutDlg.cpp:121
+msgid "Report bugs to:"
+msgstr "报告错误"
+
+#: AboutDlg.cpp:136
+msgid "Locale: "
+msgstr "本地语言:"
+
+#: AboutDlg.cpp:151 FileAttachmentDlg.cpp:221 FindReplaceDlg.cpp:198
+msgid "Close"
+msgstr "关闭"
+
+#: callbacks.cpp:223 callbacks.cpp:591 callbacks.cpp:913
+msgid "Document has been modified! Do you want to save it?"
+msgstr "文件已经改变！打算保存它吗？"
+
+#: callbacks.cpp:269
+msgid "Open document"
+msgstr "打开文件"
+
+#: callbacks.cpp:272
+msgid "All supported formats (*.ncd,*.nce)"
+msgstr "所有支持格式(*.ncd,*.nce)"
+
+#: callbacks.cpp:273 callbacks.cpp:1961 FileExportDlg.cpp:42
+#: FileSaveAsDlg.cpp:36
+msgid "NoteCase document (*.ncd)"
+msgstr "NoteCase 文件(*.ncd)"
+
+#: callbacks.cpp:274 callbacks.cpp:1962 FileExportDlg.cpp:44
+#: FileSaveAsDlg.cpp:38
+msgid "NoteCase encrypted document (*.nce)"
+msgstr "NoteCase 加密文件(*.nce)"
+
+#: callbacks.cpp:275 callbacks.cpp:1967 DocActionPix.cpp:64
+msgid "All files (*)"
+msgstr "所有文件(*)"
+
+#: callbacks.cpp:302 interface.cpp:604
+msgid "Unsupported format!"
+msgstr "不支持此文件格式"
+
+#: callbacks.cpp:457 callbacks.cpp:459 callbacks.cpp:2078 callbacks.cpp:2080
+#, c-format
+msgid "File %s already exists! Do you want to overwrite it?"
+msgstr "文件%s已经存在，打算覆盖它吗"
+
+#: callbacks.cpp:474
+msgid "Warning: .hnc format does not support hyperlinks!"
+msgstr "警告：.hnc文件不支持超级链接"
+
+#: callbacks.cpp:500
+msgid ""
+"You have saved file in encrypted format! Do you want to delete the original "
+"(unencrypted) file?\n"
+"This will also delete any backup of this file."
+msgstr "已对此文件加密，是否删除原有未加密文件?同时也会删除原有文件的所有备份"
+
+#: callbacks.cpp:600
+msgid "Document saving failed! Abort closing?"
+msgstr ""
+
+#: callbacks.cpp:686 callbacks.cpp:728 callbacks.cpp:753 callbacks.cpp:1391
+#: callbacks.cpp:1482 callbacks.cpp:1575 callbacks.cpp:1702 callbacks.cpp:1714
+#: callbacks.cpp:1723 callbacks.cpp:1732 callbacks.cpp:1741 callbacks.cpp:1861
+#: callbacks.cpp:1951 callbacks.cpp:2672 callbacks.cpp:2815 callbacks.cpp:2828
+#: callbacks.cpp:3496 callbacks.cpp:3515 callbacks.cpp:3575 callbacks.cpp:3626
+#: callbacks.cpp:3740 callbacks.cpp:4243 callbacks.cpp:5207 callbacks.cpp:5217
+#: callbacks.cpp:5227 callbacks.cpp:5236 callbacks.cpp:5266 callbacks.cpp:5296
+#: callbacks.cpp:5335 callbacks.cpp:5374 callbacks.cpp:5413 callbacks.cpp:5452
+#: callbacks.cpp:5499 callbacks.cpp:5687 callbacks.cpp:5789 callbacks.cpp:5822
+#: callbacks.cpp:5937 callbacks.cpp:6323 FileAttachmentDlg.cpp:255
+#: FileAttachmentDlg.cpp:360 FileAttachmentDlg.cpp:493
+msgid "Can not change read-only document!"
+msgstr "不能修改只读文件"
+
+#: callbacks.cpp:815
+msgid ""
+"Current document has to be closed in order to open help document!\n"
+"Do you wish to proceed?\n"
+"\n"
+"(Note that if you choose to proceed you'll be prompted to save current "
+"document changes)"
+msgstr ""
+"当前文件将会关闭以打开帮助文件!继续吗?(注意：如果继续，将出现询问保存更改的对"
+"话框)"
+
+#: callbacks.cpp:1288
+msgid "Save operation already in progress!"
+msgstr "正在保存"
+
+#: callbacks.cpp:1324 interface.cpp:612
+msgid "Failed to save the file!"
+msgstr "保存文件失败"
+
+#: callbacks.cpp:1430 callbacks.cpp:1519 lib/FormatIOTxt.cpp:46
+msgid "New node"
+msgstr "新节点"
+
+#: callbacks.cpp:1620
+#, c-format
+msgid ""
+"Are you sure to delete the node\n"
+"\"%s\"?"
+msgstr "确定删除节点\"%s\"?"
+
+#: callbacks.cpp:1957
+msgid "Import from file"
+msgstr "从文件导入"
+
+#: callbacks.cpp:1960
+msgid "All supported formats"
+msgstr "所有支持的格式"
+
+#: callbacks.cpp:1963 FileExportDlg.cpp:46
+msgid "NoteCenter document (*.hnc)"
+msgstr "NoteCenter 文件(*.hnc)"
+
+#: callbacks.cpp:1964
+msgid "Gjots2 document (*.gjots2)"
+msgstr "Gjots2 文件(*.gjots2)"
+
+#: callbacks.cpp:1965
+msgid "Sticky Notes document (*.xml)"
+msgstr "Sticky Notes 文件(*.xml)"
+
+#: callbacks.cpp:1966
+msgid "MM/LX Mindmap/Outline document (*.MM)"
+msgstr "MM/LX Mindmap/Outline 文件(*.MM)"
+
+#: callbacks.cpp:2142 callbacks.cpp:2162 callbacks.cpp:4250 callbacks.cpp:5271
+#: callbacks.cpp:5301 callbacks.cpp:5340 callbacks.cpp:5379 callbacks.cpp:5418
+#: callbacks.cpp:5457 callbacks.cpp:5504 callbacks.cpp:5666 callbacks.cpp:5827
+msgid "No selected node!"
+msgstr "没有被选中的节点"
+
+#: callbacks.cpp:2384 callbacks.cpp:2455
+msgid "Document is empty!"
+msgstr "空文件"
+
+#: callbacks.cpp:2424 callbacks.cpp:2467 FindReplaceDlg.cpp:247
+msgid "Error: Search text is empty!"
+msgstr "错误:搜索项为空"
+
+#: callbacks.cpp:2514
+msgid "Searching ..."
+msgstr ""
+
+#: callbacks.cpp:2530 callbacks.cpp:2545
+msgid "No more results found!"
+msgstr "搜索完毕"
+
+#: callbacks.cpp:2538
+#, fuzzy
+msgid "Search canceled!"
+msgstr "搜索完毕"
+
+#: callbacks.cpp:2598
+msgid "This node contains the tag!"
+msgstr "此节点包含搜索标签"
+
+#: callbacks.cpp:2645
+msgid "Reached end of the document! Continue searching from the start?"
+msgstr "搜索完毕!继续从头开始搜索吗?"
+
+#: callbacks.cpp:2654
+msgid "Search done!"
+msgstr "搜索完毕"
+
+#: callbacks.cpp:3437
+msgid "Do you want to reload the document and lose your possible changes?"
+msgstr "重新载入文档而不保存现有修改吗?"
+
+#: callbacks.cpp:3449
+msgid "Document has not been saved yet!"
+msgstr "文件未保存"
+
+#: callbacks.cpp:3723 FileAttachmentDlg.cpp:89
+msgid "The document is read-only! You won't be able to make any changes!"
+msgstr "只读文档!不能修改!"
+
+#: callbacks.cpp:3777
+msgid "No Node selected"
+msgstr "没有节点被选中"
+
+#: callbacks.cpp:3955
+msgid "Autosave file found! Do you want to load it?"
+msgstr "发现了自动保存文档!打开它吗?"
+
+#: callbacks.cpp:4327
+msgid "No text selection!"
+msgstr "没有选中文本"
+
+#: callbacks.cpp:4678
+msgid "Word Count"
+msgstr "字数"
+
+#: callbacks.cpp:4707
+msgid "Word Count ( title / text / title and text )\n"
+msgstr "字数(标题//文章//标题和文章)\n"
+
+#: callbacks.cpp:4709
+msgid "NOTE: Line counting does not take into account word wrapping.\n"
+msgstr "注意:行数计算没有考虑单词的折叠\n"
+
+#: callbacks.cpp:4712
+msgid "Total document"
+msgstr "所有文件"
+
+#: callbacks.cpp:4714
+#, c-format
+msgid " - %d node(s)"
+msgstr "-%d 节点(s)"
+
+#: callbacks.cpp:4742 callbacks.cpp:4834
+msgid "words"
+msgstr "字数"
+
+#: callbacks.cpp:4767 callbacks.cpp:4859
+msgid "lines"
+msgstr "行数"
+
+#: callbacks.cpp:4792 callbacks.cpp:4884
+msgid "characters"
+msgstr "字符数"
+
+#: callbacks.cpp:4803
+msgid "Current node"
+msgstr "当前节点"
+
+#: callbacks.cpp:4806
+#, c-format
+msgid " - ancestor to %d node(s)"
+msgstr "-父节点%d(s)"
+
+#: callbacks.cpp:5006 callbacks.cpp:5009
+#, c-format
+msgid "Completed descendants: %5.1f%% (%d / %d) (children completed: %d / %d)"
+msgstr "子节点完成:%5.1f%%(%d/%d)(子节点完成:%d / %d) "
+
+#: callbacks.cpp:5046
+msgid "Save Picture"
+msgstr "保存图片"
+
+#: callbacks.cpp:5061 ShortcutsList.cpp:165
+msgid "Link Wizard"
+msgstr "插入超链接..."
+
+#: callbacks.cpp:5070 MainWnd.cpp:1815
+msgid "F_ormat"
+msgstr "_格式"
+
+#: callbacks.cpp:5077 MainWnd.cpp:1826
+msgid "_Bold"
+msgstr "_粗体"
+
+#: callbacks.cpp:5085 MainWnd.cpp:1838
+msgid "_Italic"
+msgstr "_斜体"
+
+#: callbacks.cpp:5093 MainWnd.cpp:1850
+msgid "_Underline"
+msgstr "_下划线"
+
+#: callbacks.cpp:5101 MainWnd.cpp:1862
+msgid "_Strikethrough"
+msgstr "_删除线"
+
+#: callbacks.cpp:5109 MainWnd.cpp:1874
+msgid "_Text color"
+msgstr "_文字颜色..."
+
+#: callbacks.cpp:5116 MainWnd.cpp:1003 MainWnd.cpp:1008 ShortcutsList.cpp:175
+msgid "Text Background Color"
+msgstr "文字背景色"
+
+#: callbacks.cpp:5123 MainWnd.cpp:1896
+msgid "_Remove formatting"
+msgstr "_取消格式"
+
+#: callbacks.cpp:5200
+msgid "Link target no longer exists."
+msgstr "链接目标不存在"
+
+#: callbacks.cpp:5567
+msgid "Save picture"
+msgstr "保存图片"
+
+#: callbacks.cpp:5568 DocActionPix.cpp:61
+msgid "PNG format (*.png)"
+msgstr "PNG 格式(*.png)"
+
+#: callbacks.cpp:5569
+msgid "JPEG format (*.jpg)"
+msgstr "JPEG 格式(*.jpg)"
+
+#: callbacks.cpp:5602
+msgid "Failed to save picture to file!"
+msgstr "无法将图片保存到文件中"
+
+#: callbacks.cpp:5779
+msgid "Unknown format! Do you want to load it as text?"
+msgstr "未知格式!作为文本格式载入吗?"
+
+#: callbacks.cpp:5811
+msgid "You'll need to save the document to commit the password change!"
+msgstr "你必须保存文件以使密码生效"
+
+#: callbacks.cpp:6028 FileAttachmentDlg.cpp:580
+msgid ""
+"Do you want to attach files to the node?\n"
+"\n"
+msgstr ""
+"在此节点添加附件吗?\n"
+"\n"
+
+#: callbacks.cpp:6051 FileAttachmentDlg.cpp:603
+msgid "Failed to open input file!\n"
+msgstr "无法打开输入文件!\n"
+
+#: callbacks.cpp:6065 FileAttachmentDlg.cpp:302 FileAttachmentDlg.cpp:617
+#: lib/NoteDocument.cpp:341
+msgid "Loading file. Please wait..."
+msgstr "正在打开文件.请稍候..."
+
+#: callbacks.cpp:6141
+msgid "Node title must not be empty!"
+msgstr "节点标题不能为空"
+
+#: callbacks.cpp:6281
+msgid "Document not encrypted!"
+msgstr "文档未加密"
+
+#: callbacks.cpp:6285
+msgid "Document not saved!"
+msgstr "文件未保存"
+
+#: callbacks.cpp:6368
+msgid "Insert new node or select an existing one to start typing."
+msgstr "插入一个新节点或选择一个已存在的节点"
+
+#: DateTimeDlg.cpp:64 MainWnd.cpp:1431
+msgid "Insert Date/Time"
+msgstr "插入日期/时间"
+
+#: DateTimeDlg.cpp:90
+msgid "Select date/time format:"
+msgstr "请选择日期/时间格式"
+
+#: DateTimeDlg.cpp:101
+msgid "value"
+msgstr "值"
+
+#: DocActionFinish.cpp:66
+msgid "Do you want to remove 'Completed' status from all the descendants?"
+msgstr "删除所有子节点的'完成'状态吗?"
+
+#: DocActionFmt.cpp:90
+msgid "Pick text color"
+msgstr "选择文字颜色"
+
+#: DocActionPix.cpp:57
+msgid "Open picture"
+msgstr "打开图片文件"
+
+#: DocActionPix.cpp:60
+msgid "All supported image formats (*.png,*.jpg,*.gif)"
+msgstr "所有支持的文件格式(*.png,*.jpg,*.gif)"
+
+#: DocActionPix.cpp:62
+msgid "JPG format (*.jpg)"
+msgstr "JPG 格式(&.jpg)"
+
+#: DocActionPix.cpp:63
+msgid "GIF format (*.gif)"
+msgstr "GIF 格式 (*.gif)"
+
+#: EditDlg.cpp:119
+msgid "Edit text"
+msgstr "编辑文字"
+
+#: FileAttachmentDlg.cpp:129
+msgid "Node attachments"
+msgstr "节点附件"
+
+#: FileAttachmentDlg.cpp:175
+msgid "Name"
+msgstr "名字"
+
+#: FileAttachmentDlg.cpp:189
+msgid "Size"
+msgstr "大小"
+
+#: FileAttachmentDlg.cpp:206 NodePropertiesDlg.cpp:473
+msgid "Add"
+msgstr "添加"
+
+#: FileAttachmentDlg.cpp:211 LinkPropertiesDlg.cpp:162
+#: NodePropertiesDlg.cpp:477
+msgid "Remove"
+msgstr "删除"
+
+#: FileAttachmentDlg.cpp:216
+msgid "Save to file"
+msgstr "保存到文件"
+
+#: FileAttachmentDlg.cpp:261
+msgid "Add attachment"
+msgstr "添加附件"
+
+#: FileAttachmentDlg.cpp:293
+msgid "Failed to open input file!"
+msgstr "无法打开输入文件!"
+
+#: FileAttachmentDlg.cpp:408
+msgid "No attachment selected!"
+msgstr "没有选中附件"
+
+#: FileAttachmentDlg.cpp:419
+msgid "Save data"
+msgstr "保存数据"
+
+#: FileAttachmentDlg.cpp:451 FileAttachmentDlg.cpp:704
+msgid "Failed to open output file!"
+msgstr "无法打开输出文件"
+
+#: FileAttachmentDlg.cpp:456 FileAttachmentDlg.cpp:709
+#: lib/NoteDocument.cpp:489
+msgid "Saving file. Please wait..."
+msgstr "正在保存文件.请稍候..."
+
+#: FileExportDlg.cpp:48
+msgid "HTML file (*.html)"
+msgstr "HTML 文件 (*.html)"
+
+#: FileExportDlg.cpp:50
+msgid "Text file (*.txt)"
+msgstr "Text 文件 (*.txt)"
+
+#: FileExportDlg.cpp:53
+msgid "Standalone executable (*.exe)"
+msgstr "可执行文件 (*.exe)"
+
+#: FileExportDlg.cpp:56
+msgid "Standalone executable"
+msgstr "单独运行"
+
+#: FileExportDlg.cpp:75
+msgid "Selected branch"
+msgstr "选中的枝叶"
+
+#: FileExportDlg.cpp:76
+msgid "Selected node only"
+msgstr "仅选中节点"
+
+#: FileExportDlg.cpp:77
+msgid "Entire document"
+msgstr "整个文件"
+
+#: FileExportDlg.cpp:285 ShortcutsList.cpp:130
+msgid "Export"
+msgstr "导出"
+
+#: FileExportDlg.cpp:310
+msgid "Document source:"
+msgstr "文件来源:"
+
+#: FileExportDlg.cpp:317 FileSaveAsDlg.cpp:248
+msgid "File format:"
+msgstr "文件格式:"
+
+#: FileExportDlg.cpp:336 FileSaveAsDlg.cpp:182
+msgid "File name:"
+msgstr "文件名:"
+
+#: FileExportDlg.cpp:368
+msgid "Use custom CSS path:"
+msgstr "使用定制CSS路径"
+
+#: FileExportDlg.cpp:377
+msgid "Export linked documents"
+msgstr "导出链接文档"
+
+#: FileExportDlg.cpp:383
+msgid "Post-export script:"
+msgstr "Post-export 脚本"
+
+#: FileExportDlg.cpp:404 MainWnd.cpp:744 MainWnd.cpp:747
+#: OptionsDialog.cpp:1102
+msgid "Save"
+msgstr "保存"
+
+#: FileExportDlg.cpp:452
+msgid "Select export file"
+msgstr "选择导出文件"
+
+#: FileExportDlg.cpp:482
+msgid "You must define the export file name!"
+msgstr "你必须指定导出文件名!"
+
+#: FileSaveAsDlg.cpp:159
+msgid "Save document"
+msgstr "保存文件"
+
+#: FileSaveAsDlg.cpp:196
+msgid "File directory:"
+msgstr "文件目录:"
+
+#: FileSaveAsDlg.cpp:270 MainWnd.cpp:1208 gui/FileDialog.cpp:99
+msgid "_Save"
+msgstr "_保存"
+
+#: FileSaveAsDlg.cpp:315
+msgid "Select target directory"
+msgstr "选择目标目录"
+
+#: FileSaveAsDlg.cpp:369
+msgid "File name must not be empty!"
+msgstr "文件名不能为空"
+
+#: FindDialog.cpp:31
+msgid "Node title/contents"
+msgstr "节点 标题/内容"
+
+#: FindDialog.cpp:32
+msgid "Node tags"
+msgstr "节点标签"
+
+#: FindDialog.cpp:55 ShortcutsList.cpp:162
+msgid "Find"
+msgstr "查找"
+
+#: FindDialog.cpp:69
+msgid "Text:"
+msgstr "内容"
+
+#: FindDialog.cpp:83
+msgid "Search target:"
+msgstr "搜索目标:"
+
+#: FindDialog.cpp:96
+msgid "Direction:"
+msgstr "方向:"
+
+#: FindDialog.cpp:103 MainWnd.cpp:2289
+msgid "Up"
+msgstr "向上"
+
+#: FindDialog.cpp:111 MainWnd.cpp:2299
+msgid "Down"
+msgstr "向下"
+
+#: FindDialog.cpp:119 FindReplaceDlg.cpp:167
+msgid "Case sensitive"
+msgstr "大小写敏感"
+
+#: FindReplaceDlg.cpp:97 ShortcutsList.cpp:164
+msgid "Replace"
+msgstr "替换"
+
+#: FindReplaceDlg.cpp:115
+msgid "Find what:"
+msgstr "查找内容:"
+
+#: FindReplaceDlg.cpp:129
+msgid "Replace with:"
+msgstr "替换为:"
+
+#: FindReplaceDlg.cpp:177
+msgid "_Find next"
+msgstr "_查找下一个"
+
+#: FindReplaceDlg.cpp:184
+msgid "_Replace"
+msgstr "_替换"
+
+#: FindReplaceDlg.cpp:191
+msgid "Replace _All"
+msgstr "替换所有"
+
+#: FindReplaceDlg.cpp:391
+#, c-format
+msgid ""
+"Done!\n"
+"\n"
+"%d string instances were replaced!"
+msgstr ""
+"完成!\n"
+"\n"
+"%d 字符窜被替换"
+
+#: interface.cpp:303
+msgid "Are you sure you want to delete history list?"
+msgstr "你打算删除历史记录吗?"
+
+#: interface.cpp:428 interface.cpp:487 gui/ProgressDlg.cpp:80
+msgid "Info"
+msgstr "信息"
+
+#: interface.cpp:573 interface.cpp:600
+msgid "OK!"
+msgstr "好!"
+
+#: interface.cpp:575
+msgid "Loading aborted by user!"
+msgstr "用户中断载入"
+
+#: interface.cpp:577
+msgid "File not found!"
+msgstr "文件找不到"
+
+#: interface.cpp:579
+msgid "Invalid document password!"
+msgstr "密码错误!"
+
+#: interface.cpp:581
+msgid "Unsupported document format!"
+msgstr "不支持此文件格式!"
+
+#: interface.cpp:583
+msgid "Error when parsing document (bad formatting)!"
+msgstr "解析文件错误(格式错误)!"
+
+#: interface.cpp:585
+msgid "Failed to load the file!"
+msgstr "打开文件失败!"
+
+#: interface.cpp:587
+msgid "Inadequate file permissions!"
+msgstr "没有权限访问此文件"
+
+#: interface.cpp:589
+msgid "Load operation is not supported for this format!"
+msgstr "此文件的格式无法载入"
+
+#: interface.cpp:592 interface.cpp:617
+msgid "Unknown error!"
+msgstr "未知错误!"
+
+#: interface.cpp:602
+msgid "Saving aborted by user!"
+msgstr "用户中断保存操作!"
+
+#: interface.cpp:606
+msgid "Failed to overwrite target file!"
+msgstr "无法覆盖此文件"
+
+#: interface.cpp:608
+msgid ""
+"Failed to open output file! Please check permissions or available disk size!"
+msgstr "无法打开输出文件!请确认你对文件的访问权限或正磁盘空间过小!"
+
+#: interface.cpp:610
+msgid "Failed to open application file!"
+msgstr "无法打开程序文件!"
+
+#: interface.cpp:614
+msgid "Save operation is not supported for this format!"
+msgstr "此文件的格式无法保存"
+
+#: LinkPropertiesDlg.cpp:41
+msgid "Link to a node"
+msgstr "链接到节点"
+
+#: LinkPropertiesDlg.cpp:42
+msgid "Link to a file or web address"
+msgstr "链接到文件或网站"
+
+#: LinkPropertiesDlg.cpp:73
+msgid "Link Properties"
+msgstr "链接属性"
+
+#: LinkPropertiesDlg.cpp:95
+msgid "Link text:"
+msgstr "链接文本:"
+
+#: LinkPropertiesDlg.cpp:108
+msgid "Link type:"
+msgstr "连接类型:"
+
+#: LinkPropertiesDlg.cpp:115
+msgid "Target file or URL:"
+msgstr "目标文件URL:"
+
+#: LinkPropertiesDlg.cpp:122
+msgid "Target node:"
+msgstr "目标节点"
+
+#: main.cpp:301
+#, c-format
+msgid ""
+"One or more crash logs were found in:\n"
+"%s.\n"
+"\n"
+"Press Yes to delete those files\n"
+"(consider sending the files to the author with the crash description)."
+msgstr ""
+"严重错误来自:\n"
+"%s.\n"
+"\n"
+"点击\"确定\"删除这些文件\n"
+"(你可以把这些文件和发生错误的操作发给开个人员)."
+
+#: main.cpp:447
+msgid "Another NoteCase instance detected! Exiting!"
+msgstr "检测到了新版本的NoteCase "
+
+#: MainWnd.cpp:724 MainWnd.cpp:727
+msgid "New"
+msgstr "新建"
+
+#: MainWnd.cpp:734 MainWnd.cpp:737
+msgid "Open"
+msgstr "打开"
+
+#: MainWnd.cpp:754 MainWnd.cpp:757
+msgid "Save As"
+msgstr "另存为..."
+
+#: MainWnd.cpp:769 MainWnd.cpp:772 ShortcutsList.cpp:153
+msgid "Undo"
+msgstr "撤销"
+
+#: MainWnd.cpp:780 MainWnd.cpp:783 ShortcutsList.cpp:154
+msgid "Redo"
+msgstr "重复"
+
+#: MainWnd.cpp:791 MainWnd.cpp:794 ShortcutsList.cpp:155
+msgid "Cut"
+msgstr "剪切"
+
+#: MainWnd.cpp:801 MainWnd.cpp:804 ShortcutsList.cpp:156
+msgid "Copy"
+msgstr "复制"
+
+#: MainWnd.cpp:811 MainWnd.cpp:814 ShortcutsList.cpp:157
+msgid "Paste"
+msgstr "粘帖"
+
+#: MainWnd.cpp:821 MainWnd.cpp:824 ShortcutsList.cpp:158
+msgid "Delete"
+msgstr "删除"
+
+#: MainWnd.cpp:834 MainWnd.cpp:837 MainWnd.cpp:2207
+msgid "Insert Node"
+msgstr "插入节点"
+
+#: MainWnd.cpp:844 MainWnd.cpp:847 ShortcutsList.cpp:142 ShortcutsList.cpp:195
+msgid "Move Node Left"
+msgstr "左移节点"
+
+#: MainWnd.cpp:854 MainWnd.cpp:857 ShortcutsList.cpp:143 ShortcutsList.cpp:196
+msgid "Move Node Right"
+msgstr "右移节点"
+
+#: MainWnd.cpp:872 MainWnd.cpp:875 MainWnd.cpp:2277
+msgid "Link wizard"
+msgstr "插入超链接"
+
+#: MainWnd.cpp:883 MainWnd.cpp:886 ShortcutsList.cpp:166
+msgid "Insert Picture"
+msgstr "插入图片"
+
+#: MainWnd.cpp:895 MainWnd.cpp:900
+msgid "Node Attachments"
+msgstr "节点附件"
+
+#: MainWnd.cpp:913 MainWnd.cpp:918 ShortcutsList.cpp:170
+msgid "Bold"
+msgstr "粗体"
+
+#: MainWnd.cpp:931 MainWnd.cpp:936 ShortcutsList.cpp:171
+msgid "Italic"
+msgstr "斜体"
+
+#: MainWnd.cpp:949 MainWnd.cpp:954 ShortcutsList.cpp:172
+msgid "Underline"
+msgstr "下划线"
+
+#: MainWnd.cpp:967 MainWnd.cpp:972 ShortcutsList.cpp:173
+msgid "Strikethrough"
+msgstr "删除线"
+
+#: MainWnd.cpp:985 MainWnd.cpp:990
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: MainWnd.cpp:1018 MainWnd.cpp:1021
+msgid "Help"
+msgstr "帮助"
+
+#: MainWnd.cpp:1058
+msgid "Please enter the password for file: "
+msgstr "请输入密码:"
+
+#: MainWnd.cpp:1154
+msgid "_File"
+msgstr "_文件"
+
+#: MainWnd.cpp:1165
+msgid "New _Window"
+msgstr "新建_窗口"
+
+#: MainWnd.cpp:1178
+msgid "_New"
+msgstr "_新建..."
+
+#: MainWnd.cpp:1188 gui/FileDialog.cpp:99
+msgid "_Open"
+msgstr "_打开..."
+
+#: MainWnd.cpp:1198
+msgid "_Close"
+msgstr "关闭"
+
+#: MainWnd.cpp:1218
+msgid "Save _As"
+msgstr "另存为..."
+
+#: MainWnd.cpp:1228
+msgid "Re_load"
+msgstr "重新载入"
+
+#: MainWnd.cpp:1238
+msgid "Read-Only"
+msgstr "只读"
+
+#: MainWnd.cpp:1245
+msgid "Document property that forbids document editing."
+msgstr ""
+
+#: MainWnd.cpp:1247
+msgid "_Lock Document"
+msgstr "_锁定文件"
+
+#: MainWnd.cpp:1258
+#, fuzzy
+msgid "Unload encrypted document from memory."
+msgstr "如果文件未激活则保存并卸载加密文件"
+
+#: MainWnd.cpp:1260
+msgid "_Change Password"
+msgstr "_更改密码"
+
+#: MainWnd.cpp:1277
+msgid "_Import"
+msgstr "_导入..."
+
+#: MainWnd.cpp:1285
+msgid "_Export"
+msgstr "_导出..."
+
+#: MainWnd.cpp:1303
+msgid "_Recent"
+msgstr "_最近打开"
+
+#: MainWnd.cpp:1317
+msgid "_Quit"
+msgstr "_退出"
+
+#: MainWnd.cpp:1331
+msgid "_Edit"
+msgstr "_编辑"
+
+#: MainWnd.cpp:1342
+msgid "_Undo"
+msgstr "_撤销"
+
+#: MainWnd.cpp:1353
+msgid "_Redo"
+msgstr "_重复"
+
+#: MainWnd.cpp:1369
+msgid "Cu_t"
+msgstr "剪切"
+
+#: MainWnd.cpp:1379
+msgid "_Copy"
+msgstr "_复制"
+
+#: MainWnd.cpp:1389
+msgid "_Paste"
+msgstr "_粘帖"
+
+#: MainWnd.cpp:1399
+msgid "_Delete"
+msgstr "_删除"
+
+#: MainWnd.cpp:1409
+msgid "Copy Branch _Structure"
+msgstr "复制枝叶结构"
+
+#: MainWnd.cpp:1420
+msgid "Paste Branch To Root"
+msgstr "粘帖枝叶到根节点"
+
+#: MainWnd.cpp:1448
+msgid "_Find"
+msgstr "_查找..."
+
+#: MainWnd.cpp:1458
+msgid "Find _Next"
+msgstr "查找下一个"
+
+#: MainWnd.cpp:1468
+msgid "R_eplace"
+msgstr "替换..."
+
+#: MainWnd.cpp:1478
+msgid "Link _Wizard"
+msgstr "插入超链接..."
+
+#: MainWnd.cpp:1489
+msgid "_Insert Picture"
+msgstr "插入图片..."
+
+#: MainWnd.cpp:1500
+msgid "Node _Attachments"
+msgstr "节点附件..."
+
+#: MainWnd.cpp:1516 ShortcutsList.cpp:168
+msgid "Configure Shortcuts"
+msgstr "配置快捷键"
+
+#: MainWnd.cpp:1526 ShortcutsList.cpp:169
+msgid "Configure NoteCase"
+msgstr "配置NoteCase"
+
+#: MainWnd.cpp:1539
+msgid "_View"
+msgstr "_查看"
+
+#: MainWnd.cpp:1550
+msgid "_Full Screen"
+msgstr "_全屏"
+
+#: MainWnd.cpp:1563
+msgid "_Always on top"
+msgstr ""
+
+#: MainWnd.cpp:1570
+msgid "_Tool Bar"
+msgstr "工具栏"
+
+#: MainWnd.cpp:1578
+msgid "_Node Title Bar"
+msgstr "_节点标题栏"
+
+#: MainWnd.cpp:1586
+msgid "_Status Bar"
+msgstr "_状态栏"
+
+#: MainWnd.cpp:1594
+msgid "_Wrap"
+msgstr "_折叠"
+
+#: MainWnd.cpp:1602
+msgid "Change View _Mode"
+msgstr "改变浏览模式"
+
+#: MainWnd.cpp:1609
+msgid "_Calculate Word Count"
+msgstr "字数统计..."
+
+#: MainWnd.cpp:1620
+msgid "_Tree"
+msgstr "树"
+
+#: MainWnd.cpp:1632
+msgid "_Insert Node"
+msgstr "插入节点"
+
+#: MainWnd.cpp:1640
+msgid "Insert Child _Node"
+msgstr "插入子节点"
+
+#: MainWnd.cpp:1648
+msgid "_Delete Node"
+msgstr "删除节点"
+
+#: MainWnd.cpp:1659
+msgid "_Rename Node"
+msgstr "节点改名"
+
+#: MainWnd.cpp:1667
+msgid "_Move Node"
+msgstr "移动节点"
+
+#: MainWnd.cpp:1671
+msgid "_Sort"
+msgstr "排序"
+
+#: MainWnd.cpp:1675
+msgid "_Expand All"
+msgstr "展开所有"
+
+#: MainWnd.cpp:1683
+msgid "_Collapse All"
+msgstr "删除所有"
+
+#: MainWnd.cpp:1691
+msgid "Node _Properties"
+msgstr "节点属性..."
+
+#: MainWnd.cpp:1705
+msgid "_Up"
+msgstr "向上"
+
+#: MainWnd.cpp:1716
+msgid "_Down"
+msgstr "向下"
+
+#: MainWnd.cpp:1727
+msgid "_Left"
+msgstr "向左"
+
+#: MainWnd.cpp:1738
+msgid "_Right"
+msgstr "向右"
+
+#: MainWnd.cpp:1754 MainWnd.cpp:2334
+msgid "_Sort Children Ascending"
+msgstr "子节点升序排序"
+
+#: MainWnd.cpp:1765 MainWnd.cpp:2344
+msgid "Sort _Children Descending"
+msgstr "子节点降序排序"
+
+#: MainWnd.cpp:1776 MainWnd.cpp:2354
+msgid "Sort Root Ascending"
+msgstr "根节点升序排序"
+
+#: MainWnd.cpp:1787 MainWnd.cpp:2364
+msgid "Sort Root Descending"
+msgstr "根节点降序排序"
+
+#: MainWnd.cpp:1800
+msgid "Delete all _Completed nodes"
+msgstr "删除所有完成的节点"
+
+#: MainWnd.cpp:1885
+msgid "Text Background _Color"
+msgstr "文字背景色..."
+
+#: MainWnd.cpp:1912
+msgid "_Help"
+msgstr "帮助"
+
+#: MainWnd.cpp:1923
+msgid "_Visit Website"
+msgstr "访问网站"
+
+#: MainWnd.cpp:1933
+msgid "_Show help"
+msgstr "显示帮助"
+
+#: MainWnd.cpp:1948
+msgid "_About"
+msgstr "关于"
+
+#: MainWnd.cpp:2214
+msgid "Insert Child Node"
+msgstr "插入子节点"
+
+#: MainWnd.cpp:2221 ShortcutsList.cpp:138 ShortcutsList.cpp:191
+msgid "Delete Node"
+msgstr "删除节点"
+
+#: MainWnd.cpp:2231 ShortcutsList.cpp:139 ShortcutsList.cpp:192
+msgid "Rename Node"
+msgstr "节点改名"
+
+#: MainWnd.cpp:2238
+msgid "Move Node"
+msgstr "移动节点"
+
+#: MainWnd.cpp:2242
+msgid "Sort"
+msgstr "排序"
+
+#: MainWnd.cpp:2246 ShortcutsList.cpp:151 ShortcutsList.cpp:204
+msgid "Expand All"
+msgstr "展开所有"
+
+#: MainWnd.cpp:2253
+msgid "Collapse All"
+msgstr "删除所有"
+
+#: MainWnd.cpp:2260 NodePropertiesDlg.cpp:481
+msgid "Mark node as Completed"
+msgstr "完成节点"
+
+#: MainWnd.cpp:2267 NodePropertiesDlg.cpp:320
+msgid "Node Properties"
+msgstr "节点属性"
+
+#: MainWnd.cpp:2309
+msgid "Left"
+msgstr "左"
+
+#: MainWnd.cpp:2319
+msgid "Right"
+msgstr "右"
+
+#: mru.cpp:137
+msgid " - Clear list - "
+msgstr "-清空列表-"
+
+#: mru.cpp:145
+msgid "( empty )"
+msgstr "(空)"
+
+#: NodePropertiesDlg.cpp:223
+msgid "Tag must not contain \";\" character!"
+msgstr "标签名字不能包含\";\""
+
+#: NodePropertiesDlg.cpp:239
+msgid "This tag was already added for this node!"
+msgstr "此标签已经存在于节点中!"
+
+#: NodePropertiesDlg.cpp:331
+msgid "Title:"
+msgstr "标题:"
+
+#: NodePropertiesDlg.cpp:363
+msgid "Created:"
+msgstr "创建:"
+
+#: NodePropertiesDlg.cpp:370 NodePropertiesDlg.cpp:384
+#: PixPropertiesDlg.cpp:110 PixPropertiesDlg.cpp:123
+msgid "unknown"
+msgstr "未知"
+
+#: NodePropertiesDlg.cpp:377
+msgid "Modified:"
+msgstr "修改:"
+
+#: NodePropertiesDlg.cpp:401
+msgid "Icon:"
+msgstr "图标"
+
+#: NodePropertiesDlg.cpp:406 OptionsDialog.cpp:1191
+msgid "None"
+msgstr "无"
+
+#: NodePropertiesDlg.cpp:412 OptionsDialog.cpp:1199
+msgid "Internal"
+msgstr "内置"
+
+#: NodePropertiesDlg.cpp:418 OptionsDialog.cpp:1207
+msgid "Custom"
+msgstr "自定义"
+
+#: NodePropertiesDlg.cpp:456
+msgid "Tags:"
+msgstr "标签:"
+
+#: NodePropertiesDlg.cpp:616
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+msgstr "所有支持的图标 (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+
+#: NodePropertiesDlg.cpp:617 OptionsDialog.cpp:1500
+msgid "XPM icon file (*.xpm)"
+msgstr "XPM图标文件 (*.xpm)"
+
+#: NodePropertiesDlg.cpp:618 OptionsDialog.cpp:1501
+msgid "Icon file (*.ico)"
+msgstr "Icon 文件 (*.ico)"
+
+#: NodePropertiesDlg.cpp:619 OptionsDialog.cpp:1502
+msgid "PNG file format (*.png)"
+msgstr "PNG 格式(*.png)"
+
+#: NodePropertiesDlg.cpp:620 OptionsDialog.cpp:1503
+msgid "JPEG file format (*.jpg)"
+msgstr "JPEG 格式 (*.jpg)"
+
+#: NodePropertiesDlg.cpp:621
+msgid "GIF file format (*.gif)"
+msgstr "GIF格式 (*.gif)"
+
+#: NodePropertiesDlg.cpp:686 OptionsDialog.cpp:1623
+msgid "Failed to load node icon file!"
+msgstr "无法打开节点图标"
+
+#: OptionsDialog.cpp:638
+msgid "Some of the changed options require program restart!"
+msgstr ""
+
+#: OptionsDialog.cpp:769
+msgid "You must restart NoteCase for this change to take effect!"
+msgstr "你必须重启NoteCase使设置生效"
+
+#: OptionsDialog.cpp:849
+msgid "Options"
+msgstr "选项"
+
+#: OptionsDialog.cpp:884
+msgid "Start at logon"
+msgstr "开机自启动"
+
+#: OptionsDialog.cpp:888
+msgid "Maximize on startup"
+msgstr "启动时窗口最大化"
+
+#: OptionsDialog.cpp:892
+msgid "Allow single instance only"
+msgstr "只允许单个进程"
+
+#: OptionsDialog.cpp:896
+msgid "Reload last used document"
+msgstr "重新装入最后编辑的文件"
+
+#: OptionsDialog.cpp:900
+msgid "Register document formats"
+msgstr "注册文件格式"
+
+#: OptionsDialog.cpp:904
+msgid "Restore last position/size"
+msgstr "恢复最后修改的位置/大小"
+
+#: OptionsDialog.cpp:908
+msgid "Startup"
+msgstr "开始"
+
+#: OptionsDialog.cpp:920
+msgid "Tree font:"
+msgstr "树的字体"
+
+#: OptionsDialog.cpp:925
+msgid "Text font:"
+msgstr "字体"
+
+#: OptionsDialog.cpp:948
+msgid "Text/background color:"
+msgstr "字体/背景颜色"
+
+#: OptionsDialog.cpp:961
+msgid "Link color:"
+msgstr "链接颜色:"
+
+#: OptionsDialog.cpp:970
+msgid "Custom Tab Size"
+msgstr "定制Tab键空格数"
+
+#: OptionsDialog.cpp:979
+msgid "Wrap text"
+msgstr "折叠文本"
+
+#: OptionsDialog.cpp:983
+msgid "Wrap titles tree"
+msgstr "折叠标题树"
+
+#: OptionsDialog.cpp:987
+msgid "Show tree lines"
+msgstr "展示树结构"
+
+#: OptionsDialog.cpp:991
+msgid "Display"
+msgstr "显示"
+
+#: OptionsDialog.cpp:1001
+msgid "Use system language settings"
+msgstr "使用系统的语言设置"
+
+#: OptionsDialog.cpp:1005
+msgid "Language:"
+msgstr "语言:"
+
+#: OptionsDialog.cpp:1014
+msgid "Date/time format:"
+msgstr "日期/时间格式:"
+
+#: OptionsDialog.cpp:1029
+msgid "Show node tree on the right"
+msgstr "在右边显示树结构"
+
+#: OptionsDialog.cpp:1033
+msgid "Draw message over inactive text view"
+msgstr ""
+
+#: OptionsDialog.cpp:1037
+msgid "Minimize to tray"
+msgstr "最小化到任务栏"
+
+#: OptionsDialog.cpp:1041
+msgid "Close to tray"
+msgstr "关闭窗口到任务栏"
+
+#: OptionsDialog.cpp:1045
+msgid "[Enter] key press in text area closes the window"
+msgstr "在文本区按[Enter]键关闭窗口"
+
+#: OptionsDialog.cpp:1049 ShortcutsListDlg.cpp:134
+msgid "Global"
+msgstr "全局"
+
+#: OptionsDialog.cpp:1061
+msgid "Autosave to temporary crash-protection copy every:"
+msgstr "每秒自动保存副本"
+
+#: OptionsDialog.cpp:1072
+msgid "seconds"
+msgstr "秒"
+
+#: OptionsDialog.cpp:1077
+msgid "Do not autosave memory-only (new/unsaved) documents (data security)"
+msgstr "对仅在内存中(新建/未保存)的文件，不自动保存"
+
+#: OptionsDialog.cpp:1082
+msgid "For each document, create up to:"
+msgstr "所有文件,最多创建:"
+
+#: OptionsDialog.cpp:1093
+msgid "backup files"
+msgstr "个备份文件"
+
+#: OptionsDialog.cpp:1098
+msgid "Automatically save when closing application"
+msgstr "关闭程序时自动保存"
+
+#: OptionsDialog.cpp:1114
+msgid "Generate table of contents (depth):"
+msgstr "产生目录(深度)"
+
+#: OptionsDialog.cpp:1125
+msgid "Export link to image file as the image tag"
+msgstr "对图像标签导出链接到文件"
+
+#: OptionsDialog.cpp:1129
+msgid "Embed CSS into exported file"
+msgstr "嵌入CSS到导出文件"
+
+#: OptionsDialog.cpp:1133
+msgid "Export image and attachment data as separate files"
+msgstr "导出图片和附件为独立的文件"
+
+#: OptionsDialog.cpp:1137
+msgid "Html export"
+msgstr "Html导出"
+
+#: OptionsDialog.cpp:1149
+msgid "Protect memory space from swapping (requires Notecase restart)"
+msgstr "保护缓存不被消除(需要重启NoteCase)"
+
+#: OptionsDialog.cpp:1156
+msgid "Security"
+msgstr "安全"
+
+#: OptionsDialog.cpp:1160
+msgid "Save and unload encrypted document if inactive for:"
+msgstr "如果文件未激活则保存并卸载加密文件"
+
+#: OptionsDialog.cpp:1171
+msgid "minutes"
+msgstr "分钟"
+
+#: OptionsDialog.cpp:1184
+msgid "Default Note Icon"
+msgstr "默认图标"
+
+#: OptionsDialog.cpp:1234
+msgid "Preview:"
+msgstr "预览"
+
+#: OptionsDialog.cpp:1248
+msgid "Default"
+msgstr "默认"
+
+#: OptionsDialog.cpp:1499
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg)"
+msgstr "所有支持的图片(*.xpm,*.ico,*.png,*.jpg)"
+
+#: OptionsDialog.cpp:1667
+#, c-format
+msgid "Minimal value is %d sec!"
+msgstr "最小的单位是%d 秒!"
+
+#: PasswordDialog.cpp:99
+msgid "Password"
+msgstr "密码"
+
+#: PasswordDialog.cpp:133
+msgid "Please enter the password:"
+msgstr "请输入密码:"
+
+#: PasswordDialog.cpp:151
+msgid "Please enter the new password:"
+msgstr "请输入新密码"
+
+#: PasswordDialog.cpp:173
+msgid "Please enter the new password (once more):"
+msgstr "重新输入新密码"
+
+#: PasswordDialog.cpp:192
+msgid "_Show passwords"
+msgstr "显示密码"
+
+#: PasswordDialog.cpp:248 PasswordDialog.cpp:298
+msgid "Password must not be empty!"
+msgstr "密码不能为空"
+
+#: PasswordDialog.cpp:260
+msgid "Passwords do not match! Check for typing errors."
+msgstr "两次输入不相等!请检查拼写错误"
+
+#: PasswordDialog.cpp:275
+msgid "Old password was not correct!"
+msgstr "原始密码错误"
+
+#: PasswordDialog.cpp:288
+msgid "New passwords do not match! Check for typing errors."
+msgstr "新密码输入不相等!请检查拼写错误"
+
+#: PixPropertiesDlg.cpp:86
+msgid "Image Properties"
+msgstr "图片属性"
+
+#: PixPropertiesDlg.cpp:103
+msgid "Original size:"
+msgstr "原始大小"
+
+#: PixPropertiesDlg.cpp:116
+msgid "Selected size:"
+msgstr "选中尺寸"
+
+#: PixPropertiesDlg.cpp:129
+msgid "Resize to:"
+msgstr "改变大小至 "
+
+#: PixPropertiesDlg.cpp:142
+msgid "Store as PNG"
+msgstr "以PNG格式保存"
+
+#: PortableTrayIcon.cpp:118
+msgid "Restore"
+msgstr "恢复 "
+
+#: PortableTrayIcon.cpp:126
+msgid "Quit"
+msgstr "退出"
+
+#: ShortcutsList.cpp:26
+msgid "Ctrl+"
+msgstr "Ctrl+"
+
+#: ShortcutsList.cpp:28
+msgid "Shift+"
+msgstr "Shift+"
+
+#: ShortcutsList.cpp:30
+msgid "Alt+"
+msgstr "Alt+"
+
+#: ShortcutsList.cpp:37
+msgid "Space"
+msgstr "空格"
+
+#: ShortcutsList.cpp:124
+msgid "New Document"
+msgstr "新建"
+
+#: ShortcutsList.cpp:125
+msgid "Open Document"
+msgstr "打开"
+
+#: ShortcutsList.cpp:126
+msgid "Save Document"
+msgstr "保存"
+
+#: ShortcutsList.cpp:127
+msgid "Save As Document"
+msgstr "另存为"
+
+#: ShortcutsList.cpp:128
+msgid "Reload Document"
+msgstr "重新载入"
+
+#: ShortcutsList.cpp:129
+msgid "Import"
+msgstr "导入"
+
+#: ShortcutsList.cpp:131
+msgid "New Notecase"
+msgstr "新建NoteCase"
+
+#: ShortcutsList.cpp:132
+msgid "Read-Only (Document)"
+msgstr "只读(文件)"
+
+#: ShortcutsList.cpp:133
+msgid "Lock Document"
+msgstr "锁定文件"
+
+#: ShortcutsList.cpp:134
+msgid "Change Password"
+msgstr "改变密码"
+
+#: ShortcutsList.cpp:135
+msgid "Quit Notecase"
+msgstr "退出NoteCase"
+
+#: ShortcutsList.cpp:136 ShortcutsList.cpp:189
+msgid "New Node"
+msgstr "新建节点"
+
+#: ShortcutsList.cpp:137 ShortcutsList.cpp:190
+msgid "New Child Node"
+msgstr "新建子节点"
+
+#: ShortcutsList.cpp:140 ShortcutsList.cpp:193
+msgid "Move Node Up"
+msgstr "节点上移"
+
+#: ShortcutsList.cpp:141 ShortcutsList.cpp:194
+msgid "Move Node Down"
+msgstr "节点下移"
+
+#: ShortcutsList.cpp:144 ShortcutsList.cpp:197
+msgid "Show Node Properties"
+msgstr "显示节点属性"
+
+#: ShortcutsList.cpp:145 ShortcutsList.cpp:198
+msgid "Delete Completed Nodes"
+msgstr "删除整个节点"
+
+#: ShortcutsList.cpp:146 ShortcutsList.cpp:199
+msgid "Toggle Completed Status"
+msgstr "改变整个状态"
+
+#: ShortcutsList.cpp:147 ShortcutsList.cpp:200
+msgid "Sort Children Ascending"
+msgstr "字节点升序排序"
+
+#: ShortcutsList.cpp:148 ShortcutsList.cpp:201
+msgid "Sort Children Descending"
+msgstr "子节点降序排序"
+
+#: ShortcutsList.cpp:149 ShortcutsList.cpp:202
+msgid "Sort Tree Ascending"
+msgstr "树升序排序"
+
+#: ShortcutsList.cpp:150 ShortcutsList.cpp:203
+msgid "Sort Tree Descending"
+msgstr "树降序排序"
+
+#: ShortcutsList.cpp:152 ShortcutsList.cpp:205
+msgid "Colapse All"
+msgstr "删除所有"
+
+#: ShortcutsList.cpp:159 ShortcutsList.cpp:206
+msgid "Copy Branch Structure"
+msgstr "复制枝叶结构"
+
+#: ShortcutsList.cpp:160 ShortcutsList.cpp:207
+msgid "Paste Branch Root"
+msgstr "粘帖根节点枝叶"
+
+#: ShortcutsList.cpp:161
+msgid "Insert date/time"
+msgstr "插入日期/时间"
+
+#: ShortcutsList.cpp:163
+msgid "Find Next"
+msgstr "查找下一个"
+
+#: ShortcutsList.cpp:167
+msgid "Attachments"
+msgstr "附件"
+
+#: ShortcutsList.cpp:174
+msgid "Color"
+msgstr "颜色"
+
+#: ShortcutsList.cpp:176
+msgid "Remove Formatting"
+msgstr "删除格式"
+
+#: ShortcutsList.cpp:177
+msgid "Full Screen"
+msgstr "全屏"
+
+#: ShortcutsList.cpp:178
+msgid "View Toolbar"
+msgstr "浏览工具栏"
+
+#: ShortcutsList.cpp:179
+msgid "View Node Title Bar"
+msgstr "浏览节点标题栏"
+
+#: ShortcutsList.cpp:180
+msgid "View Status Bar"
+msgstr "浏览状态栏"
+
+#: ShortcutsList.cpp:181
+msgid "Word Wrap"
+msgstr "折叠词语"
+
+#: ShortcutsList.cpp:182
+msgid "Change View Mode"
+msgstr "改变浏览模式"
+
+#: ShortcutsList.cpp:183
+msgid "Calculate Word Count"
+msgstr "统计字数"
+
+#: ShortcutsList.cpp:184
+msgid "Show help"
+msgstr "显示帮助"
+
+#: ShortcutsList.cpp:185
+msgid "About"
+msgstr "关于"
+
+#: ShortcutsList.cpp:186
+msgid "Visit Website"
+msgstr "访问网站"
+
+#: ShortcutsListDlg.cpp:56
+msgid "You need to restart the application to use new shortcut definitions!"
+msgstr "你需要重启程序以使新的快捷键定义生效"
+
+#: ShortcutsListDlg.cpp:107
+msgid "Shortcut editor"
+msgstr "快捷键编辑器"
+
+#: ShortcutsListDlg.cpp:126
+msgid "Context:"
+msgstr "内容:"
+
+#: ShortcutsListDlg.cpp:135
+msgid "Tree widget"
+msgstr "树权重"
+
+#: ShortcutsListDlg.cpp:158
+msgid "Action"
+msgstr "动作"
+
+#: ShortcutsListDlg.cpp:172
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: ShortcutsListDlg.cpp:192
+msgid ""
+"Use mouse click to select an action, and then press key combination to "
+"assign the shortcut to it. Some actions are listed in more than one context "
+"so they can have more than one shortcut attached."
+msgstr "用鼠标选中一个动作然后输入相应的快捷键.一些动作可以分配多个快捷键"
+
+#: ShortcutsListDlg.cpp:207
+msgid "Clear All"
+msgstr "清楚所有"
+
+#: ShortcutsListDlg.cpp:213
+msgid "Reset All"
+msgstr "重置所有"
+
+#: ShortcutsListDlg.cpp:219
+msgid "Cancel"
+msgstr "取消"
+
+#: ShortcutsListDlg.cpp:225
+msgid "OK"
+msgstr "确定"
+
+#: ShortcutsListDlg.cpp:298
+msgid "This shortcut combination is already taken!"
+msgstr "这个快捷键组合已经存在"
+
+#: ShortcutsListDlg.cpp:334
+#, c-format
+msgid "%d items in this context"
+msgstr "%d 在其中"
+
+#: gui/FileDialog.cpp:45
+msgid "Open file"
+msgstr "打开文件"
+
+#: gui/FileDialog.cpp:45
+msgid "Save file"
+msgstr "保存文件"
+
+#: gui/FileDialog.cpp:70
+msgid "File Name:"
+msgstr "文件名字"
+
+#: gui/FileDialog.cpp:80
+msgid "Save as type:"
+msgstr "另存为:"
+
+#: gui/ProgressDlg.cpp:115
+#, fuzzy
+msgid "Abort"
+msgstr "关于"
+
+#: lib/FormatIOHtml.cpp:1210 lib/FormatIOHtml.cpp:1527
+#: lib/FormatIOHtml.cpp:1614
+#, c-format
+msgid ""
+"File %s\n"
+"already exists. Overwrite this and all other files?"
+msgstr ""
+"文件%s\n"
+"已经存在.覆盖它和其他相关文件吗?"
+
+#: lib/FormatIOHtml.cpp:1261
+msgid "Attachment"
+msgstr "附件"
+
+#: lib/FormatIOHtml.cpp:1894
+msgid "Contents"
+msgstr "内容"
+
+#: lib/FormatIOMMLX.cpp:79
+msgid ""
+"There were problems converting text from ibm850 to utf-8.\n"
+"Consider installing \"glibc-gconv-ibm850\" package"
+msgstr ""
+"从utf-8格式转换到ibm850 格式时遇到问题.\n"
+"可以考虑安装 \"glibc-gconv-ibm850\" 软件包"
+
+#: lib/NoteDocument.cpp:377
+msgid ""
+"Warning:\n"
+"This document was created either by a different application\n"
+"Notecase and Notecase Pro are not considered the same application),\n"
+"or by a newer version of this program.\n"
+"\n"
+"If you edit this document, you might lose some formatting!"
+msgstr ""
+"警告:\n"
+"这个文件可能是由另一个版本(更新)的Notecase创建\n"
+"如果你继续编辑,可能丢失数据"

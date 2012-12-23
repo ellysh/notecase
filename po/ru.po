@@ -1,0 +1,1815 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Notecase v1.6.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-09-08 19:49-0800\n"
+"Last-Translator: Aleksey Pinchuk <pinchuk.alek@gmail.com>\n"
+"Language-Team: YarLUG team <nikitati@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: AboutDlg.cpp:58
+msgid "About Notecase"
+msgstr "О Notecase"
+
+#: AboutDlg.cpp:92
+msgid " - Version "
+msgstr " - Версия"
+
+#: AboutDlg.cpp:106
+msgid "Website:"
+msgstr "Вебсайт:"
+
+#: AboutDlg.cpp:121
+msgid "Report bugs to:"
+msgstr "Сообщить об ошибке:"
+
+#: AboutDlg.cpp:136
+#, fuzzy
+msgid "Locale: "
+msgstr "Mестность:"
+
+#: AboutDlg.cpp:151 FileAttachmentDlg.cpp:221 FindReplaceDlg.cpp:198
+msgid "Close"
+msgstr "Закрыть"
+
+#: callbacks.cpp:223 callbacks.cpp:591 callbacks.cpp:913
+msgid "Document has been modified! Do you want to save it?"
+msgstr "Документ был изменён! Хотите сохранить?"
+
+#: callbacks.cpp:269
+msgid "Open document"
+msgstr "Открыть документ"
+
+#: callbacks.cpp:272
+msgid "All supported formats (*.ncd,*.nce)"
+msgstr "Все поддерживаемые форматы (*.ncd,*.nce)"
+
+#: callbacks.cpp:273 callbacks.cpp:1961 FileExportDlg.cpp:42
+#: FileSaveAsDlg.cpp:36
+msgid "NoteCase document (*.ncd)"
+msgstr "Документ NoteCase (*.ncd)"
+
+#: callbacks.cpp:274 callbacks.cpp:1962 FileExportDlg.cpp:44
+#: FileSaveAsDlg.cpp:38
+msgid "NoteCase encrypted document (*.nce)"
+msgstr "Зашифрованный документ NoteCase (*.nce)"
+
+#: callbacks.cpp:275 callbacks.cpp:1967 DocActionPix.cpp:64
+msgid "All files (*)"
+msgstr "Все файлы (*)"
+
+#: callbacks.cpp:302 interface.cpp:604
+msgid "Unsupported format!"
+msgstr "Неподдерживаемый формат!"
+
+#: callbacks.cpp:457 callbacks.cpp:459 callbacks.cpp:2078 callbacks.cpp:2080
+#, c-format
+msgid "File %s already exists! Do you want to overwrite it?"
+msgstr "Файл %s уже существует ! Хотите его переписать?"
+
+#: callbacks.cpp:474
+msgid "Warning: .hnc format does not support hyperlinks!"
+msgstr "Внимание: формат .hnc не поддерживает гипер-ссылки!"
+
+#: callbacks.cpp:500
+msgid ""
+"You have saved file in encrypted format! Do you want to delete the original "
+"(unencrypted) file?\n"
+"This will also delete any backup of this file."
+msgstr ""
+"Вы сохранили файл в зашифрованном формате! Хотите удалить оригинальный "
+"(незашифрованный) файл?\n"
+"Это также удалит резервную копию этого файла."
+
+#: callbacks.cpp:600
+msgid "Document saving failed! Abort closing?"
+msgstr ""
+
+#: callbacks.cpp:686 callbacks.cpp:728 callbacks.cpp:753 callbacks.cpp:1391
+#: callbacks.cpp:1482 callbacks.cpp:1575 callbacks.cpp:1702 callbacks.cpp:1714
+#: callbacks.cpp:1723 callbacks.cpp:1732 callbacks.cpp:1741 callbacks.cpp:1861
+#: callbacks.cpp:1951 callbacks.cpp:2672 callbacks.cpp:2815 callbacks.cpp:2828
+#: callbacks.cpp:3496 callbacks.cpp:3515 callbacks.cpp:3575 callbacks.cpp:3626
+#: callbacks.cpp:3740 callbacks.cpp:4243 callbacks.cpp:5207 callbacks.cpp:5217
+#: callbacks.cpp:5227 callbacks.cpp:5236 callbacks.cpp:5266 callbacks.cpp:5296
+#: callbacks.cpp:5335 callbacks.cpp:5374 callbacks.cpp:5413 callbacks.cpp:5452
+#: callbacks.cpp:5499 callbacks.cpp:5687 callbacks.cpp:5789 callbacks.cpp:5822
+#: callbacks.cpp:5937 callbacks.cpp:6323 FileAttachmentDlg.cpp:255
+#: FileAttachmentDlg.cpp:360 FileAttachmentDlg.cpp:493
+msgid "Can not change read-only document!"
+msgstr "Невозможно изменить документы только для чтения!"
+
+#: callbacks.cpp:815
+msgid ""
+"Current document has to be closed in order to open help document!\n"
+"Do you wish to proceed?\n"
+"\n"
+"(Note that if you choose to proceed you'll be prompted to save current "
+"document changes)"
+msgstr ""
+"Текущий документ должен быть закрыт для загрузки справки!\n"
+"Хотите продолжить?\n"
+"\n"
+"(Помните, что если вы продолжите, вам предложат сохранить изменения в "
+"текущем документе)"
+
+#: callbacks.cpp:1288
+#, fuzzy
+msgid "Save operation already in progress!"
+msgstr "Операция сохранения уже выполняетсьа!"
+
+#: callbacks.cpp:1324 interface.cpp:612
+msgid "Failed to save the file!"
+msgstr "Не удалось сохранить файл!"
+
+#: callbacks.cpp:1430 callbacks.cpp:1519 lib/FormatIOTxt.cpp:46
+msgid "New node"
+msgstr "Новая запись"
+
+#: callbacks.cpp:1620
+#, c-format
+msgid ""
+"Are you sure to delete the node\n"
+"\"%s\"?"
+msgstr ""
+"Вы уверены, что хотите удалить запись\n"
+"\"%s\"?"
+
+#: callbacks.cpp:1957
+msgid "Import from file"
+msgstr "Импортировать из файла"
+
+#: callbacks.cpp:1960
+msgid "All supported formats"
+msgstr "Все поддерживаемые форматы"
+
+#: callbacks.cpp:1963 FileExportDlg.cpp:46
+msgid "NoteCenter document (*.hnc)"
+msgstr "Документ NoteCenter (*.hnc)"
+
+#: callbacks.cpp:1964
+msgid "Gjots2 document (*.gjots2)"
+msgstr "Документ Gjots2 (*.gjots2)"
+
+#: callbacks.cpp:1965
+msgid "Sticky Notes document (*.xml)"
+msgstr "Документ Sticky Notes (*.xml)"
+
+#: callbacks.cpp:1966
+msgid "MM/LX Mindmap/Outline document (*.MM)"
+msgstr "Документ MM/LX Mindmap/Outline (*.MM)"
+
+#: callbacks.cpp:2142 callbacks.cpp:2162 callbacks.cpp:4250 callbacks.cpp:5271
+#: callbacks.cpp:5301 callbacks.cpp:5340 callbacks.cpp:5379 callbacks.cpp:5418
+#: callbacks.cpp:5457 callbacks.cpp:5504 callbacks.cpp:5666 callbacks.cpp:5827
+msgid "No selected node!"
+msgstr "Нет выбранных записей!"
+
+#: callbacks.cpp:2384 callbacks.cpp:2455
+msgid "Document is empty!"
+msgstr "Документ пустой!"
+
+#: callbacks.cpp:2424 callbacks.cpp:2467 FindReplaceDlg.cpp:247
+msgid "Error: Search text is empty!"
+msgstr "Ошибка: не задан текст для поиска!"
+
+#: callbacks.cpp:2514
+msgid "Searching ..."
+msgstr ""
+
+#: callbacks.cpp:2530 callbacks.cpp:2545
+msgid "No more results found!"
+msgstr "Больше результатов не найдено!"
+
+#: callbacks.cpp:2538
+#, fuzzy
+msgid "Search canceled!"
+msgstr "Поиск окончен!"
+
+#: callbacks.cpp:2598
+msgid "This node contains the tag!"
+msgstr "Эта запись содержит ярлык!"
+
+#: callbacks.cpp:2645
+msgid "Reached end of the document! Continue searching from the start?"
+msgstr "Достигнут конец документа! Продолжить поиск с начала?"
+
+#: callbacks.cpp:2654
+msgid "Search done!"
+msgstr "Поиск окончен!"
+
+#: callbacks.cpp:3437
+msgid "Do you want to reload the document and lose your possible changes?"
+msgstr "Хотите переоткрыть документ и потерять ваши возможные изменения?"
+
+#: callbacks.cpp:3449
+msgid "Document has not been saved yet!"
+msgstr "Документ ещё не сохранён!"
+
+#: callbacks.cpp:3723 FileAttachmentDlg.cpp:89
+msgid "The document is read-only! You won't be able to make any changes!"
+msgstr "Этот документ только для чтения! Вы не сможете внести изменения!"
+
+#: callbacks.cpp:3777
+msgid "No Node selected"
+msgstr "Нет выбранных записей!"
+
+#: callbacks.cpp:3955
+msgid "Autosave file found! Do you want to load it?"
+msgstr "Найден файл авто-сохранения! Загрузить его?"
+
+#: callbacks.cpp:4327
+msgid "No text selection!"
+msgstr "Не выбран текст!"
+
+#: callbacks.cpp:4678
+msgid "Word Count"
+msgstr "Счетчик слов"
+
+#: callbacks.cpp:4707
+msgid "Word Count ( title / text / title and text )\n"
+msgstr "Счетчик слов ( заголовок / текст / заголовок и текст )\n"
+
+#: callbacks.cpp:4709
+#, fuzzy
+msgid "NOTE: Line counting does not take into account word wrapping.\n"
+msgstr "ПРИМЕЧАНИЕ : Счетчик строк не учитывает перенесенные слова.\n"
+
+#: callbacks.cpp:4712
+msgid "Total document"
+msgstr "Весь документ"
+
+#: callbacks.cpp:4714
+#, c-format
+msgid " - %d node(s)"
+msgstr " - %d запись(сей)"
+
+#: callbacks.cpp:4742 callbacks.cpp:4834
+msgid "words"
+msgstr "слов"
+
+#: callbacks.cpp:4767 callbacks.cpp:4859
+msgid "lines"
+msgstr "строк"
+
+#: callbacks.cpp:4792 callbacks.cpp:4884
+msgid "characters"
+msgstr "символов"
+
+#: callbacks.cpp:4803
+msgid "Current node"
+msgstr "Текущая запись"
+
+#: callbacks.cpp:4806
+#, fuzzy, c-format
+msgid " - ancestor to %d node(s)"
+msgstr " - предок %d записи(ей)"
+
+#: callbacks.cpp:5006 callbacks.cpp:5009
+#, c-format
+msgid "Completed descendants: %5.1f%% (%d / %d) (children completed: %d / %d)"
+msgstr "Обработанные потомки: %5.1f%% (%d / %d) (обработано потомков: %d / %d)"
+
+#: callbacks.cpp:5046
+msgid "Save Picture"
+msgstr "Сохранить изображение"
+
+#: callbacks.cpp:5061 ShortcutsList.cpp:165
+msgid "Link Wizard"
+msgstr "Менеджер ссылок"
+
+#: callbacks.cpp:5070 MainWnd.cpp:1815
+msgid "F_ormat"
+msgstr "Ф_ормат"
+
+#: callbacks.cpp:5077 MainWnd.cpp:1826
+msgid "_Bold"
+msgstr "_Жирный"
+
+#: callbacks.cpp:5085 MainWnd.cpp:1838
+msgid "_Italic"
+msgstr "_Курсив"
+
+#: callbacks.cpp:5093 MainWnd.cpp:1850
+msgid "_Underline"
+msgstr "_Подчеркнутый"
+
+#: callbacks.cpp:5101 MainWnd.cpp:1862
+msgid "_Strikethrough"
+msgstr "_Зачеркнутый"
+
+#: callbacks.cpp:5109 MainWnd.cpp:1874
+msgid "_Text color"
+msgstr "_Цвет текста"
+
+#: callbacks.cpp:5116 MainWnd.cpp:1003 MainWnd.cpp:1008 ShortcutsList.cpp:175
+msgid "Text Background Color"
+msgstr "Цвет фона текста"
+
+#: callbacks.cpp:5123 MainWnd.cpp:1896
+msgid "_Remove formatting"
+msgstr "_Удалить форматирование"
+
+#: callbacks.cpp:5200
+msgid "Link target no longer exists."
+msgstr "Ссылка на цель больше не существует."
+
+#: callbacks.cpp:5567
+msgid "Save picture"
+msgstr "Сохранить изображение"
+
+#: callbacks.cpp:5568 DocActionPix.cpp:61
+msgid "PNG format (*.png)"
+msgstr "PNG формат (*.png)"
+
+#: callbacks.cpp:5569
+msgid "JPEG format (*.jpg)"
+msgstr "JPEG формат (*.jpg)"
+
+#: callbacks.cpp:5602
+msgid "Failed to save picture to file!"
+msgstr "Не удалось сохранить картинку в файл!"
+
+#: callbacks.cpp:5779
+msgid "Unknown format! Do you want to load it as text?"
+msgstr "Неизвестный формат! Хотите загрузить его в виде текста?"
+
+#: callbacks.cpp:5811
+msgid "You'll need to save the document to commit the password change!"
+msgstr "Вам необходимо сохранить документ для завершения изменения пароля!"
+
+#: callbacks.cpp:6028 FileAttachmentDlg.cpp:580
+msgid ""
+"Do you want to attach files to the node?\n"
+"\n"
+msgstr ""
+"Хотите прикрепить файлы к записи?\n"
+"\n"
+
+#: callbacks.cpp:6051 FileAttachmentDlg.cpp:603
+msgid "Failed to open input file!\n"
+msgstr "Не удалось открыть входной файл!\n"
+
+#: callbacks.cpp:6065 FileAttachmentDlg.cpp:302 FileAttachmentDlg.cpp:617
+#: lib/NoteDocument.cpp:341
+msgid "Loading file. Please wait..."
+msgstr "Загрузка файла. Ждите..."
+
+#: callbacks.cpp:6141
+msgid "Node title must not be empty!"
+msgstr "Заголовок записи не должен быть пустым!"
+
+#: callbacks.cpp:6281
+msgid "Document not encrypted!"
+msgstr "Документ не зашифрован!"
+
+#: callbacks.cpp:6285
+msgid "Document not saved!"
+msgstr "Документ не сохранен!"
+
+#: callbacks.cpp:6368
+#, fuzzy
+msgid "Insert new node or select an existing one to start typing."
+msgstr ""
+"Вставите новую запись или выбирите имеющийсяю запись чтобы начать печатать."
+
+#: DateTimeDlg.cpp:64 MainWnd.cpp:1431
+msgid "Insert Date/Time"
+msgstr "Вставить дату/время"
+
+#: DateTimeDlg.cpp:90
+msgid "Select date/time format:"
+msgstr "Выберите формат даты/времени:"
+
+#: DateTimeDlg.cpp:101
+msgid "value"
+msgstr "значение"
+
+#: DocActionFinish.cpp:66
+#, fuzzy
+msgid "Do you want to remove 'Completed' status from all the descendants?"
+msgstr "Вы хотите удалить статус 'обработан' из всех потомков?"
+
+#: DocActionFmt.cpp:90
+msgid "Pick text color"
+msgstr "Выберите цвет текста"
+
+#: DocActionPix.cpp:57
+msgid "Open picture"
+msgstr "Открыть изображение"
+
+#: DocActionPix.cpp:60
+msgid "All supported image formats (*.png,*.jpg,*.gif)"
+msgstr "Все поддерживаемые форматы изображений (*.png,*.png,*.jpg)"
+
+#: DocActionPix.cpp:62
+msgid "JPG format (*.jpg)"
+msgstr "JPG формат (*.jpg)"
+
+#: DocActionPix.cpp:63
+msgid "GIF format (*.gif)"
+msgstr "GIF формат (*.gif)"
+
+#: EditDlg.cpp:119
+msgid "Edit text"
+msgstr "Редактировать текст"
+
+#: FileAttachmentDlg.cpp:129
+msgid "Node attachments"
+msgstr "Вложения записи"
+
+#: FileAttachmentDlg.cpp:175
+msgid "Name"
+msgstr "Имя"
+
+#: FileAttachmentDlg.cpp:189
+msgid "Size"
+msgstr "Размер"
+
+#: FileAttachmentDlg.cpp:206 NodePropertiesDlg.cpp:473
+msgid "Add"
+msgstr "Добавить"
+
+#: FileAttachmentDlg.cpp:211 LinkPropertiesDlg.cpp:162
+#: NodePropertiesDlg.cpp:477
+msgid "Remove"
+msgstr "Удалить"
+
+#: FileAttachmentDlg.cpp:216
+msgid "Save to file"
+msgstr "Сохранить в файл"
+
+#: FileAttachmentDlg.cpp:261
+msgid "Add attachment"
+msgstr "Добавить вложение"
+
+#: FileAttachmentDlg.cpp:293
+msgid "Failed to open input file!"
+msgstr "Не удалось открыть входной файл!"
+
+#: FileAttachmentDlg.cpp:408
+msgid "No attachment selected!"
+msgstr "Нет выбранных вложений!"
+
+#: FileAttachmentDlg.cpp:419
+msgid "Save data"
+msgstr "Сохранить данные"
+
+#: FileAttachmentDlg.cpp:451 FileAttachmentDlg.cpp:704
+msgid "Failed to open output file!"
+msgstr "Не удалось открыть выходной файл!"
+
+#: FileAttachmentDlg.cpp:456 FileAttachmentDlg.cpp:709
+#: lib/NoteDocument.cpp:489
+msgid "Saving file. Please wait..."
+msgstr "Сохранение файла. Ждите..."
+
+#: FileExportDlg.cpp:48
+msgid "HTML file (*.html)"
+msgstr "HTML файл (*.html)"
+
+#: FileExportDlg.cpp:50
+msgid "Text file (*.txt)"
+msgstr "Текстовый файл (*.txt)"
+
+#: FileExportDlg.cpp:53
+msgid "Standalone executable (*.exe)"
+msgstr "Автономный исполняемый файл (*.exe)"
+
+#: FileExportDlg.cpp:56
+msgid "Standalone executable"
+msgstr "Автономный исполняемый файл"
+
+#: FileExportDlg.cpp:75
+msgid "Selected branch"
+msgstr "Выбранная ветвь"
+
+#: FileExportDlg.cpp:76
+msgid "Selected node only"
+msgstr "Только выделенные записи"
+
+#: FileExportDlg.cpp:77
+msgid "Entire document"
+msgstr "Весь документ"
+
+#: FileExportDlg.cpp:285 ShortcutsList.cpp:130
+msgid "Export"
+msgstr "Экспорт"
+
+#: FileExportDlg.cpp:310
+msgid "Document source:"
+msgstr "Исходник документа:"
+
+#: FileExportDlg.cpp:317 FileSaveAsDlg.cpp:248
+msgid "File format:"
+msgstr "Формат файла:"
+
+#: FileExportDlg.cpp:336 FileSaveAsDlg.cpp:182
+msgid "File name:"
+msgstr "Имя файла:"
+
+#: FileExportDlg.cpp:368
+msgid "Use custom CSS path:"
+msgstr "Использовать свой путь CSS:"
+
+#: FileExportDlg.cpp:377
+msgid "Export linked documents"
+msgstr "Экспорт связанных документов"
+
+#: FileExportDlg.cpp:383
+msgid "Post-export script:"
+msgstr "Скрипт после экспорта:"
+
+#: FileExportDlg.cpp:404 MainWnd.cpp:744 MainWnd.cpp:747
+#: OptionsDialog.cpp:1102
+msgid "Save"
+msgstr "Сохранить"
+
+#: FileExportDlg.cpp:452
+msgid "Select export file"
+msgstr "Выберите файл экспорта"
+
+#: FileExportDlg.cpp:482
+msgid "You must define the export file name!"
+msgstr "Вы должны определить имя файла для экспорта!"
+
+#: FileSaveAsDlg.cpp:159
+msgid "Save document"
+msgstr "Сохранить документ"
+
+#: FileSaveAsDlg.cpp:196
+msgid "File directory:"
+msgstr "Директория файла:"
+
+#: FileSaveAsDlg.cpp:270 MainWnd.cpp:1208 gui/FileDialog.cpp:99
+msgid "_Save"
+msgstr "_Сохранить"
+
+#: FileSaveAsDlg.cpp:315
+msgid "Select target directory"
+msgstr "Выберите папку назначения"
+
+#: FileSaveAsDlg.cpp:369
+msgid "File name must not be empty!"
+msgstr "Имя файла не должно быть пустым!"
+
+#: FindDialog.cpp:31
+msgid "Node title/contents"
+msgstr "Заголовок/содержимое записи"
+
+#: FindDialog.cpp:32
+msgid "Node tags"
+msgstr "Ярлыки записи"
+
+#: FindDialog.cpp:55 ShortcutsList.cpp:162
+msgid "Find"
+msgstr "Найти"
+
+#: FindDialog.cpp:69
+msgid "Text:"
+msgstr "Текст:"
+
+#: FindDialog.cpp:83
+msgid "Search target:"
+msgstr "Искать:"
+
+#: FindDialog.cpp:96
+msgid "Direction:"
+msgstr "Направление:"
+
+#: FindDialog.cpp:103 MainWnd.cpp:2289
+msgid "Up"
+msgstr "Вверх"
+
+#: FindDialog.cpp:111 MainWnd.cpp:2299
+msgid "Down"
+msgstr "Вниз"
+
+#: FindDialog.cpp:119 FindReplaceDlg.cpp:167
+msgid "Case sensitive"
+msgstr "Учитывать регистр"
+
+#: FindReplaceDlg.cpp:97 ShortcutsList.cpp:164
+msgid "Replace"
+msgstr "Заменить"
+
+#: FindReplaceDlg.cpp:115
+msgid "Find what:"
+msgstr "Найти:"
+
+#: FindReplaceDlg.cpp:129
+msgid "Replace with:"
+msgstr "Заменить:"
+
+#: FindReplaceDlg.cpp:177
+msgid "_Find next"
+msgstr "Найти _следующий"
+
+#: FindReplaceDlg.cpp:184
+msgid "_Replace"
+msgstr "_Заменить"
+
+#: FindReplaceDlg.cpp:191
+msgid "Replace _All"
+msgstr "Заменить _все"
+
+#: FindReplaceDlg.cpp:391
+#, c-format
+msgid ""
+"Done!\n"
+"\n"
+"%d string instances were replaced!"
+msgstr ""
+"Готово!\n"
+"\n"
+"Заменено %d строк!"
+
+#: interface.cpp:303
+msgid "Are you sure you want to delete history list?"
+msgstr "Вы уверены, что хотите удалить список истории?"
+
+#: interface.cpp:428 interface.cpp:487 gui/ProgressDlg.cpp:80
+msgid "Info"
+msgstr "Информация"
+
+#: interface.cpp:573 interface.cpp:600
+msgid "OK!"
+msgstr "ОК!"
+
+#: interface.cpp:575
+msgid "Loading aborted by user!"
+msgstr "Загрузка прервана пользователем!"
+
+#: interface.cpp:577
+msgid "File not found!"
+msgstr "Файл не найден!"
+
+#: interface.cpp:579
+msgid "Invalid document password!"
+msgstr "Неправильный пароль документа!"
+
+#: interface.cpp:581
+msgid "Unsupported document format!"
+msgstr "Неподдерживаемый формат документа!"
+
+#: interface.cpp:583
+msgid "Error when parsing document (bad formatting)!"
+msgstr "Ошибка при обработке документа (неверное форматирование)!"
+
+#: interface.cpp:585
+msgid "Failed to load the file!"
+msgstr "Неудалось загрузить файл!"
+
+#: interface.cpp:587
+#, fuzzy
+msgid "Inadequate file permissions!"
+msgstr "Недостаточно прав доступа к файлу!"
+
+#: interface.cpp:589
+msgid "Load operation is not supported for this format!"
+msgstr "Операция загрузки не поддерживается для данного формата!"
+
+#: interface.cpp:592 interface.cpp:617
+msgid "Unknown error!"
+msgstr "Неизвестная ошибка!"
+
+#: interface.cpp:602
+msgid "Saving aborted by user!"
+msgstr "Сохранение прервано пользователем!"
+
+#: interface.cpp:606
+msgid "Failed to overwrite target file!"
+msgstr "Не удалось переписать целевой файл!"
+
+#: interface.cpp:608
+#, fuzzy
+msgid ""
+"Failed to open output file! Please check permissions or available disk size!"
+msgstr ""
+"Не удалось открыть выходной файл! Проверьте права доступа и наличие местa на "
+"диске!"
+
+#: interface.cpp:610
+msgid "Failed to open application file!"
+msgstr "Не удалось открыть файл приложения!"
+
+#: interface.cpp:614
+msgid "Save operation is not supported for this format!"
+msgstr "Операция сохранения не поддерживается для данного формата!"
+
+#: LinkPropertiesDlg.cpp:41
+msgid "Link to a node"
+msgstr "Ссылка на запись"
+
+#: LinkPropertiesDlg.cpp:42
+msgid "Link to a file or web address"
+msgstr "Ссылка на файл или web-страницу"
+
+#: LinkPropertiesDlg.cpp:73
+msgid "Link Properties"
+msgstr "Свойства ссылки:"
+
+#: LinkPropertiesDlg.cpp:95
+msgid "Link text:"
+msgstr "Текст ссылки:"
+
+#: LinkPropertiesDlg.cpp:108
+msgid "Link type:"
+msgstr "Тип ссылки:"
+
+#: LinkPropertiesDlg.cpp:115
+msgid "Target file or URL:"
+msgstr "Ссылка на файл или web-страницу"
+
+#: LinkPropertiesDlg.cpp:122
+msgid "Target node:"
+msgstr "Ссылка на запись:"
+
+#: main.cpp:301
+#, fuzzy, c-format
+msgid ""
+"One or more crash logs were found in:\n"
+"%s.\n"
+"\n"
+"Press Yes to delete those files\n"
+"(consider sending the files to the author with the crash description)."
+msgstr ""
+"Один или несколько записей о фатальном сбое были найдены в:\n"
+"%s.\n"
+"\n"
+"Нажмите Да чтобы удалить файлы\n"
+" (рассмотрите возможность послать письмо с файлами описания аварии автору)."
+
+#: main.cpp:447
+msgid "Another NoteCase instance detected! Exiting!"
+msgstr "Обнаружен уже запущенный NoteCase! Выход!"
+
+#: MainWnd.cpp:724 MainWnd.cpp:727
+msgid "New"
+msgstr "Новый"
+
+#: MainWnd.cpp:734 MainWnd.cpp:737
+msgid "Open"
+msgstr "Открыть"
+
+#: MainWnd.cpp:754 MainWnd.cpp:757
+msgid "Save As"
+msgstr "Сохранить как"
+
+#: MainWnd.cpp:769 MainWnd.cpp:772 ShortcutsList.cpp:153
+msgid "Undo"
+msgstr "Отменить"
+
+#: MainWnd.cpp:780 MainWnd.cpp:783 ShortcutsList.cpp:154
+msgid "Redo"
+msgstr "Вернуть"
+
+#: MainWnd.cpp:791 MainWnd.cpp:794 ShortcutsList.cpp:155
+msgid "Cut"
+msgstr "Вырезать"
+
+#: MainWnd.cpp:801 MainWnd.cpp:804 ShortcutsList.cpp:156
+msgid "Copy"
+msgstr "Копировать"
+
+#: MainWnd.cpp:811 MainWnd.cpp:814 ShortcutsList.cpp:157
+msgid "Paste"
+msgstr "Вставить"
+
+#: MainWnd.cpp:821 MainWnd.cpp:824 ShortcutsList.cpp:158
+msgid "Delete"
+msgstr "Удалить"
+
+#: MainWnd.cpp:834 MainWnd.cpp:837 MainWnd.cpp:2207
+msgid "Insert Node"
+msgstr "Вставить запись"
+
+#: MainWnd.cpp:844 MainWnd.cpp:847 ShortcutsList.cpp:142 ShortcutsList.cpp:195
+msgid "Move Node Left"
+msgstr "Переместить запись влево"
+
+#: MainWnd.cpp:854 MainWnd.cpp:857 ShortcutsList.cpp:143 ShortcutsList.cpp:196
+msgid "Move Node Right"
+msgstr "Переместить запись вправо"
+
+#: MainWnd.cpp:872 MainWnd.cpp:875 MainWnd.cpp:2277
+msgid "Link wizard"
+msgstr "Менеджер ссылок"
+
+#: MainWnd.cpp:883 MainWnd.cpp:886 ShortcutsList.cpp:166
+msgid "Insert Picture"
+msgstr "Вставить изображение"
+
+#: MainWnd.cpp:895 MainWnd.cpp:900
+msgid "Node Attachments"
+msgstr "Вложения записи"
+
+#: MainWnd.cpp:913 MainWnd.cpp:918 ShortcutsList.cpp:170
+msgid "Bold"
+msgstr "Жирный"
+
+#: MainWnd.cpp:931 MainWnd.cpp:936 ShortcutsList.cpp:171
+msgid "Italic"
+msgstr "Курсив"
+
+#: MainWnd.cpp:949 MainWnd.cpp:954 ShortcutsList.cpp:172
+msgid "Underline"
+msgstr "Подчеркнутый"
+
+#: MainWnd.cpp:967 MainWnd.cpp:972 ShortcutsList.cpp:173
+msgid "Strikethrough"
+msgstr "Зачеркнутый"
+
+#: MainWnd.cpp:985 MainWnd.cpp:990
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: MainWnd.cpp:1018 MainWnd.cpp:1021
+msgid "Help"
+msgstr "Справка"
+
+#: MainWnd.cpp:1058
+msgid "Please enter the password for file: "
+msgstr "Введите пароль для файла:"
+
+#: MainWnd.cpp:1154
+msgid "_File"
+msgstr "_Файл"
+
+#: MainWnd.cpp:1165
+msgid "New _Window"
+msgstr "Новое _окно"
+
+#: MainWnd.cpp:1178
+msgid "_New"
+msgstr "_Новый"
+
+#: MainWnd.cpp:1188 gui/FileDialog.cpp:99
+msgid "_Open"
+msgstr "_Открыть"
+
+#: MainWnd.cpp:1198
+msgid "_Close"
+msgstr "За_крыть"
+
+#: MainWnd.cpp:1218
+msgid "Save _As"
+msgstr "Сохранить _как"
+
+#: MainWnd.cpp:1228
+msgid "Re_load"
+msgstr "Перео_ткрыть"
+
+#: MainWnd.cpp:1238
+msgid "Read-Only"
+msgstr "Только для чтения"
+
+#: MainWnd.cpp:1245
+msgid "Document property that forbids document editing."
+msgstr ""
+
+#: MainWnd.cpp:1247
+msgid "_Lock Document"
+msgstr "_Заблокировать документ"
+
+#: MainWnd.cpp:1258
+#, fuzzy
+msgid "Unload encrypted document from memory."
+msgstr ""
+"Сохранить и выгружать зашифрованные документы, если приложение неактивно:"
+
+#: MainWnd.cpp:1260
+msgid "_Change Password"
+msgstr "_Изменить пароль"
+
+#: MainWnd.cpp:1277
+msgid "_Import"
+msgstr "_Импорт"
+
+#: MainWnd.cpp:1285
+msgid "_Export"
+msgstr "_Экспорт"
+
+#: MainWnd.cpp:1303
+msgid "_Recent"
+msgstr "_Недавние"
+
+#: MainWnd.cpp:1317
+msgid "_Quit"
+msgstr "_Выйти"
+
+#: MainWnd.cpp:1331
+msgid "_Edit"
+msgstr "_Правка"
+
+#: MainWnd.cpp:1342
+msgid "_Undo"
+msgstr "_Отменить"
+
+#: MainWnd.cpp:1353
+msgid "_Redo"
+msgstr "Вернут_ь"
+
+#: MainWnd.cpp:1369
+msgid "Cu_t"
+msgstr "_Вырезать"
+
+#: MainWnd.cpp:1379
+msgid "_Copy"
+msgstr "_Копировать"
+
+#: MainWnd.cpp:1389
+msgid "_Paste"
+msgstr "В_ставить"
+
+#: MainWnd.cpp:1399
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: MainWnd.cpp:1409
+msgid "Copy Branch _Structure"
+msgstr "Копировать Структуру В_етви"
+
+#: MainWnd.cpp:1420
+msgid "Paste Branch To Root"
+msgstr "Вставить Ветвь В Ко_рень"
+
+#: MainWnd.cpp:1448
+msgid "_Find"
+msgstr "_Найти"
+
+#: MainWnd.cpp:1458
+msgid "Find _Next"
+msgstr "Найти _далее"
+
+#: MainWnd.cpp:1468
+msgid "R_eplace"
+msgstr "З_аменить"
+
+#: MainWnd.cpp:1478
+msgid "Link _Wizard"
+msgstr "Менеджер ссылок"
+
+#: MainWnd.cpp:1489
+msgid "_Insert Picture"
+msgstr "_Вставить изображение"
+
+#: MainWnd.cpp:1500
+msgid "Node _Attachments"
+msgstr "_Вложения записи"
+
+#: MainWnd.cpp:1516 ShortcutsList.cpp:168
+msgid "Configure Shortcuts"
+msgstr "Настроить горячие клавиши"
+
+#: MainWnd.cpp:1526 ShortcutsList.cpp:169
+msgid "Configure NoteCase"
+msgstr "Настроить NoteCase"
+
+#: MainWnd.cpp:1539
+msgid "_View"
+msgstr "_Вид"
+
+#: MainWnd.cpp:1550
+msgid "_Full Screen"
+msgstr "_Во весь экран"
+
+#: MainWnd.cpp:1563
+msgid "_Always on top"
+msgstr ""
+
+#: MainWnd.cpp:1570
+msgid "_Tool Bar"
+msgstr "Панель _инструментов"
+
+#: MainWnd.cpp:1578
+msgid "_Node Title Bar"
+msgstr "Панель _заголовка записи"
+
+#: MainWnd.cpp:1586
+msgid "_Status Bar"
+msgstr "Панель _состояния"
+
+#: MainWnd.cpp:1594
+msgid "_Wrap"
+msgstr "_Перенос слов"
+
+#: MainWnd.cpp:1602
+msgid "Change View _Mode"
+msgstr "Изменить _режим просмотра"
+
+#: MainWnd.cpp:1609
+msgid "_Calculate Word Count"
+msgstr "_Посчитать количество слов"
+
+#: MainWnd.cpp:1620
+msgid "_Tree"
+msgstr "_Дерево"
+
+#: MainWnd.cpp:1632
+msgid "_Insert Node"
+msgstr "_Вставить запись"
+
+#: MainWnd.cpp:1640
+msgid "Insert Child _Node"
+msgstr "Вставить дочернюю _запись"
+
+#: MainWnd.cpp:1648
+msgid "_Delete Node"
+msgstr "_Удалить запись"
+
+#: MainWnd.cpp:1659
+msgid "_Rename Node"
+msgstr "Пере_именовать запись"
+
+#: MainWnd.cpp:1667
+msgid "_Move Node"
+msgstr "_Переместить запись"
+
+#: MainWnd.cpp:1671
+msgid "_Sort"
+msgstr "_Сортировать"
+
+#: MainWnd.cpp:1675
+msgid "_Expand All"
+msgstr "_Развернуть все"
+
+#: MainWnd.cpp:1683
+msgid "_Collapse All"
+msgstr "_Свернуть все"
+
+#: MainWnd.cpp:1691
+msgid "Node _Properties"
+msgstr "_Свойства записи"
+
+#: MainWnd.cpp:1705
+msgid "_Up"
+msgstr "В_верх"
+
+#: MainWnd.cpp:1716
+msgid "_Down"
+msgstr "В_низ"
+
+#: MainWnd.cpp:1727
+msgid "_Left"
+msgstr "В_лево"
+
+#: MainWnd.cpp:1738
+msgid "_Right"
+msgstr "В_право"
+
+#: MainWnd.cpp:1754 MainWnd.cpp:2334
+msgid "_Sort Children Ascending"
+msgstr "Сортировать потомков по _возрастанию"
+
+#: MainWnd.cpp:1765 MainWnd.cpp:2344
+msgid "Sort _Children Descending"
+msgstr "Сортировать потомков по _убыванию"
+
+#: MainWnd.cpp:1776 MainWnd.cpp:2354
+msgid "Sort Root Ascending"
+msgstr "Сортировать корень по возрастанию"
+
+#: MainWnd.cpp:1787 MainWnd.cpp:2364
+msgid "Sort Root Descending"
+msgstr "Сортировать корень по убыванию"
+
+#: MainWnd.cpp:1800
+msgid "Delete all _Completed nodes"
+msgstr "Удалить все _обработанные записи"
+
+#: MainWnd.cpp:1885
+msgid "Text Background _Color"
+msgstr "Цвет _фона текста"
+
+#: MainWnd.cpp:1912
+msgid "_Help"
+msgstr "_Справка"
+
+#: MainWnd.cpp:1923
+msgid "_Visit Website"
+msgstr "Посетить _Вебсайт"
+
+#: MainWnd.cpp:1933
+msgid "_Show help"
+msgstr "_Показать справку"
+
+#: MainWnd.cpp:1948
+msgid "_About"
+msgstr "_О программе"
+
+#: MainWnd.cpp:2214
+msgid "Insert Child Node"
+msgstr "Вставить дочернюю запись"
+
+#: MainWnd.cpp:2221 ShortcutsList.cpp:138 ShortcutsList.cpp:191
+msgid "Delete Node"
+msgstr "Удалить запись"
+
+#: MainWnd.cpp:2231 ShortcutsList.cpp:139 ShortcutsList.cpp:192
+msgid "Rename Node"
+msgstr "Переименовать запись"
+
+#: MainWnd.cpp:2238
+msgid "Move Node"
+msgstr "Переместить запись"
+
+#: MainWnd.cpp:2242
+msgid "Sort"
+msgstr "Сортировать"
+
+#: MainWnd.cpp:2246 ShortcutsList.cpp:151 ShortcutsList.cpp:204
+msgid "Expand All"
+msgstr "Развернуть все"
+
+#: MainWnd.cpp:2253
+msgid "Collapse All"
+msgstr "Свернуть все"
+
+#: MainWnd.cpp:2260 NodePropertiesDlg.cpp:481
+msgid "Mark node as Completed"
+msgstr "Пометить запись как обработанную"
+
+#: MainWnd.cpp:2267 NodePropertiesDlg.cpp:320
+msgid "Node Properties"
+msgstr "Свойства записи"
+
+#: MainWnd.cpp:2309
+msgid "Left"
+msgstr "Влево"
+
+#: MainWnd.cpp:2319
+msgid "Right"
+msgstr "Вправо"
+
+#: mru.cpp:137
+msgid " - Clear list - "
+msgstr " - Очистить список - "
+
+#: mru.cpp:145
+msgid "( empty )"
+msgstr "( пустой )"
+
+#: NodePropertiesDlg.cpp:223
+msgid "Tag must not contain \";\" character!"
+msgstr "Ярлык не должен содержать символа  \";\"!"
+
+#: NodePropertiesDlg.cpp:239
+msgid "This tag was already added for this node!"
+msgstr "Этот ярлык уже добавлен в эту запись!"
+
+#: NodePropertiesDlg.cpp:331
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: NodePropertiesDlg.cpp:363
+msgid "Created:"
+msgstr "Создан:"
+
+#: NodePropertiesDlg.cpp:370 NodePropertiesDlg.cpp:384
+#: PixPropertiesDlg.cpp:110 PixPropertiesDlg.cpp:123
+msgid "unknown"
+msgstr "неизвестно"
+
+#: NodePropertiesDlg.cpp:377
+msgid "Modified:"
+msgstr "Изменен:"
+
+#: NodePropertiesDlg.cpp:401
+msgid "Icon:"
+msgstr "Иконка:"
+
+#: NodePropertiesDlg.cpp:406 OptionsDialog.cpp:1191
+msgid "None"
+msgstr "Нету"
+
+#: NodePropertiesDlg.cpp:412 OptionsDialog.cpp:1199
+msgid "Internal"
+msgstr "Внутренний"
+
+#: NodePropertiesDlg.cpp:418 OptionsDialog.cpp:1207
+msgid "Custom"
+msgstr "Выбрать"
+
+#: NodePropertiesDlg.cpp:456
+msgid "Tags:"
+msgstr "Ярлыки:"
+
+#: NodePropertiesDlg.cpp:616
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+msgstr "Все поддерживаемые форматы иконок (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+
+#: NodePropertiesDlg.cpp:617 OptionsDialog.cpp:1500
+msgid "XPM icon file (*.xpm)"
+msgstr "XPM файл иконки (*.xpm)"
+
+#: NodePropertiesDlg.cpp:618 OptionsDialog.cpp:1501
+msgid "Icon file (*.ico)"
+msgstr "Файл иконки (*.ico)"
+
+#: NodePropertiesDlg.cpp:619 OptionsDialog.cpp:1502
+msgid "PNG file format (*.png)"
+msgstr "PNG формат файла (*.png)"
+
+#: NodePropertiesDlg.cpp:620 OptionsDialog.cpp:1503
+msgid "JPEG file format (*.jpg)"
+msgstr "JPEG формат файла (*.jpg)"
+
+#: NodePropertiesDlg.cpp:621
+msgid "GIF file format (*.gif)"
+msgstr "GIF формат файла (*.gif)"
+
+#: NodePropertiesDlg.cpp:686 OptionsDialog.cpp:1623
+msgid "Failed to load node icon file!"
+msgstr "Не удалось открыть файл иконки записи!"
+
+#: OptionsDialog.cpp:638
+msgid "Some of the changed options require program restart!"
+msgstr ""
+
+#: OptionsDialog.cpp:769
+msgid "You must restart NoteCase for this change to take effect!"
+msgstr "Необходимо перезапустить NoteCase для применения изменений!"
+
+#: OptionsDialog.cpp:849
+#, fuzzy
+msgid "Options"
+msgstr "Параметры"
+
+#: OptionsDialog.cpp:884
+msgid "Start at logon"
+msgstr "Загружать всместе с загрузкой ОС"
+
+#: OptionsDialog.cpp:888
+#, fuzzy
+msgid "Maximize on startup"
+msgstr "Максимизировать при загрузки NoteCase"
+
+#: OptionsDialog.cpp:892
+#, fuzzy
+msgid "Allow single instance only"
+msgstr "Позволять запускать только один экземпляр"
+
+#: OptionsDialog.cpp:896
+#, fuzzy
+msgid "Reload last used document"
+msgstr "Открыть предыдущий документ при загрузки NoteCase"
+
+#: OptionsDialog.cpp:900
+msgid "Register document formats"
+msgstr "Зарегистрировать форматы документов"
+
+#: OptionsDialog.cpp:904
+msgid "Restore last position/size"
+msgstr "Восстановить последние позицию/размер"
+
+#: OptionsDialog.cpp:908
+msgid "Startup"
+msgstr "Загрузка"
+
+#: OptionsDialog.cpp:920
+msgid "Tree font:"
+msgstr "Шрифт дерева:"
+
+#: OptionsDialog.cpp:925
+msgid "Text font:"
+msgstr "Шрифт текста:"
+
+#: OptionsDialog.cpp:948
+msgid "Text/background color:"
+msgstr "Цвет текста/фона:"
+
+#: OptionsDialog.cpp:961
+msgid "Link color:"
+msgstr "Цвет ссылки:"
+
+#: OptionsDialog.cpp:970
+#, fuzzy
+msgid "Custom Tab Size"
+msgstr "Свой размер для Tab"
+
+#: OptionsDialog.cpp:979
+msgid "Wrap text"
+msgstr "Перенос текста"
+
+#: OptionsDialog.cpp:983
+#, fuzzy
+msgid "Wrap titles tree"
+msgstr "Перенос текста заголовок дерева"
+
+#: OptionsDialog.cpp:987
+#, fuzzy
+msgid "Show tree lines"
+msgstr "Показать строки дерева"
+
+#: OptionsDialog.cpp:991
+msgid "Display"
+msgstr "Дисплей"
+
+#: OptionsDialog.cpp:1001
+msgid "Use system language settings"
+msgstr "Использовать системные языковые настройки"
+
+#: OptionsDialog.cpp:1005
+msgid "Language:"
+msgstr "Язык:"
+
+#: OptionsDialog.cpp:1014
+msgid "Date/time format:"
+msgstr "Формат даты/времени"
+
+#: OptionsDialog.cpp:1029
+msgid "Show node tree on the right"
+msgstr "Показать дерево записей справа"
+
+#: OptionsDialog.cpp:1033
+msgid "Draw message over inactive text view"
+msgstr ""
+
+#: OptionsDialog.cpp:1037
+msgid "Minimize to tray"
+msgstr "Свернуть в трей"
+
+#: OptionsDialog.cpp:1041
+msgid "Close to tray"
+msgstr "Свернуть в трей вместо закрытия"
+
+#: OptionsDialog.cpp:1045
+msgid "[Enter] key press in text area closes the window"
+msgstr "Нажатие клавиши [Enter] в текстовой области закроет окно"
+
+#: OptionsDialog.cpp:1049 ShortcutsListDlg.cpp:134
+msgid "Global"
+msgstr "Глобальный"
+
+#: OptionsDialog.cpp:1061
+#, fuzzy
+msgid "Autosave to temporary crash-protection copy every:"
+msgstr ""
+"Автоматически сохранять временную копию защиты от фатального сбоя каждыйе:"
+
+#: OptionsDialog.cpp:1072
+msgid "seconds"
+msgstr "секунд"
+
+#: OptionsDialog.cpp:1077
+#, fuzzy
+msgid "Do not autosave memory-only (new/unsaved) documents (data security)"
+msgstr ""
+"Не сохранять автоматически только в памяти (новые / не сохранёные) документы "
+"(защита данных)"
+
+#: OptionsDialog.cpp:1082
+#, fuzzy
+msgid "For each document, create up to:"
+msgstr "Для каждого документа, создать до:"
+
+#: OptionsDialog.cpp:1093
+msgid "backup files"
+msgstr "файл(ов) резервной копии"
+
+#: OptionsDialog.cpp:1098
+msgid "Automatically save when closing application"
+msgstr "Автоматическое сохранение при закрытии NoteCase"
+
+#: OptionsDialog.cpp:1114
+msgid "Generate table of contents (depth):"
+msgstr "Генерация оглавления (глубина):"
+
+#: OptionsDialog.cpp:1125
+msgid "Export link to image file as the image tag"
+msgstr "Экспортировать ссылку на файл изображения как ярлык"
+
+#: OptionsDialog.cpp:1129
+msgid "Embed CSS into exported file"
+msgstr "Вставить CSS внутрь экспортированного файла"
+
+#: OptionsDialog.cpp:1133
+msgid "Export image and attachment data as separate files"
+msgstr "Экспорт изображений и вложенных данных в виде отдельных файлов"
+
+#: OptionsDialog.cpp:1137
+msgid "Html export"
+msgstr "Экспорт в Html"
+
+#: OptionsDialog.cpp:1149
+#, fuzzy
+msgid "Protect memory space from swapping (requires Notecase restart)"
+msgstr "Защита пространства памяти от обмен (требуется перезагрузка NoteCase)"
+
+#: OptionsDialog.cpp:1156
+msgid "Security"
+msgstr "Безопасность"
+
+#: OptionsDialog.cpp:1160
+#, fuzzy
+msgid "Save and unload encrypted document if inactive for:"
+msgstr ""
+"Сохранить и выгружать зашифрованные документы, если приложение неактивно:"
+
+#: OptionsDialog.cpp:1171
+msgid "minutes"
+msgstr "минут(у)"
+
+#: OptionsDialog.cpp:1184
+msgid "Default Note Icon"
+msgstr "Стандартная иконка записи"
+
+#: OptionsDialog.cpp:1234
+msgid "Preview:"
+msgstr "Предварительный просмотр:"
+
+#: OptionsDialog.cpp:1248
+msgid "Default"
+msgstr "Стандартный"
+
+#: OptionsDialog.cpp:1499
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg)"
+msgstr "Все поддерживаемые форматы иконок(*.xpm,*.ico,*.png,*.jpg)"
+
+#: OptionsDialog.cpp:1667
+#, c-format
+msgid "Minimal value is %d sec!"
+msgstr "Минимальное значение %d секунд!"
+
+#: PasswordDialog.cpp:99
+msgid "Password"
+msgstr "Пароль"
+
+#: PasswordDialog.cpp:133
+msgid "Please enter the password:"
+msgstr "Введите пароль:"
+
+#: PasswordDialog.cpp:151
+msgid "Please enter the new password:"
+msgstr "Введите новый пароль:"
+
+#: PasswordDialog.cpp:173
+msgid "Please enter the new password (once more):"
+msgstr "Введите новый пароль (еще раз):"
+
+#: PasswordDialog.cpp:192
+msgid "_Show passwords"
+msgstr "_Показать пароль(и)"
+
+#: PasswordDialog.cpp:248 PasswordDialog.cpp:298
+msgid "Password must not be empty!"
+msgstr "Пароль не должен быть пустым!"
+
+#: PasswordDialog.cpp:260
+msgid "Passwords do not match! Check for typing errors."
+msgstr "Пароли не совпадают! Проверьте опечатки."
+
+#: PasswordDialog.cpp:275
+msgid "Old password was not correct!"
+msgstr "Старый пароль не правильный!"
+
+#: PasswordDialog.cpp:288
+msgid "New passwords do not match! Check for typing errors."
+msgstr "Новые пароли не совпадают! Проверьте опечатки."
+
+#: PixPropertiesDlg.cpp:86
+msgid "Image Properties"
+msgstr "Свойства изображения"
+
+#: PixPropertiesDlg.cpp:103
+msgid "Original size:"
+msgstr "Оригинальный размер:"
+
+#: PixPropertiesDlg.cpp:116
+msgid "Selected size:"
+msgstr "Выбранный размер:"
+
+#: PixPropertiesDlg.cpp:129
+msgid "Resize to:"
+msgstr "Изменить размер на:"
+
+#: PixPropertiesDlg.cpp:142
+msgid "Store as PNG"
+msgstr "Сохранить как PNG"
+
+#: PortableTrayIcon.cpp:118
+msgid "Restore"
+msgstr "Восстановить"
+
+#: PortableTrayIcon.cpp:126
+msgid "Quit"
+msgstr "Выйти"
+
+#: ShortcutsList.cpp:26
+msgid "Ctrl+"
+msgstr "Ctrl+"
+
+#: ShortcutsList.cpp:28
+msgid "Shift+"
+msgstr "Shift+"
+
+#: ShortcutsList.cpp:30
+msgid "Alt+"
+msgstr "Alt+"
+
+#: ShortcutsList.cpp:37
+msgid "Space"
+msgstr "Пробел"
+
+#: ShortcutsList.cpp:124
+msgid "New Document"
+msgstr "Новый документ"
+
+#: ShortcutsList.cpp:125
+msgid "Open Document"
+msgstr "Открыть документ"
+
+#: ShortcutsList.cpp:126
+msgid "Save Document"
+msgstr "Сохранить документ"
+
+#: ShortcutsList.cpp:127
+#, fuzzy
+msgid "Save As Document"
+msgstr "Сохранить как Документ"
+
+#: ShortcutsList.cpp:128
+msgid "Reload Document"
+msgstr "Переоткрыть документ"
+
+#: ShortcutsList.cpp:129
+msgid "Import"
+msgstr "Импорт"
+
+#: ShortcutsList.cpp:131
+msgid "New Notecase"
+msgstr "Новый Notecase"
+
+#: ShortcutsList.cpp:132
+msgid "Read-Only (Document)"
+msgstr "Только для чтения (Документ)"
+
+#: ShortcutsList.cpp:133
+msgid "Lock Document"
+msgstr "Заблокировать документ"
+
+#: ShortcutsList.cpp:134
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: ShortcutsList.cpp:135
+msgid "Quit Notecase"
+msgstr "Выйти из Notecase"
+
+#: ShortcutsList.cpp:136 ShortcutsList.cpp:189
+msgid "New Node"
+msgstr "Новая запись"
+
+#: ShortcutsList.cpp:137 ShortcutsList.cpp:190
+msgid "New Child Node"
+msgstr "Новая дочерняя запись"
+
+#: ShortcutsList.cpp:140 ShortcutsList.cpp:193
+msgid "Move Node Up"
+msgstr "Переместить запись вверх"
+
+#: ShortcutsList.cpp:141 ShortcutsList.cpp:194
+msgid "Move Node Down"
+msgstr "Переместить запись вниз"
+
+#: ShortcutsList.cpp:144 ShortcutsList.cpp:197
+msgid "Show Node Properties"
+msgstr "Показать свойства записи"
+
+#: ShortcutsList.cpp:145 ShortcutsList.cpp:198
+msgid "Delete Completed Nodes"
+msgstr "Удалить все обработанные записи"
+
+#: ShortcutsList.cpp:146 ShortcutsList.cpp:199
+msgid "Toggle Completed Status"
+msgstr "Переключить статус 'обработан'"
+
+#: ShortcutsList.cpp:147 ShortcutsList.cpp:200
+msgid "Sort Children Ascending"
+msgstr "Сортировать потомков по возрастанию"
+
+#: ShortcutsList.cpp:148 ShortcutsList.cpp:201
+msgid "Sort Children Descending"
+msgstr "Сортировать потомков по убыванию"
+
+#: ShortcutsList.cpp:149 ShortcutsList.cpp:202
+msgid "Sort Tree Ascending"
+msgstr "Сортировать дерево по возрастанию"
+
+#: ShortcutsList.cpp:150 ShortcutsList.cpp:203
+msgid "Sort Tree Descending"
+msgstr "Сортировать дерево по убыванию"
+
+#: ShortcutsList.cpp:152 ShortcutsList.cpp:205
+msgid "Colapse All"
+msgstr "Свернуть все"
+
+#: ShortcutsList.cpp:159 ShortcutsList.cpp:206
+msgid "Copy Branch Structure"
+msgstr "Копировать Структуру Ветви"
+
+#: ShortcutsList.cpp:160 ShortcutsList.cpp:207
+msgid "Paste Branch Root"
+msgstr "Вставить ветвь в корень"
+
+#: ShortcutsList.cpp:161
+msgid "Insert date/time"
+msgstr "Вставить дату/время"
+
+#: ShortcutsList.cpp:163
+msgid "Find Next"
+msgstr "Найти следующий"
+
+#: ShortcutsList.cpp:167
+msgid "Attachments"
+msgstr "Вложения"
+
+#: ShortcutsList.cpp:174
+msgid "Color"
+msgstr "Цвет"
+
+#: ShortcutsList.cpp:176
+msgid "Remove Formatting"
+msgstr "Удалить форматирование"
+
+#: ShortcutsList.cpp:177
+msgid "Full Screen"
+msgstr "На весь экран"
+
+#: ShortcutsList.cpp:178
+msgid "View Toolbar"
+msgstr "Показать панель инструментов"
+
+#: ShortcutsList.cpp:179
+msgid "View Node Title Bar"
+msgstr "Показать панель заголовка записи"
+
+#: ShortcutsList.cpp:180
+msgid "View Status Bar"
+msgstr "Показать панель состояния"
+
+#: ShortcutsList.cpp:181
+msgid "Word Wrap"
+msgstr "Перенос слов"
+
+#: ShortcutsList.cpp:182
+msgid "Change View Mode"
+msgstr "Измененить режим просмотра"
+
+#: ShortcutsList.cpp:183
+msgid "Calculate Word Count"
+msgstr "Посчитать количество слов"
+
+#: ShortcutsList.cpp:184
+msgid "Show help"
+msgstr "Показать справку"
+
+#: ShortcutsList.cpp:185
+msgid "About"
+msgstr "О"
+
+#: ShortcutsList.cpp:186
+msgid "Visit Website"
+msgstr "Посетить Вебсайт"
+
+#: ShortcutsListDlg.cpp:56
+msgid "You need to restart the application to use new shortcut definitions!"
+msgstr ""
+"Вам необходимо перезапустить приложение, чтобы можно было использовать новые "
+"горячие клавиши!"
+
+#: ShortcutsListDlg.cpp:107
+msgid "Shortcut editor"
+msgstr "Редактор горячих клавиш"
+
+#: ShortcutsListDlg.cpp:126
+msgid "Context:"
+msgstr "Контекст:"
+
+#: ShortcutsListDlg.cpp:135
+msgid "Tree widget"
+msgstr "Виджет дерева"
+
+#: ShortcutsListDlg.cpp:158
+msgid "Action"
+msgstr "Действие"
+
+#: ShortcutsListDlg.cpp:172
+msgid "Shortcut"
+msgstr "Горячая клавиша"
+
+#: ShortcutsListDlg.cpp:192
+msgid ""
+"Use mouse click to select an action, and then press key combination to "
+"assign the shortcut to it. Some actions are listed in more than one context "
+"so they can have more than one shortcut attached."
+msgstr ""
+"Используя мышь выберите действие, а затем нажмите сочетание клавиш, чтобы "
+"назначить горячую клавишу к нему. Некоторые действия перечислены более чем в "
+"одном списке, чтобы они могли иметь более одной горячей клавиши."
+
+#: ShortcutsListDlg.cpp:207
+msgid "Clear All"
+msgstr "Очистить все"
+
+#: ShortcutsListDlg.cpp:213
+msgid "Reset All"
+msgstr "Сбросить все"
+
+#: ShortcutsListDlg.cpp:219
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ShortcutsListDlg.cpp:225
+msgid "OK"
+msgstr "ОК"
+
+#: ShortcutsListDlg.cpp:298
+msgid "This shortcut combination is already taken!"
+msgstr "Эта комбинация горячих клавиш уже используется!"
+
+#: ShortcutsListDlg.cpp:334
+#, c-format
+msgid "%d items in this context"
+msgstr "%d пунктов в этом списке"
+
+#: gui/FileDialog.cpp:45
+msgid "Open file"
+msgstr "Открыть файл"
+
+#: gui/FileDialog.cpp:45
+msgid "Save file"
+msgstr "Сохранить файл"
+
+#: gui/FileDialog.cpp:70
+msgid "File Name:"
+msgstr "Имя файла:"
+
+#: gui/FileDialog.cpp:80
+msgid "Save as type:"
+msgstr "Сохранить как тип :"
+
+#: gui/ProgressDlg.cpp:115
+#, fuzzy
+msgid "Abort"
+msgstr "О"
+
+#: lib/FormatIOHtml.cpp:1210 lib/FormatIOHtml.cpp:1527
+#: lib/FormatIOHtml.cpp:1614
+#, c-format
+msgid ""
+"File %s\n"
+"already exists. Overwrite this and all other files?"
+msgstr ""
+"Файл %s\n"
+"уже существует. Переписать этот и все другие файлы?"
+
+#: lib/FormatIOHtml.cpp:1261
+msgid "Attachment"
+msgstr "Вложение"
+
+#: lib/FormatIOHtml.cpp:1894
+msgid "Contents"
+msgstr "Содержание"
+
+#: lib/FormatIOMMLX.cpp:79
+msgid ""
+"There were problems converting text from ibm850 to utf-8.\n"
+"Consider installing \"glibc-gconv-ibm850\" package"
+msgstr ""
+"Были выявлены проблемы конвертации текста из ibm850 в utf-8.\n"
+"Рассмотрите установку пакета \"glibc-gconv-ibm850\""
+
+#: lib/NoteDocument.cpp:377
+#, fuzzy
+msgid ""
+"Warning:\n"
+"This document was created either by a different application\n"
+"Notecase and Notecase Pro are not considered the same application),\n"
+"or by a newer version of this program.\n"
+"\n"
+"If you edit this document, you might lose some formatting!"
+msgstr ""
+"Внимание:\n"
+"Этот документ был создан либо в другом приложении,\n"
+"либо в более новой версии этой программы.\n"
+"\n"
+"Если вы изменяете этот документ, то можете потерять форматирование!"
+
+#~ msgid "New No_tecase"
+#~ msgstr "Новый No_tecase"
+
+#~ msgid "_Shortcuts"
+#~ msgstr "_Горячие клавиши"
+
+#~ msgid "_Options"
+#~ msgstr "_Опции"
+
+#~ msgid "Autosave document every:"
+#~ msgstr "Автосохранение документа каждые:"

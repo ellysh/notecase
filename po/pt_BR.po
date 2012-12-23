@@ -1,0 +1,2107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NoteCase v1.1.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-04-05 13:18-0300\n"
+"Last-Translator: Paul Eipper <paul@eipper.com.br>\n"
+"Language-Team: Paul Eipper <paul@netuno.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: BRAZIL\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AboutDlg.cpp:58
+msgid "About Notecase"
+msgstr ""
+
+#: AboutDlg.cpp:92
+msgid " - Version "
+msgstr ""
+
+#: AboutDlg.cpp:106
+msgid "Website:"
+msgstr ""
+
+#: AboutDlg.cpp:121
+msgid "Report bugs to:"
+msgstr ""
+
+#: AboutDlg.cpp:136
+msgid "Locale: "
+msgstr ""
+
+#: AboutDlg.cpp:151 FileAttachmentDlg.cpp:221 FindReplaceDlg.cpp:198
+msgid "Close"
+msgstr ""
+
+# Message on closing an unsaved document
+#: callbacks.cpp:223 callbacks.cpp:591 callbacks.cpp:913
+msgid "Document has been modified! Do you want to save it?"
+msgstr "O documento foi modificado! Deseja salvá-lo?"
+
+# File -> Open document window
+#: callbacks.cpp:269
+msgid "Open document"
+msgstr "Abrir documento"
+
+# File -> Open/Import -> supported formats
+#: callbacks.cpp:272
+#, fuzzy
+msgid "All supported formats (*.ncd,*.nce)"
+msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc)"
+
+# File -> Open/Import -> supported formats
+#: callbacks.cpp:273 callbacks.cpp:1961 FileExportDlg.cpp:42
+#: FileSaveAsDlg.cpp:36
+msgid "NoteCase document (*.ncd)"
+msgstr "Documento do NoteCase (*.ncd)"
+
+# File -> Open/Import -> supported formats
+#: callbacks.cpp:274 callbacks.cpp:1962 FileExportDlg.cpp:44
+#: FileSaveAsDlg.cpp:38
+msgid "NoteCase encrypted document (*.nce)"
+msgstr "Documento codificado do NoteCase (*.nce)"
+
+# File -> Open/Import/Export -> supported formats
+#: callbacks.cpp:275 callbacks.cpp:1967 DocActionPix.cpp:64
+msgid "All files (*)"
+msgstr "Todos os arquivos (*)"
+
+# File -> Open -> error message when trying to open an unsupported format
+#: callbacks.cpp:302 interface.cpp:604
+#, fuzzy
+msgid "Unsupported format!"
+msgstr "Este formato de documento não é suportado!"
+
+# File -> Save -> message when saving over an already existing file
+#: callbacks.cpp:457 callbacks.cpp:459 callbacks.cpp:2078 callbacks.cpp:2080
+#, c-format
+msgid "File %s already exists! Do you want to overwrite it?"
+msgstr "O arquivo %s já existe! Você deseja sobrescrevê-lo?"
+
+# When saving as NoteCenter (hnc) format a document that contains hyperlinks.
+#: callbacks.cpp:474
+msgid "Warning: .hnc format does not support hyperlinks!"
+msgstr "Atenção: o formato .hnc não suporta hyperlinks!"
+
+# File -> Save -> message when saving as an encrypted file from a regular one
+#: callbacks.cpp:500
+#, fuzzy
+msgid ""
+"You have saved file in encrypted format! Do you want to delete the original "
+"(unencrypted) file?\n"
+"This will also delete any backup of this file."
+msgstr ""
+"Você salvou o arquivo em formato codificado! Você deseja apagar o arquivo "
+"original (não-codificado)?"
+
+#: callbacks.cpp:600
+msgid "Document saving failed! Abort closing?"
+msgstr ""
+
+#: callbacks.cpp:686 callbacks.cpp:728 callbacks.cpp:753 callbacks.cpp:1391
+#: callbacks.cpp:1482 callbacks.cpp:1575 callbacks.cpp:1702 callbacks.cpp:1714
+#: callbacks.cpp:1723 callbacks.cpp:1732 callbacks.cpp:1741 callbacks.cpp:1861
+#: callbacks.cpp:1951 callbacks.cpp:2672 callbacks.cpp:2815 callbacks.cpp:2828
+#: callbacks.cpp:3496 callbacks.cpp:3515 callbacks.cpp:3575 callbacks.cpp:3626
+#: callbacks.cpp:3740 callbacks.cpp:4243 callbacks.cpp:5207 callbacks.cpp:5217
+#: callbacks.cpp:5227 callbacks.cpp:5236 callbacks.cpp:5266 callbacks.cpp:5296
+#: callbacks.cpp:5335 callbacks.cpp:5374 callbacks.cpp:5413 callbacks.cpp:5452
+#: callbacks.cpp:5499 callbacks.cpp:5687 callbacks.cpp:5789 callbacks.cpp:5822
+#: callbacks.cpp:5937 callbacks.cpp:6323 FileAttachmentDlg.cpp:255
+#: FileAttachmentDlg.cpp:360 FileAttachmentDlg.cpp:493
+msgid "Can not change read-only document!"
+msgstr ""
+
+# Message when trying to display NoteCase help with a document already open
+#: callbacks.cpp:815
+msgid ""
+"Current document has to be closed in order to open help document!\n"
+"Do you wish to proceed?\n"
+"\n"
+"(Note that if you choose to proceed you'll be prompted to save current "
+"document changes)"
+msgstr ""
+"O documento atual deve ser fechado para abrir o documento de ajuda!\n"
+"Você deseja continuar?\n"
+"\n"
+"(Note que se você escolher continuar será pedido para salvar as mudanças "
+"atuais no documento)"
+
+#: callbacks.cpp:1288
+msgid "Save operation already in progress!"
+msgstr ""
+
+# Error message when trying to save a file
+#: callbacks.cpp:1324 interface.cpp:612
+msgid "Failed to save the file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+# Default name for a new node
+#: callbacks.cpp:1430 callbacks.cpp:1519 lib/FormatIOTxt.cpp:46
+msgid "New node"
+msgstr "Nova nota"
+
+# Confirmation message when deleting a node
+#: callbacks.cpp:1620
+#, fuzzy, c-format
+msgid ""
+"Are you sure to delete the node\n"
+"\"%s\"?"
+msgstr "Você tem cereza que quer apagar a nota \"%s\"?"
+
+# File -> Import window
+#: callbacks.cpp:1957
+msgid "Import from file"
+msgstr "Importar do arquivo"
+
+# File -> Open/Import -> supported formats
+#: callbacks.cpp:1960
+#, fuzzy
+msgid "All supported formats"
+msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc)"
+
+# File -> Open/Import -> supported formats
+#: callbacks.cpp:1963 FileExportDlg.cpp:46
+msgid "NoteCenter document (*.hnc)"
+msgstr "Documento do NoteCenter (*.hnc)"
+
+# File -> Import -> supported formats
+#: callbacks.cpp:1964
+msgid "Gjots2 document (*.gjots2)"
+msgstr "Documento do Gjots2 (*.gjots2)"
+
+# File -> Import -> supported formats
+#: callbacks.cpp:1965
+msgid "Sticky Notes document (*.xml)"
+msgstr "Documento do Sticky Notes (*.xml)"
+
+#: callbacks.cpp:1966
+msgid "MM/LX Mindmap/Outline document (*.MM)"
+msgstr ""
+
+# File -> Export type selection
+#: callbacks.cpp:2142 callbacks.cpp:2162 callbacks.cpp:4250 callbacks.cpp:5271
+#: callbacks.cpp:5301 callbacks.cpp:5340 callbacks.cpp:5379 callbacks.cpp:5418
+#: callbacks.cpp:5457 callbacks.cpp:5504 callbacks.cpp:5666 callbacks.cpp:5827
+msgid "No selected node!"
+msgstr "Nenhuma nota selecionada!"
+
+#: callbacks.cpp:2384 callbacks.cpp:2455
+#, fuzzy
+msgid "Document is empty!"
+msgstr "Fonte do documento:"
+
+# Edit -> Find -> error message when searching with empty string
+#: callbacks.cpp:2424 callbacks.cpp:2467 FindReplaceDlg.cpp:247
+msgid "Error: Search text is empty!"
+msgstr "Erro: Não há texto a ser procurado!"
+
+#: callbacks.cpp:2514
+msgid "Searching ..."
+msgstr ""
+
+# Edit -> Find Next -> message when no more matches are found for the search string
+#: callbacks.cpp:2530 callbacks.cpp:2545
+msgid "No more results found!"
+msgstr "Não foram encontrados mais resultados!"
+
+#: callbacks.cpp:2538
+#, fuzzy
+msgid "Search canceled!"
+msgstr "Busca terminada!"
+
+#: callbacks.cpp:2598
+#, fuzzy
+msgid "This node contains the tag!"
+msgstr "Esta nota contém a classificação procurada!"
+
+#: callbacks.cpp:2645
+msgid "Reached end of the document! Continue searching from the start?"
+msgstr "Fim do documento! Continuar busca do início?"
+
+#: callbacks.cpp:2654
+msgid "Search done!"
+msgstr "Busca terminada!"
+
+# File -> Reload -> confirmation message
+#: callbacks.cpp:3437
+msgid "Do you want to reload the document and lose your possible changes?"
+msgstr ""
+"Você deseja recarregar o documento e perder todas as possíveis mudanças?"
+
+# File -> Reload -> error message when trying to reload an unsaved document
+#: callbacks.cpp:3449
+msgid "Document has not been saved yet!"
+msgstr "O documento ainda não foi salvo!"
+
+#: callbacks.cpp:3723 FileAttachmentDlg.cpp:89
+msgid "The document is read-only! You won't be able to make any changes!"
+msgstr ""
+
+# Error message when trying to show the node properties without selecting a node
+#: callbacks.cpp:3777
+msgid "No Node selected"
+msgstr "Nenhuma Nota selecionada"
+
+#: callbacks.cpp:3955
+msgid "Autosave file found! Do you want to load it?"
+msgstr "Backup do arquivo encontrado! Deseja carrega-lo?"
+
+# Error message when trying to show the node properties without selecting a node
+#: callbacks.cpp:4327
+#, fuzzy
+msgid "No text selection!"
+msgstr "Nenhuma Nota selecionada"
+
+#: callbacks.cpp:4678
+msgid "Word Count"
+msgstr ""
+
+#: callbacks.cpp:4707
+msgid "Word Count ( title / text / title and text )\n"
+msgstr ""
+
+#: callbacks.cpp:4709
+msgid "NOTE: Line counting does not take into account word wrapping.\n"
+msgstr ""
+
+# File -> Save document window
+#: callbacks.cpp:4712
+#, fuzzy
+msgid "Total document"
+msgstr "Salvar documento"
+
+#: callbacks.cpp:4714
+#, c-format
+msgid " - %d node(s)"
+msgstr ""
+
+# Node Properties -> Keywords
+#: callbacks.cpp:4742 callbacks.cpp:4834
+#, fuzzy
+msgid "words"
+msgstr "Classificação:"
+
+#: callbacks.cpp:4767 callbacks.cpp:4859
+msgid "lines"
+msgstr ""
+
+#: callbacks.cpp:4792 callbacks.cpp:4884
+msgid "characters"
+msgstr ""
+
+#: callbacks.cpp:4803
+#, fuzzy
+msgid "Current node"
+msgstr "Nota de destino"
+
+#: callbacks.cpp:4806
+#, c-format
+msgid " - ancestor to %d node(s)"
+msgstr ""
+
+#: callbacks.cpp:5006 callbacks.cpp:5009
+#, c-format
+msgid "Completed descendants: %5.1f%% (%d / %d) (children completed: %d / %d)"
+msgstr ""
+
+#: callbacks.cpp:5046
+#, fuzzy
+msgid "Save Picture"
+msgstr "Salvar arquivo"
+
+# Edit -> Link Wizard
+#: callbacks.cpp:5061 ShortcutsList.cpp:165
+msgid "Link Wizard"
+msgstr "Criar Link"
+
+#: callbacks.cpp:5070 MainWnd.cpp:1815
+#, fuzzy
+msgid "F_ormat"
+msgstr "Formato do arquivo:"
+
+#: callbacks.cpp:5077 MainWnd.cpp:1826
+msgid "_Bold"
+msgstr ""
+
+#: callbacks.cpp:5085 MainWnd.cpp:1838
+msgid "_Italic"
+msgstr ""
+
+#: callbacks.cpp:5093 MainWnd.cpp:1850
+msgid "_Underline"
+msgstr ""
+
+#: callbacks.cpp:5101 MainWnd.cpp:1862
+msgid "_Strikethrough"
+msgstr ""
+
+#: callbacks.cpp:5109 MainWnd.cpp:1874
+msgid "_Text color"
+msgstr ""
+
+#: callbacks.cpp:5116 MainWnd.cpp:1003 MainWnd.cpp:1008 ShortcutsList.cpp:175
+msgid "Text Background Color"
+msgstr ""
+
+#: callbacks.cpp:5123 MainWnd.cpp:1896
+msgid "_Remove formatting"
+msgstr ""
+
+#: callbacks.cpp:5200
+msgid "Link target no longer exists."
+msgstr ""
+
+#: callbacks.cpp:5567
+#, fuzzy
+msgid "Save picture"
+msgstr "Salvar arquivo"
+
+#: callbacks.cpp:5568 DocActionPix.cpp:61
+msgid "PNG format (*.png)"
+msgstr ""
+
+#: callbacks.cpp:5569
+msgid "JPEG format (*.jpg)"
+msgstr ""
+
+# Error message when trying to save a file
+#: callbacks.cpp:5602
+#, fuzzy
+msgid "Failed to save picture to file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+#: callbacks.cpp:5779
+#, fuzzy
+msgid "Unknown format! Do you want to load it as text?"
+msgstr "Backup do arquivo encontrado! Deseja carrega-lo?"
+
+#: callbacks.cpp:5811
+msgid "You'll need to save the document to commit the password change!"
+msgstr ""
+
+#: callbacks.cpp:6028 FileAttachmentDlg.cpp:580
+msgid ""
+"Do you want to attach files to the node?\n"
+"\n"
+msgstr ""
+
+# Error message when trying to save a file
+#: callbacks.cpp:6051 FileAttachmentDlg.cpp:603
+#, fuzzy
+msgid "Failed to open input file!\n"
+msgstr "Não foi possível salvar o arquivo!"
+
+#: callbacks.cpp:6065 FileAttachmentDlg.cpp:302 FileAttachmentDlg.cpp:617
+#: lib/NoteDocument.cpp:341
+msgid "Loading file. Please wait..."
+msgstr ""
+
+#: callbacks.cpp:6141
+msgid "Node title must not be empty!"
+msgstr ""
+
+# File -> Reload -> error message when trying to reload an unsaved document
+#: callbacks.cpp:6281
+#, fuzzy
+msgid "Document not encrypted!"
+msgstr "O documento ainda não foi salvo!"
+
+# File -> Reload -> error message when trying to reload an unsaved document
+#: callbacks.cpp:6285
+#, fuzzy
+msgid "Document not saved!"
+msgstr "O documento ainda não foi salvo!"
+
+#: callbacks.cpp:6368
+msgid "Insert new node or select an existing one to start typing."
+msgstr ""
+
+#: DateTimeDlg.cpp:64 MainWnd.cpp:1431
+msgid "Insert Date/Time"
+msgstr ""
+
+#: DateTimeDlg.cpp:90
+msgid "Select date/time format:"
+msgstr ""
+
+#: DateTimeDlg.cpp:101
+msgid "value"
+msgstr ""
+
+#: DocActionFinish.cpp:66
+msgid "Do you want to remove 'Completed' status from all the descendants?"
+msgstr ""
+
+#: DocActionFmt.cpp:90
+msgid "Pick text color"
+msgstr ""
+
+#: DocActionPix.cpp:57
+#, fuzzy
+msgid "Open picture"
+msgstr "Abrir arquivo"
+
+# File -> Open/Import -> supported formats
+#: DocActionPix.cpp:60
+#, fuzzy
+msgid "All supported image formats (*.png,*.jpg,*.gif)"
+msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc)"
+
+#: DocActionPix.cpp:62
+msgid "JPG format (*.jpg)"
+msgstr ""
+
+#: DocActionPix.cpp:63
+msgid "GIF format (*.gif)"
+msgstr ""
+
+# Edit -> Link Wizard
+#: EditDlg.cpp:119
+#, fuzzy
+msgid "Edit text"
+msgstr "Texto do link:"
+
+# Edit -> Search -> Search target
+#: FileAttachmentDlg.cpp:129
+#, fuzzy
+msgid "Node attachments"
+msgstr "Título/conteúdo das notas"
+
+#: FileAttachmentDlg.cpp:175
+msgid "Name"
+msgstr ""
+
+#: FileAttachmentDlg.cpp:189
+msgid "Size"
+msgstr ""
+
+# Node Properties -> Keywords
+#: FileAttachmentDlg.cpp:206 NodePropertiesDlg.cpp:473
+msgid "Add"
+msgstr "Adicionar"
+
+# Node Properties -> Keywords
+#: FileAttachmentDlg.cpp:211 LinkPropertiesDlg.cpp:162
+#: NodePropertiesDlg.cpp:477
+msgid "Remove"
+msgstr "Remover"
+
+#: FileAttachmentDlg.cpp:216
+#, fuzzy
+msgid "Save to file"
+msgstr "Salvar arquivo"
+
+#: FileAttachmentDlg.cpp:261
+msgid "Add attachment"
+msgstr ""
+
+# Error message when trying to save a file
+#: FileAttachmentDlg.cpp:293
+#, fuzzy
+msgid "Failed to open input file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+# Error message when trying to show the node properties without selecting a node
+#: FileAttachmentDlg.cpp:408
+#, fuzzy
+msgid "No attachment selected!"
+msgstr "Nenhuma Nota selecionada"
+
+# File -> Save document window
+#: FileAttachmentDlg.cpp:419
+#, fuzzy
+msgid "Save data"
+msgstr "Salvar documento"
+
+# Error message when trying to save a file
+#: FileAttachmentDlg.cpp:451 FileAttachmentDlg.cpp:704
+#, fuzzy
+msgid "Failed to open output file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+#: FileAttachmentDlg.cpp:456 FileAttachmentDlg.cpp:709
+#: lib/NoteDocument.cpp:489
+msgid "Saving file. Please wait..."
+msgstr ""
+
+# File -> Export -> Node with child/Entire Document -> supported formats
+#: FileExportDlg.cpp:48
+msgid "HTML file (*.html)"
+msgstr "Arquivo HTML (*.html)"
+
+# File -> Export -> supported formats
+#: FileExportDlg.cpp:50
+msgid "Text file (*.txt)"
+msgstr "Arquivo de texto (*.txt)"
+
+#: FileExportDlg.cpp:53
+msgid "Standalone executable (*.exe)"
+msgstr ""
+
+#: FileExportDlg.cpp:56
+msgid "Standalone executable"
+msgstr ""
+
+# File -> Export type selection
+#: FileExportDlg.cpp:75
+msgid "Selected branch"
+msgstr "Apenas notas selecionadas"
+
+# File -> Export type selection
+#: FileExportDlg.cpp:76
+msgid "Selected node only"
+msgstr "Apenas a nota selecionada"
+
+# File -> Export type selection
+#: FileExportDlg.cpp:77
+msgid "Entire document"
+msgstr "Documento inteiro"
+
+# File -> Export
+#: FileExportDlg.cpp:285 ShortcutsList.cpp:130
+msgid "Export"
+msgstr "Exportar"
+
+#: FileExportDlg.cpp:310
+msgid "Document source:"
+msgstr "Fonte do documento:"
+
+#: FileExportDlg.cpp:317 FileSaveAsDlg.cpp:248
+msgid "File format:"
+msgstr "Formato do arquivo:"
+
+#: FileExportDlg.cpp:336 FileSaveAsDlg.cpp:182
+msgid "File name:"
+msgstr "Nome do arquivo:"
+
+#: FileExportDlg.cpp:368
+msgid "Use custom CSS path:"
+msgstr ""
+
+# File -> Export type selection
+#: FileExportDlg.cpp:377
+#, fuzzy
+msgid "Export linked documents"
+msgstr "Documento inteiro"
+
+#: FileExportDlg.cpp:383
+msgid "Post-export script:"
+msgstr ""
+
+# Edit -> Options -> Save
+#: FileExportDlg.cpp:404 MainWnd.cpp:744 MainWnd.cpp:747
+#: OptionsDialog.cpp:1102
+msgid "Save"
+msgstr "Salvar"
+
+# File -> Export selection window
+#: FileExportDlg.cpp:452
+msgid "Select export file"
+msgstr "Selecione arquivo para exportar"
+
+#: FileExportDlg.cpp:482
+msgid "You must define the export file name!"
+msgstr "Você deve definir um nome de arquivo para exportar!"
+
+# File -> Save document window
+#: FileSaveAsDlg.cpp:159
+msgid "Save document"
+msgstr "Salvar documento"
+
+#: FileSaveAsDlg.cpp:196
+msgid "File directory:"
+msgstr ""
+
+# File -> Save
+#: FileSaveAsDlg.cpp:270 MainWnd.cpp:1208 gui/FileDialog.cpp:99
+msgid "_Save"
+msgstr "_Salvar"
+
+#: FileSaveAsDlg.cpp:315
+msgid "Select target directory"
+msgstr ""
+
+#: FileSaveAsDlg.cpp:369
+msgid "File name must not be empty!"
+msgstr ""
+
+# Edit -> Search -> Search target
+#: FindDialog.cpp:31
+msgid "Node title/contents"
+msgstr "Título/conteúdo das notas"
+
+# Edit -> Search -> Search target
+#: FindDialog.cpp:32
+#, fuzzy
+msgid "Node tags"
+msgstr "Título/conteúdo das notas"
+
+# Edit -> Find
+#: FindDialog.cpp:55 ShortcutsList.cpp:162
+msgid "Find"
+msgstr "Localizar"
+
+# Edit -> Find window
+#: FindDialog.cpp:69
+msgid "Text:"
+msgstr "Texto:"
+
+# Edit -> Search
+#: FindDialog.cpp:83
+msgid "Search target:"
+msgstr "Onde procurar:"
+
+#: FindDialog.cpp:96
+msgid "Direction:"
+msgstr "Direção:"
+
+# Right-Click menu on tree -> under Move Node
+#: FindDialog.cpp:103 MainWnd.cpp:2289
+msgid "Up"
+msgstr "Acima"
+
+# Right-Click menu on tree -> under Move Node
+#: FindDialog.cpp:111 MainWnd.cpp:2299
+msgid "Down"
+msgstr "Abaixo"
+
+# Edit -> Find window
+#: FindDialog.cpp:119 FindReplaceDlg.cpp:167
+msgid "Case sensitive"
+msgstr "Diferenciação de maiúsculas e minúsculas"
+
+# Edit -> Replace
+#: FindReplaceDlg.cpp:97 ShortcutsList.cpp:164
+msgid "Replace"
+msgstr "Substituir"
+
+# Edit -> Replace
+#: FindReplaceDlg.cpp:115
+msgid "Find what:"
+msgstr "Procurar:"
+
+# Edit -> Replace
+#: FindReplaceDlg.cpp:129
+msgid "Replace with:"
+msgstr "Substituir com:"
+
+# Edit -> Find Next
+#: FindReplaceDlg.cpp:177
+msgid "_Find next"
+msgstr "Procurar pró_ximo"
+
+# Edit -> Replace
+#: FindReplaceDlg.cpp:184
+msgid "_Replace"
+msgstr "_Substituir"
+
+# Edit -> Replace
+#: FindReplaceDlg.cpp:191
+msgid "Replace _All"
+msgstr "Substituir _Todos"
+
+#: FindReplaceDlg.cpp:391
+#, c-format
+msgid ""
+"Done!\n"
+"\n"
+"%d string instances were replaced!"
+msgstr ""
+"Pronto!\n"
+"\n"
+"%d palavras foram substituídas!"
+
+# File -> Recent -> Clear List (message prompt)
+#: interface.cpp:303
+msgid "Are you sure you want to delete history list?"
+msgstr "Você tem certeza que quer apagar a lista de histórico?"
+
+#: interface.cpp:428 interface.cpp:487 gui/ProgressDlg.cpp:80
+msgid "Info"
+msgstr ""
+
+#: interface.cpp:573 interface.cpp:600
+msgid "OK!"
+msgstr "OK!"
+
+#: interface.cpp:575
+msgid "Loading aborted by user!"
+msgstr "Carregamento foi abortado pelo usuário!"
+
+#: interface.cpp:577
+msgid "File not found!"
+msgstr "Arquivo não encontrado!"
+
+# Error message for entering an invalid password when loading an encrypted file
+#: interface.cpp:579
+msgid "Invalid document password!"
+msgstr "Senha incorreta!"
+
+# File -> Open -> error message when trying to open an unsupported format
+#: interface.cpp:581
+msgid "Unsupported document format!"
+msgstr "Este formato de documento não é suportado!"
+
+#: interface.cpp:583
+msgid "Error when parsing document (bad formatting)!"
+msgstr "Erro ao ler o documento (formatação inválida)!"
+
+# Error message when trying to load a file
+#: interface.cpp:585
+msgid "Failed to load the file!"
+msgstr "Não foi possível abrir o arquivo!"
+
+#: interface.cpp:587
+msgid "Inadequate file permissions!"
+msgstr ""
+
+#: interface.cpp:589
+msgid "Load operation is not supported for this format!"
+msgstr ""
+
+#: interface.cpp:592 interface.cpp:617
+msgid "Unknown error!"
+msgstr "Erro desconhecido!"
+
+#: interface.cpp:602
+#, fuzzy
+msgid "Saving aborted by user!"
+msgstr "Carregamento foi abortado pelo usuário!"
+
+# Error message when trying to save a file
+#: interface.cpp:606
+#, fuzzy
+msgid "Failed to overwrite target file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+#: interface.cpp:608
+msgid ""
+"Failed to open output file! Please check permissions or available disk size!"
+msgstr ""
+
+# Error message when trying to save a file
+#: interface.cpp:610
+#, fuzzy
+msgid "Failed to open application file!"
+msgstr "Não foi possível salvar o arquivo!"
+
+#: interface.cpp:614
+msgid "Save operation is not supported for this format!"
+msgstr ""
+
+#: LinkPropertiesDlg.cpp:41
+msgid "Link to a node"
+msgstr ""
+
+#: LinkPropertiesDlg.cpp:42
+msgid "Link to a file or web address"
+msgstr ""
+
+#: LinkPropertiesDlg.cpp:73
+msgid "Link Properties"
+msgstr "Propriedades do Link"
+
+# Edit -> Link Wizard
+#: LinkPropertiesDlg.cpp:95
+msgid "Link text:"
+msgstr "Texto do link:"
+
+#: LinkPropertiesDlg.cpp:108
+msgid "Link type:"
+msgstr "Tipo de link:"
+
+# Edit -> Link Wizard
+#: LinkPropertiesDlg.cpp:115
+msgid "Target file or URL:"
+msgstr "Arquivo de destino ou URL:"
+
+#: LinkPropertiesDlg.cpp:122
+#, fuzzy
+msgid "Target node:"
+msgstr "Nota de destino"
+
+#: main.cpp:301
+#, c-format
+msgid ""
+"One or more crash logs were found in:\n"
+"%s.\n"
+"\n"
+"Press Yes to delete those files\n"
+"(consider sending the files to the author with the crash description)."
+msgstr ""
+
+#: main.cpp:447
+msgid "Another NoteCase instance detected! Exiting!"
+msgstr "Outra instância do NoteCase detectada! Saindo agora!"
+
+# Icon help text
+#: MainWnd.cpp:724 MainWnd.cpp:727
+msgid "New"
+msgstr "Novo"
+
+# Icon help text
+#: MainWnd.cpp:734 MainWnd.cpp:737
+msgid "Open"
+msgstr "Abrir"
+
+# Icon help text
+#: MainWnd.cpp:754 MainWnd.cpp:757
+msgid "Save As"
+msgstr "Salvar Como"
+
+# Icon help text
+#: MainWnd.cpp:769 MainWnd.cpp:772 ShortcutsList.cpp:153
+msgid "Undo"
+msgstr "Desfazer"
+
+# Icon help text
+#: MainWnd.cpp:780 MainWnd.cpp:783 ShortcutsList.cpp:154
+msgid "Redo"
+msgstr "Refazer"
+
+# Icon help text
+#: MainWnd.cpp:791 MainWnd.cpp:794 ShortcutsList.cpp:155
+msgid "Cut"
+msgstr "Recortar"
+
+# Icon help text
+#: MainWnd.cpp:801 MainWnd.cpp:804 ShortcutsList.cpp:156
+msgid "Copy"
+msgstr "Copiar"
+
+# Icon help text
+#: MainWnd.cpp:811 MainWnd.cpp:814 ShortcutsList.cpp:157
+msgid "Paste"
+msgstr "Colar"
+
+# Icon help text
+#: MainWnd.cpp:821 MainWnd.cpp:824 ShortcutsList.cpp:158
+msgid "Delete"
+msgstr "Excluir"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:834 MainWnd.cpp:837 MainWnd.cpp:2207
+msgid "Insert Node"
+msgstr "Inserir nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:844 MainWnd.cpp:847 ShortcutsList.cpp:142 ShortcutsList.cpp:195
+#, fuzzy
+msgid "Move Node Left"
+msgstr "Mover nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:854 MainWnd.cpp:857 ShortcutsList.cpp:143 ShortcutsList.cpp:196
+#, fuzzy
+msgid "Move Node Right"
+msgstr "Mover nota"
+
+#: MainWnd.cpp:872 MainWnd.cpp:875 MainWnd.cpp:2277
+msgid "Link wizard"
+msgstr "Criar link"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:883 MainWnd.cpp:886 ShortcutsList.cpp:166
+#, fuzzy
+msgid "Insert Picture"
+msgstr "Inserir nota"
+
+# Edit -> Search -> Search target
+#: MainWnd.cpp:895 MainWnd.cpp:900
+#, fuzzy
+msgid "Node Attachments"
+msgstr "Título/conteúdo das notas"
+
+#: MainWnd.cpp:913 MainWnd.cpp:918 ShortcutsList.cpp:170
+msgid "Bold"
+msgstr ""
+
+#: MainWnd.cpp:931 MainWnd.cpp:936 ShortcutsList.cpp:171
+msgid "Italic"
+msgstr ""
+
+#: MainWnd.cpp:949 MainWnd.cpp:954 ShortcutsList.cpp:172
+msgid "Underline"
+msgstr ""
+
+#: MainWnd.cpp:967 MainWnd.cpp:972 ShortcutsList.cpp:173
+msgid "Strikethrough"
+msgstr ""
+
+# Edit -> Options -> Display
+#: MainWnd.cpp:985 MainWnd.cpp:990
+#, fuzzy
+msgid "Text Color"
+msgstr "Fonte do texto:"
+
+# Icon help text
+#: MainWnd.cpp:1018 MainWnd.cpp:1021
+msgid "Help"
+msgstr "Ajuda"
+
+# Message asking for password when trying to open or save an encrypted file
+#: MainWnd.cpp:1058
+#, fuzzy
+msgid "Please enter the password for file: "
+msgstr "Por favor insira a senha para o arquivo\n"
+
+# File menu
+#: MainWnd.cpp:1154
+msgid "_File"
+msgstr "_Arquivo"
+
+# Default name for a new node
+#: MainWnd.cpp:1165
+#, fuzzy
+msgid "New _Window"
+msgstr "Nova nota"
+
+# File -> New
+#: MainWnd.cpp:1178
+msgid "_New"
+msgstr "_Novo"
+
+# File -> Open
+#: MainWnd.cpp:1188 gui/FileDialog.cpp:99
+msgid "_Open"
+msgstr "_Abrir"
+
+#: MainWnd.cpp:1198
+msgid "_Close"
+msgstr ""
+
+# File -> Save As
+#: MainWnd.cpp:1218
+msgid "Save _As"
+msgstr "Salvar _Como"
+
+# File -> Reload
+#: MainWnd.cpp:1228
+msgid "Re_load"
+msgstr "Recarre_gar"
+
+#: MainWnd.cpp:1238
+msgid "Read-Only"
+msgstr ""
+
+#: MainWnd.cpp:1245
+msgid "Document property that forbids document editing."
+msgstr ""
+
+# File -> Open document window
+#: MainWnd.cpp:1247
+#, fuzzy
+msgid "_Lock Document"
+msgstr "Abrir documento"
+
+# File -> Open/Import -> supported formats
+#: MainWnd.cpp:1258
+#, fuzzy
+msgid "Unload encrypted document from memory."
+msgstr "Documento codificado do NoteCase (*.nce)"
+
+# Password window
+#: MainWnd.cpp:1260
+#, fuzzy
+msgid "_Change Password"
+msgstr "Senha"
+
+# File -> Import
+#: MainWnd.cpp:1277
+#, fuzzy
+msgid "_Import"
+msgstr "Importar"
+
+# File -> Export
+#: MainWnd.cpp:1285
+#, fuzzy
+msgid "_Export"
+msgstr "Exportar"
+
+# File -> Recent
+#: MainWnd.cpp:1303
+msgid "_Recent"
+msgstr "_Recente"
+
+# File -> Quit
+#: MainWnd.cpp:1317
+msgid "_Quit"
+msgstr "Sai_r"
+
+# Edit menu
+#: MainWnd.cpp:1331
+msgid "_Edit"
+msgstr "_Editar"
+
+# Edit -> Undo
+#: MainWnd.cpp:1342
+msgid "_Undo"
+msgstr "_Desfazer"
+
+# Edit -> Redo
+#: MainWnd.cpp:1353
+msgid "_Redo"
+msgstr "_Refazer"
+
+# Edit -> Cut
+#: MainWnd.cpp:1369
+msgid "Cu_t"
+msgstr "Recor_tar"
+
+# Edit -> Copy
+#: MainWnd.cpp:1379
+msgid "_Copy"
+msgstr "_Copiar"
+
+# Edit -> Paste
+#: MainWnd.cpp:1389
+msgid "_Paste"
+msgstr "C_olar"
+
+# Edit -> Delete
+#: MainWnd.cpp:1399
+msgid "_Delete"
+msgstr "E_xcluir"
+
+#: MainWnd.cpp:1409
+msgid "Copy Branch _Structure"
+msgstr ""
+
+#: MainWnd.cpp:1420
+msgid "Paste Branch To Root"
+msgstr ""
+
+# Edit -> Find
+#: MainWnd.cpp:1448
+msgid "_Find"
+msgstr "_Procurar"
+
+# Edit -> Find Next
+#: MainWnd.cpp:1458
+msgid "Find _Next"
+msgstr "Procurar _próximo"
+
+# Edit -> Replace
+#: MainWnd.cpp:1468
+#, fuzzy
+msgid "R_eplace"
+msgstr "Substituir"
+
+# Edit -> Link Wizard
+#: MainWnd.cpp:1478
+#, fuzzy
+msgid "Link _Wizard"
+msgstr "Criar Link"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1489
+#, fuzzy
+msgid "_Insert Picture"
+msgstr "Inserir nota"
+
+# Edit -> Search -> Search target
+#: MainWnd.cpp:1500
+#, fuzzy
+msgid "Node _Attachments"
+msgstr "Título/conteúdo das notas"
+
+#: MainWnd.cpp:1516 ShortcutsList.cpp:168
+msgid "Configure Shortcuts"
+msgstr ""
+
+# Default name for a new node
+#: MainWnd.cpp:1526 ShortcutsList.cpp:169
+#, fuzzy
+msgid "Configure NoteCase"
+msgstr "Nova nota"
+
+# View menu
+#: MainWnd.cpp:1539
+msgid "_View"
+msgstr "E_xibir"
+
+#: MainWnd.cpp:1550
+msgid "_Full Screen"
+msgstr ""
+
+#: MainWnd.cpp:1563
+msgid "_Always on top"
+msgstr ""
+
+# View -> Tool Bar
+#: MainWnd.cpp:1570
+#, fuzzy
+msgid "_Tool Bar"
+msgstr "Barra de Ferramentas"
+
+# View -> Node Title Bar
+#: MainWnd.cpp:1578
+#, fuzzy
+msgid "_Node Title Bar"
+msgstr "Barra de Título da Nota"
+
+# View -> Status Bar
+#: MainWnd.cpp:1586
+#, fuzzy
+msgid "_Status Bar"
+msgstr "Barra de Status"
+
+# View -> Wrap
+#: MainWnd.cpp:1594
+#, fuzzy
+msgid "_Wrap"
+msgstr "Quebra de Linha"
+
+#: MainWnd.cpp:1602
+msgid "Change View _Mode"
+msgstr ""
+
+#: MainWnd.cpp:1609
+msgid "_Calculate Word Count"
+msgstr ""
+
+#: MainWnd.cpp:1620
+msgid "_Tree"
+msgstr ""
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1632
+#, fuzzy
+msgid "_Insert Node"
+msgstr "Inserir nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1640
+#, fuzzy
+msgid "Insert Child _Node"
+msgstr "Inserir sub-nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1648
+#, fuzzy
+msgid "_Delete Node"
+msgstr "Apagar nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1659
+#, fuzzy
+msgid "_Rename Node"
+msgstr "Renomear nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1667
+#, fuzzy
+msgid "_Move Node"
+msgstr "Mover nota"
+
+#: MainWnd.cpp:1671
+msgid "_Sort"
+msgstr ""
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1675
+#, fuzzy
+msgid "_Expand All"
+msgstr "Expandir tudo"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1683
+#, fuzzy
+msgid "_Collapse All"
+msgstr "Contrair tudo"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:1691
+#, fuzzy
+msgid "Node _Properties"
+msgstr "Propriedades da nota"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:1705
+#, fuzzy
+msgid "_Up"
+msgstr "Acima"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:1716
+#, fuzzy
+msgid "_Down"
+msgstr "Abaixo"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:1727
+#, fuzzy
+msgid "_Left"
+msgstr "Esquerda"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:1738
+#, fuzzy
+msgid "_Right"
+msgstr "Direita"
+
+#: MainWnd.cpp:1754 MainWnd.cpp:2334
+msgid "_Sort Children Ascending"
+msgstr ""
+
+#: MainWnd.cpp:1765 MainWnd.cpp:2344
+msgid "Sort _Children Descending"
+msgstr ""
+
+#: MainWnd.cpp:1776 MainWnd.cpp:2354
+msgid "Sort Root Ascending"
+msgstr ""
+
+#: MainWnd.cpp:1787 MainWnd.cpp:2364
+msgid "Sort Root Descending"
+msgstr ""
+
+#: MainWnd.cpp:1800
+msgid "Delete all _Completed nodes"
+msgstr ""
+
+#: MainWnd.cpp:1885
+msgid "Text Background _Color"
+msgstr ""
+
+# Help menu
+#: MainWnd.cpp:1912
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: MainWnd.cpp:1923
+msgid "_Visit Website"
+msgstr ""
+
+# Help -> Show Help
+#: MainWnd.cpp:1933
+msgid "_Show help"
+msgstr "_Exibir Ajuda"
+
+# Help -> About
+#: MainWnd.cpp:1948
+msgid "_About"
+msgstr "_Sobre"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2214
+msgid "Insert Child Node"
+msgstr "Inserir sub-nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2221 ShortcutsList.cpp:138 ShortcutsList.cpp:191
+msgid "Delete Node"
+msgstr "Apagar nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2231 ShortcutsList.cpp:139 ShortcutsList.cpp:192
+msgid "Rename Node"
+msgstr "Renomear nota"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2238
+msgid "Move Node"
+msgstr "Mover nota"
+
+# File -> Export
+#: MainWnd.cpp:2242
+#, fuzzy
+msgid "Sort"
+msgstr "Exportar"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2246 ShortcutsList.cpp:151 ShortcutsList.cpp:204
+msgid "Expand All"
+msgstr "Expandir tudo"
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2253
+msgid "Collapse All"
+msgstr "Contrair tudo"
+
+#: MainWnd.cpp:2260 NodePropertiesDlg.cpp:481
+msgid "Mark node as Completed"
+msgstr ""
+
+# Right-Click menu on tree
+#: MainWnd.cpp:2267 NodePropertiesDlg.cpp:320
+msgid "Node Properties"
+msgstr "Propriedades da nota"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:2309
+msgid "Left"
+msgstr "Esquerda"
+
+# Right-Click menu on tree -> under Move Node
+#: MainWnd.cpp:2319
+msgid "Right"
+msgstr "Direita"
+
+# File -> Recent -> Clear List
+#: mru.cpp:137
+msgid " - Clear list - "
+msgstr " - Limpar lista -"
+
+#: mru.cpp:145
+msgid "( empty )"
+msgstr ""
+
+#: NodePropertiesDlg.cpp:223
+#, fuzzy
+msgid "Tag must not contain \";\" character!"
+msgstr "A classificação não pode conter o caracter \";\"!"
+
+#: NodePropertiesDlg.cpp:239
+#, fuzzy
+msgid "This tag was already added for this node!"
+msgstr "Esta classificação já foi adicionada à esta nota!"
+
+# Node Properties -> Node title
+#: NodePropertiesDlg.cpp:331
+msgid "Title:"
+msgstr "Título:"
+
+#: NodePropertiesDlg.cpp:363
+msgid "Created:"
+msgstr ""
+
+#: NodePropertiesDlg.cpp:370 NodePropertiesDlg.cpp:384
+#: PixPropertiesDlg.cpp:110 PixPropertiesDlg.cpp:123
+msgid "unknown"
+msgstr ""
+
+#: NodePropertiesDlg.cpp:377
+msgid "Modified:"
+msgstr ""
+
+# Node Properties -> Icon selection
+#: NodePropertiesDlg.cpp:401
+msgid "Icon:"
+msgstr "Ícone:"
+
+# Node Properties -> Icon selection
+#: NodePropertiesDlg.cpp:406 OptionsDialog.cpp:1191
+msgid "None"
+msgstr "Nenhum"
+
+# Node Properties -> Icon selection
+#: NodePropertiesDlg.cpp:412 OptionsDialog.cpp:1199
+msgid "Internal"
+msgstr "Interno"
+
+# Node Properties -> Icon selection
+#: NodePropertiesDlg.cpp:418 OptionsDialog.cpp:1207
+msgid "Custom"
+msgstr "Selecionar"
+
+#: NodePropertiesDlg.cpp:456
+msgid "Tags:"
+msgstr ""
+
+# File -> Open/Import -> supported formats
+#: NodePropertiesDlg.cpp:616
+#, fuzzy
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc)"
+
+# Node Properties -> Icon - Custom -> browse window
+#: NodePropertiesDlg.cpp:617 OptionsDialog.cpp:1500
+msgid "XPM icon file (*.xpm)"
+msgstr "Ícone XPM (*.xpm)"
+
+# Node Properties -> Icon - Custom -> browse window
+#: NodePropertiesDlg.cpp:618 OptionsDialog.cpp:1501
+#, fuzzy
+msgid "Icon file (*.ico)"
+msgstr "Ícone XPM (*.xpm)"
+
+#: NodePropertiesDlg.cpp:619 OptionsDialog.cpp:1502
+msgid "PNG file format (*.png)"
+msgstr ""
+
+#: NodePropertiesDlg.cpp:620 OptionsDialog.cpp:1503
+msgid "JPEG file format (*.jpg)"
+msgstr ""
+
+#: NodePropertiesDlg.cpp:621
+#, fuzzy
+msgid "GIF file format (*.gif)"
+msgstr "Formato do arquivo:"
+
+# Error message when trying to load a file
+#: NodePropertiesDlg.cpp:686 OptionsDialog.cpp:1623
+#, fuzzy
+msgid "Failed to load node icon file!"
+msgstr "Não foi possível abrir o arquivo!"
+
+#: OptionsDialog.cpp:638
+msgid "Some of the changed options require program restart!"
+msgstr ""
+
+# Edit -> Options -> Display -> Change language
+#: OptionsDialog.cpp:769
+msgid "You must restart NoteCase for this change to take effect!"
+msgstr "Você deve reiniciar o NoteCase para essa mudança ter efeito!"
+
+# Edit -> Options -> Options window
+#: OptionsDialog.cpp:849
+msgid "Options"
+msgstr "Opções"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:884
+msgid "Start at logon"
+msgstr "Iniciar no logon"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:888
+msgid "Maximize on startup"
+msgstr "Maximizar ao iniciar"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:892
+msgid "Allow single instance only"
+msgstr "Habilitar apenas instância única"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:896
+msgid "Reload last used document"
+msgstr "Abrir o último documento usado"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:900
+msgid "Register document formats"
+msgstr "Registrar as extensões de documentos"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:904
+msgid "Restore last position/size"
+msgstr "Lembrar última posição/tamanho"
+
+# Edit -> Options -> Startup
+#: OptionsDialog.cpp:908
+msgid "Startup"
+msgstr "Inicialização"
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:920
+msgid "Tree font:"
+msgstr "Fonte da árvore:"
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:925
+msgid "Text font:"
+msgstr "Fonte do texto:"
+
+#: OptionsDialog.cpp:948
+msgid "Text/background color:"
+msgstr ""
+
+#: OptionsDialog.cpp:961
+msgid "Link color:"
+msgstr ""
+
+#: OptionsDialog.cpp:970
+msgid "Custom Tab Size"
+msgstr ""
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:979
+msgid "Wrap text"
+msgstr "Quebra de linha"
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:983
+#, fuzzy
+msgid "Wrap titles tree"
+msgstr "Quebra de linha"
+
+#: OptionsDialog.cpp:987
+msgid "Show tree lines"
+msgstr ""
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:991
+msgid "Display"
+msgstr "Exibir"
+
+#: OptionsDialog.cpp:1001
+msgid "Use system language settings"
+msgstr ""
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:1005
+msgid "Language:"
+msgstr "Língua"
+
+#: OptionsDialog.cpp:1014
+#, fuzzy
+msgid "Date/time format:"
+msgstr "Formato do arquivo:"
+
+#: OptionsDialog.cpp:1029
+msgid "Show node tree on the right"
+msgstr ""
+
+#: OptionsDialog.cpp:1033
+msgid "Draw message over inactive text view"
+msgstr ""
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:1037
+msgid "Minimize to tray"
+msgstr "Minimizar para a bandeja"
+
+# Edit -> Options -> Display
+#: OptionsDialog.cpp:1041
+#, fuzzy
+msgid "Close to tray"
+msgstr "Minimizar para a bandeja"
+
+#: OptionsDialog.cpp:1045
+msgid "[Enter] key press in text area closes the window"
+msgstr ""
+
+#: OptionsDialog.cpp:1049 ShortcutsListDlg.cpp:134
+msgid "Global"
+msgstr ""
+
+#: OptionsDialog.cpp:1061
+msgid "Autosave to temporary crash-protection copy every:"
+msgstr ""
+
+# Edit -> Options -> Save
+#: OptionsDialog.cpp:1072
+msgid "seconds"
+msgstr "segundos"
+
+#: OptionsDialog.cpp:1077
+msgid "Do not autosave memory-only (new/unsaved) documents (data security)"
+msgstr ""
+
+#: OptionsDialog.cpp:1082
+msgid "For each document, create up to:"
+msgstr ""
+
+#: OptionsDialog.cpp:1093
+msgid "backup files"
+msgstr ""
+
+#: OptionsDialog.cpp:1098
+msgid "Automatically save when closing application"
+msgstr ""
+
+#: OptionsDialog.cpp:1114
+msgid "Generate table of contents (depth):"
+msgstr ""
+
+#: OptionsDialog.cpp:1125
+msgid "Export link to image file as the image tag"
+msgstr ""
+
+# File -> Export selection window
+#: OptionsDialog.cpp:1129
+#, fuzzy
+msgid "Embed CSS into exported file"
+msgstr "Selecione arquivo para exportar"
+
+#: OptionsDialog.cpp:1133
+msgid "Export image and attachment data as separate files"
+msgstr ""
+
+#: OptionsDialog.cpp:1137
+msgid "Html export"
+msgstr ""
+
+#: OptionsDialog.cpp:1149
+msgid "Protect memory space from swapping (requires Notecase restart)"
+msgstr ""
+
+#: OptionsDialog.cpp:1156
+msgid "Security"
+msgstr ""
+
+#: OptionsDialog.cpp:1160
+msgid "Save and unload encrypted document if inactive for:"
+msgstr ""
+
+#: OptionsDialog.cpp:1171
+msgid "minutes"
+msgstr ""
+
+#: OptionsDialog.cpp:1184
+msgid "Default Note Icon"
+msgstr ""
+
+# Node Properties -> Icon preview
+#: OptionsDialog.cpp:1234
+msgid "Preview:"
+msgstr "Preview:"
+
+# Icon help text
+#: OptionsDialog.cpp:1248
+#, fuzzy
+msgid "Default"
+msgstr "Excluir"
+
+# File -> Open/Import -> supported formats
+#: OptionsDialog.cpp:1499
+#, fuzzy
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg)"
+msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc)"
+
+#: OptionsDialog.cpp:1667
+#, c-format
+msgid "Minimal value is %d sec!"
+msgstr ""
+
+# Password window
+#: PasswordDialog.cpp:99
+msgid "Password"
+msgstr "Senha"
+
+#: PasswordDialog.cpp:133
+msgid "Please enter the password:"
+msgstr "Por favor insira sua senha:"
+
+#: PasswordDialog.cpp:151
+#, fuzzy
+msgid "Please enter the new password:"
+msgstr "Por favor insira sua senha:"
+
+#: PasswordDialog.cpp:173
+#, fuzzy
+msgid "Please enter the new password (once more):"
+msgstr "Por favor insira sua senha:"
+
+# Password window
+#: PasswordDialog.cpp:192
+#, fuzzy
+msgid "_Show passwords"
+msgstr "Senha"
+
+#: PasswordDialog.cpp:248 PasswordDialog.cpp:298
+msgid "Password must not be empty!"
+msgstr ""
+
+#: PasswordDialog.cpp:260
+msgid "Passwords do not match! Check for typing errors."
+msgstr ""
+
+#: PasswordDialog.cpp:275
+msgid "Old password was not correct!"
+msgstr ""
+
+#: PasswordDialog.cpp:288
+msgid "New passwords do not match! Check for typing errors."
+msgstr ""
+
+# Right-Click menu on tree
+#: PixPropertiesDlg.cpp:86
+#, fuzzy
+msgid "Image Properties"
+msgstr "Propriedades da nota"
+
+#: PixPropertiesDlg.cpp:103
+msgid "Original size:"
+msgstr ""
+
+# File -> Export type selection
+#: PixPropertiesDlg.cpp:116
+#, fuzzy
+msgid "Selected size:"
+msgstr "Apenas a nota selecionada"
+
+#: PixPropertiesDlg.cpp:129
+msgid "Resize to:"
+msgstr ""
+
+#: PixPropertiesDlg.cpp:142
+msgid "Store as PNG"
+msgstr ""
+
+#: PortableTrayIcon.cpp:118
+msgid "Restore"
+msgstr "Restaurar"
+
+#: PortableTrayIcon.cpp:126
+msgid "Quit"
+msgstr "Sair"
+
+#: ShortcutsList.cpp:26
+msgid "Ctrl+"
+msgstr ""
+
+#: ShortcutsList.cpp:28
+msgid "Shift+"
+msgstr ""
+
+#: ShortcutsList.cpp:30
+msgid "Alt+"
+msgstr ""
+
+# Edit -> Options -> Save
+#: ShortcutsList.cpp:37
+#, fuzzy
+msgid "Space"
+msgstr "Salvar"
+
+# File -> Open document window
+#: ShortcutsList.cpp:124
+#, fuzzy
+msgid "New Document"
+msgstr "Abrir documento"
+
+# File -> Open document window
+#: ShortcutsList.cpp:125
+#, fuzzy
+msgid "Open Document"
+msgstr "Abrir documento"
+
+# File -> Save document window
+#: ShortcutsList.cpp:126
+#, fuzzy
+msgid "Save Document"
+msgstr "Salvar documento"
+
+# File -> Save document window
+#: ShortcutsList.cpp:127
+#, fuzzy
+msgid "Save As Document"
+msgstr "Salvar documento"
+
+# Edit -> Options -> Startup
+#: ShortcutsList.cpp:128
+#, fuzzy
+msgid "Reload Document"
+msgstr "Abrir o último documento usado"
+
+# File -> Import
+#: ShortcutsList.cpp:129
+msgid "Import"
+msgstr "Importar"
+
+# Default name for a new node
+#: ShortcutsList.cpp:131
+#, fuzzy
+msgid "New Notecase"
+msgstr "Nova nota"
+
+# Edit -> Options -> Startup
+#: ShortcutsList.cpp:132
+#, fuzzy
+msgid "Read-Only (Document)"
+msgstr "Abrir o último documento usado"
+
+# File -> Open document window
+#: ShortcutsList.cpp:133
+#, fuzzy
+msgid "Lock Document"
+msgstr "Abrir documento"
+
+# Password window
+#: ShortcutsList.cpp:134
+#, fuzzy
+msgid "Change Password"
+msgstr "Senha"
+
+#: ShortcutsList.cpp:135
+msgid "Quit Notecase"
+msgstr ""
+
+# Default name for a new node
+#: ShortcutsList.cpp:136 ShortcutsList.cpp:189
+#, fuzzy
+msgid "New Node"
+msgstr "Nova nota"
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:137 ShortcutsList.cpp:190
+#, fuzzy
+msgid "New Child Node"
+msgstr "Inserir sub-nota"
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:140 ShortcutsList.cpp:193
+#, fuzzy
+msgid "Move Node Up"
+msgstr "Mover nota"
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:141 ShortcutsList.cpp:194
+#, fuzzy
+msgid "Move Node Down"
+msgstr "Mover nota"
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:144 ShortcutsList.cpp:197
+#, fuzzy
+msgid "Show Node Properties"
+msgstr "Propriedades da nota"
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:145 ShortcutsList.cpp:198
+#, fuzzy
+msgid "Delete Completed Nodes"
+msgstr "Apagar nota"
+
+#: ShortcutsList.cpp:146 ShortcutsList.cpp:199
+msgid "Toggle Completed Status"
+msgstr ""
+
+#: ShortcutsList.cpp:147 ShortcutsList.cpp:200
+msgid "Sort Children Ascending"
+msgstr ""
+
+#: ShortcutsList.cpp:148 ShortcutsList.cpp:201
+msgid "Sort Children Descending"
+msgstr ""
+
+#: ShortcutsList.cpp:149 ShortcutsList.cpp:202
+msgid "Sort Tree Ascending"
+msgstr ""
+
+#: ShortcutsList.cpp:150 ShortcutsList.cpp:203
+msgid "Sort Tree Descending"
+msgstr ""
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:152 ShortcutsList.cpp:205
+#, fuzzy
+msgid "Colapse All"
+msgstr "Contrair tudo"
+
+#: ShortcutsList.cpp:159 ShortcutsList.cpp:206
+msgid "Copy Branch Structure"
+msgstr ""
+
+#: ShortcutsList.cpp:160 ShortcutsList.cpp:207
+msgid "Paste Branch Root"
+msgstr ""
+
+# Right-Click menu on tree
+#: ShortcutsList.cpp:161
+#, fuzzy
+msgid "Insert date/time"
+msgstr "Inserir nota"
+
+# Edit -> Find Next
+#: ShortcutsList.cpp:163
+#, fuzzy
+msgid "Find Next"
+msgstr "Procurar _próximo"
+
+#: ShortcutsList.cpp:167
+msgid "Attachments"
+msgstr ""
+
+#: ShortcutsList.cpp:174
+msgid "Color"
+msgstr ""
+
+#: ShortcutsList.cpp:176
+msgid "Remove Formatting"
+msgstr ""
+
+#: ShortcutsList.cpp:177
+msgid "Full Screen"
+msgstr ""
+
+# View -> Tool Bar
+#: ShortcutsList.cpp:178
+#, fuzzy
+msgid "View Toolbar"
+msgstr "Barra de Ferramentas"
+
+# View -> Node Title Bar
+#: ShortcutsList.cpp:179
+#, fuzzy
+msgid "View Node Title Bar"
+msgstr "Barra de Título da Nota"
+
+# View -> Status Bar
+#: ShortcutsList.cpp:180
+#, fuzzy
+msgid "View Status Bar"
+msgstr "Barra de Status"
+
+# View -> Wrap
+#: ShortcutsList.cpp:181
+#, fuzzy
+msgid "Word Wrap"
+msgstr "Quebra de Linha"
+
+#: ShortcutsList.cpp:182
+msgid "Change View Mode"
+msgstr ""
+
+#: ShortcutsList.cpp:183
+msgid "Calculate Word Count"
+msgstr ""
+
+# Help -> Show Help
+#: ShortcutsList.cpp:184
+#, fuzzy
+msgid "Show help"
+msgstr "_Exibir Ajuda"
+
+# Help -> About
+#: ShortcutsList.cpp:185
+#, fuzzy
+msgid "About"
+msgstr "_Sobre"
+
+#: ShortcutsList.cpp:186
+msgid "Visit Website"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:56
+msgid "You need to restart the application to use new shortcut definitions!"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:107
+msgid "Shortcut editor"
+msgstr ""
+
+# Edit -> Link Wizard
+#: ShortcutsListDlg.cpp:126
+#, fuzzy
+msgid "Context:"
+msgstr "Texto do link:"
+
+#: ShortcutsListDlg.cpp:135
+msgid "Tree widget"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:158
+#, fuzzy
+msgid "Action"
+msgstr "Direção:"
+
+#: ShortcutsListDlg.cpp:172
+msgid "Shortcut"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:192
+msgid ""
+"Use mouse click to select an action, and then press key combination to "
+"assign the shortcut to it. Some actions are listed in more than one context "
+"so they can have more than one shortcut attached."
+msgstr ""
+
+# Right-Click menu on tree
+#: ShortcutsListDlg.cpp:207
+#, fuzzy
+msgid "Clear All"
+msgstr "Contrair tudo"
+
+# Edit -> Replace
+#: ShortcutsListDlg.cpp:213
+#, fuzzy
+msgid "Reset All"
+msgstr "Substituir _Todos"
+
+#: ShortcutsListDlg.cpp:219
+msgid "Cancel"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:225
+#, fuzzy
+msgid "OK"
+msgstr "OK!"
+
+#: ShortcutsListDlg.cpp:298
+msgid "This shortcut combination is already taken!"
+msgstr ""
+
+#: ShortcutsListDlg.cpp:334
+#, c-format
+msgid "%d items in this context"
+msgstr ""
+
+#: gui/FileDialog.cpp:45
+msgid "Open file"
+msgstr "Abrir arquivo"
+
+#: gui/FileDialog.cpp:45
+msgid "Save file"
+msgstr "Salvar arquivo"
+
+#: gui/FileDialog.cpp:70
+#, fuzzy
+msgid "File Name:"
+msgstr "Nome do arquivo:"
+
+# Icon help text
+#: gui/FileDialog.cpp:80
+#, fuzzy
+msgid "Save as type:"
+msgstr "Salvar Como"
+
+# Help -> About
+#: gui/ProgressDlg.cpp:115
+#, fuzzy
+msgid "Abort"
+msgstr "_Sobre"
+
+# File -> Save -> message when saving over an already existing file
+#: lib/FormatIOHtml.cpp:1210 lib/FormatIOHtml.cpp:1527
+#: lib/FormatIOHtml.cpp:1614
+#, fuzzy, c-format
+msgid ""
+"File %s\n"
+"already exists. Overwrite this and all other files?"
+msgstr "O arquivo %s já existe! Você deseja sobrescrevê-lo?"
+
+#: lib/FormatIOHtml.cpp:1261
+msgid "Attachment"
+msgstr ""
+
+#: lib/FormatIOHtml.cpp:1894
+msgid "Contents"
+msgstr ""
+
+#: lib/FormatIOMMLX.cpp:79
+msgid ""
+"There were problems converting text from ibm850 to utf-8.\n"
+"Consider installing \"glibc-gconv-ibm850\" package"
+msgstr ""
+
+#: lib/NoteDocument.cpp:377
+msgid ""
+"Warning:\n"
+"This document was created either by a different application\n"
+"Notecase and Notecase Pro are not considered the same application),\n"
+"or by a newer version of this program.\n"
+"\n"
+"If you edit this document, you might lose some formatting!"
+msgstr ""
+
+# Edit -> Options
+#~ msgid "_Options"
+#~ msgstr "_Opções"
+
+# File -> Save document window
+#, fuzzy
+#~ msgid "Autosave document every:"
+#~ msgstr "Salvar documento"
+
+# Edit -> Search -> Search target
+#~ msgid "Node keywords"
+#~ msgstr "Classificação das notas"
+
+# File -> Import -> supported formats
+#~ msgid "All supported formats (*.ncd,*.nce,*.hnc,*.gjots2,*.xml)"
+#~ msgstr "Todos os formatos suportados (*.ncd,*.nce,*.hnc,*.gjots2, *.xml)"
+
+# Edit -> Options -> Save
+#~ msgid "Backup document (autosave) every:"
+#~ msgstr "Gravar backup automático a cada:"

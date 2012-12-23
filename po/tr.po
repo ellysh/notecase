@@ -1,0 +1,1867 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NoteCase\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-03-27 17:45+0200\n"
+"Last-Translator: Serkan Çalış <adresimeyaz@gmail.com>\n"
+"Language-Team: NoteCase team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: C:\\temp\\notecase\\src\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AboutDlg.cpp:58
+msgid "About Notecase"
+msgstr "NoteCase Hakkında"
+
+#: AboutDlg.cpp:92
+msgid " - Version "
+msgstr "Sürüm"
+
+#: AboutDlg.cpp:106
+msgid "Website:"
+msgstr "Web Sitesi:"
+
+#: AboutDlg.cpp:121
+msgid "Report bugs to:"
+msgstr "Hataları bildir:"
+
+#: AboutDlg.cpp:136
+msgid "Locale: "
+msgstr "Yerel:"
+
+#: AboutDlg.cpp:151 FileAttachmentDlg.cpp:221 FindReplaceDlg.cpp:198
+msgid "Close"
+msgstr "Kapat"
+
+#: callbacks.cpp:223 callbacks.cpp:591 callbacks.cpp:913
+msgid "Document has been modified! Do you want to save it?"
+msgstr "Belge içeriği değişti! Kaydetmek ister misiniz?"
+
+#: callbacks.cpp:269
+msgid "Open document"
+msgstr "Belge aç"
+
+#: callbacks.cpp:272
+#, fuzzy
+msgid "All supported formats (*.ncd,*.nce)"
+msgstr "Tüm desteklenen formatlar (*.ncd,*.nce,*.hnc)"
+
+#: callbacks.cpp:273 callbacks.cpp:1961 FileExportDlg.cpp:42
+#: FileSaveAsDlg.cpp:36
+msgid "NoteCase document (*.ncd)"
+msgstr "NoteCase belgesi (*.ncd)"
+
+#: callbacks.cpp:274 callbacks.cpp:1962 FileExportDlg.cpp:44
+#: FileSaveAsDlg.cpp:38
+msgid "NoteCase encrypted document (*.nce)"
+msgstr "NoteCase şifrelenmiş belge (*.nce)"
+
+#: callbacks.cpp:275 callbacks.cpp:1967 DocActionPix.cpp:64
+msgid "All files (*)"
+msgstr "Tüm dosyalar (*)"
+
+#: callbacks.cpp:302 interface.cpp:604
+#, fuzzy
+msgid "Unsupported format!"
+msgstr "Desteklenmeyen format!"
+
+#: callbacks.cpp:457 callbacks.cpp:459 callbacks.cpp:2078 callbacks.cpp:2080
+#, c-format
+msgid "File %s already exists! Do you want to overwrite it?"
+msgstr "%s dosyası zaten var! Üzerine yazmak ister misiniz?"
+
+#: callbacks.cpp:474
+msgid "Warning: .hnc format does not support hyperlinks!"
+msgstr "Uyarı: .hnc dosya biçimi bağlantı adreslerini desteklemez."
+
+#: callbacks.cpp:500
+msgid ""
+"You have saved file in encrypted format! Do you want to delete the original "
+"(unencrypted) file?\n"
+"This will also delete any backup of this file."
+msgstr ""
+"Dosyayı şifreli biçimde kaydettiniz. Şifrelenmemiş orjinal dosyayı silmek "
+"ister misiniz? Aynı zamanda varsa bir yedek dosyasını da silecektir."
+
+#: callbacks.cpp:600
+msgid "Document saving failed! Abort closing?"
+msgstr ""
+
+#: callbacks.cpp:686 callbacks.cpp:728 callbacks.cpp:753 callbacks.cpp:1391
+#: callbacks.cpp:1482 callbacks.cpp:1575 callbacks.cpp:1702 callbacks.cpp:1714
+#: callbacks.cpp:1723 callbacks.cpp:1732 callbacks.cpp:1741 callbacks.cpp:1861
+#: callbacks.cpp:1951 callbacks.cpp:2672 callbacks.cpp:2815 callbacks.cpp:2828
+#: callbacks.cpp:3496 callbacks.cpp:3515 callbacks.cpp:3575 callbacks.cpp:3626
+#: callbacks.cpp:3740 callbacks.cpp:4243 callbacks.cpp:5207 callbacks.cpp:5217
+#: callbacks.cpp:5227 callbacks.cpp:5236 callbacks.cpp:5266 callbacks.cpp:5296
+#: callbacks.cpp:5335 callbacks.cpp:5374 callbacks.cpp:5413 callbacks.cpp:5452
+#: callbacks.cpp:5499 callbacks.cpp:5687 callbacks.cpp:5789 callbacks.cpp:5822
+#: callbacks.cpp:5937 callbacks.cpp:6323 FileAttachmentDlg.cpp:255
+#: FileAttachmentDlg.cpp:360 FileAttachmentDlg.cpp:493
+msgid "Can not change read-only document!"
+msgstr "Salt-okunur belge değiştirilemedi. "
+
+#: callbacks.cpp:815
+msgid ""
+"Current document has to be closed in order to open help document!\n"
+"Do you wish to proceed?\n"
+"\n"
+"(Note that if you choose to proceed you'll be prompted to save current "
+"document changes)"
+msgstr ""
+"Yardım dosyasını açabilmek için şu an üzerinde çalıştığınız belge "
+"kapatılmalıdır. \n"
+"Devam etmek istiyor musunuz?\n"
+"\n"
+"(Devam etmek isterseniz size belgenizin kaydedilip kaydedilmeyeceği "
+"sorulacaktır.)"
+
+#: callbacks.cpp:1288
+msgid "Save operation already in progress!"
+msgstr ""
+
+#: callbacks.cpp:1324 interface.cpp:612
+msgid "Failed to save the file!"
+msgstr "Belge kaydedilirken bir hata oluştu!"
+
+#: callbacks.cpp:1430 callbacks.cpp:1519 lib/FormatIOTxt.cpp:46
+msgid "New node"
+msgstr "Yeni not"
+
+#: callbacks.cpp:1620
+#, fuzzy, c-format
+msgid ""
+"Are you sure to delete the node\n"
+"\"%s\"?"
+msgstr "Bu notu silmek istediğinize emin misiniz \"%s\" ?"
+
+#: callbacks.cpp:1957
+msgid "Import from file"
+msgstr "Dosyadan ekle"
+
+#: callbacks.cpp:1960
+#, fuzzy
+msgid "All supported formats"
+msgstr "Tüm desteklenen formatlar (*.ncd,*.nce,*.hnc)"
+
+#: callbacks.cpp:1963 FileExportDlg.cpp:46
+msgid "NoteCenter document (*.hnc)"
+msgstr "NoteCenter belgesi (*.hnc)"
+
+#: callbacks.cpp:1964
+msgid "Gjots2 document (*.gjots2)"
+msgstr "Gjots2 belgesi (*.gjots2)"
+
+#: callbacks.cpp:1965
+msgid "Sticky Notes document (*.xml)"
+msgstr "Sticky Notes belgesi (*.xml)"
+
+#: callbacks.cpp:1966
+msgid "MM/LX Mindmap/Outline document (*.MM)"
+msgstr "MM/LX Mindmap/Outline belgesi (*.MM)"
+
+#: callbacks.cpp:2142 callbacks.cpp:2162 callbacks.cpp:4250 callbacks.cpp:5271
+#: callbacks.cpp:5301 callbacks.cpp:5340 callbacks.cpp:5379 callbacks.cpp:5418
+#: callbacks.cpp:5457 callbacks.cpp:5504 callbacks.cpp:5666 callbacks.cpp:5827
+msgid "No selected node!"
+msgstr "Seçili not yok."
+
+#: callbacks.cpp:2384 callbacks.cpp:2455
+msgid "Document is empty!"
+msgstr "Belge boş!"
+
+#: callbacks.cpp:2424 callbacks.cpp:2467 FindReplaceDlg.cpp:247
+msgid "Error: Search text is empty!"
+msgstr "Hata : Aranacak kelime(ler)i girmediniz!"
+
+#: callbacks.cpp:2514
+msgid "Searching ..."
+msgstr ""
+
+#: callbacks.cpp:2530 callbacks.cpp:2545
+msgid "No more results found!"
+msgstr "Daha fazla sonuç bulunamadı!"
+
+#: callbacks.cpp:2538
+#, fuzzy
+msgid "Search canceled!"
+msgstr "Aramam tamamlandı!"
+
+#: callbacks.cpp:2598
+msgid "This node contains the tag!"
+msgstr "Bu not etiket içerir!"
+
+#: callbacks.cpp:2645
+msgid "Reached end of the document! Continue searching from the start?"
+msgstr "Belgenin sonuna gelindi! Baştan arama yapılsın mı?"
+
+#: callbacks.cpp:2654
+msgid "Search done!"
+msgstr "Aramam tamamlandı!"
+
+#: callbacks.cpp:3437
+msgid "Do you want to reload the document and lose your possible changes?"
+msgstr ""
+"Dosyayı yeniden açmak ve yaptığınız değişikliklerin kaybolmasını istiyor "
+"musunuz?"
+
+#: callbacks.cpp:3449
+msgid "Document has not been saved yet!"
+msgstr "Belge hala kaydolmadı!"
+
+#: callbacks.cpp:3723 FileAttachmentDlg.cpp:89
+msgid "The document is read-only! You won't be able to make any changes!"
+msgstr "Belge salt-okunur! Değişiklik yapamayacaksınız!"
+
+#: callbacks.cpp:3777
+msgid "No Node selected"
+msgstr "Hiç not seçilmedi."
+
+#: callbacks.cpp:3955
+msgid "Autosave file found! Do you want to load it?"
+msgstr "Otomatik kaydedilmiş bir belge bulundu! Bunu açmak istiyor musunuz?"
+
+#: callbacks.cpp:4327
+msgid "No text selection!"
+msgstr "Hiç metin seçilmedi."
+
+#: callbacks.cpp:4678
+msgid "Word Count"
+msgstr "Kelime Sayacı"
+
+#: callbacks.cpp:4707
+msgid "Word Count ( title / text / title and text )\n"
+msgstr "Kelime Sayacı (başlık / metin / başlık ve metin)\n"
+
+#: callbacks.cpp:4709
+msgid "NOTE: Line counting does not take into account word wrapping.\n"
+msgstr "Not: Satır sayma işlemi kelime kaydırma için hesaba katılmaz.\n"
+
+#: callbacks.cpp:4712
+msgid "Total document"
+msgstr "Toplam belge"
+
+#: callbacks.cpp:4714
+#, c-format
+msgid " - %d node(s)"
+msgstr "- %d not"
+
+#: callbacks.cpp:4742 callbacks.cpp:4834
+msgid "words"
+msgstr "kelime"
+
+#: callbacks.cpp:4767 callbacks.cpp:4859
+msgid "lines"
+msgstr "satır"
+
+#: callbacks.cpp:4792 callbacks.cpp:4884
+msgid "characters"
+msgstr "karakter"
+
+#: callbacks.cpp:4803
+msgid "Current node"
+msgstr "Şu anki not"
+
+#: callbacks.cpp:4806
+#, c-format
+msgid " - ancestor to %d node(s)"
+msgstr "- %d not için geçmiş"
+
+#: callbacks.cpp:5006 callbacks.cpp:5009
+#, fuzzy, c-format
+msgid "Completed descendants: %5.1f%% (%d / %d) (children completed: %d / %d)"
+msgstr "Bitmiş 2. nesil: %5.1f%% (%d / %d)  (Bitmiş 1. nesil: %d / %d)"
+
+#: callbacks.cpp:5046
+msgid "Save Picture"
+msgstr "Resmi kaydet"
+
+#: callbacks.cpp:5061 ShortcutsList.cpp:165
+msgid "Link Wizard"
+msgstr "Bağlantı Sihirbazı"
+
+#: callbacks.cpp:5070 MainWnd.cpp:1815
+msgid "F_ormat"
+msgstr "Biç_im"
+
+#: callbacks.cpp:5077 MainWnd.cpp:1826
+msgid "_Bold"
+msgstr "_Kalın"
+
+#: callbacks.cpp:5085 MainWnd.cpp:1838
+msgid "_Italic"
+msgstr "_italik"
+
+#: callbacks.cpp:5093 MainWnd.cpp:1850
+msgid "_Underline"
+msgstr "Altıçiz_ili"
+
+#: callbacks.cpp:5101 MainWnd.cpp:1862
+msgid "_Strikethrough"
+msgstr "Üstü_çizili"
+
+#: callbacks.cpp:5109 MainWnd.cpp:1874
+msgid "_Text color"
+msgstr "Metin r_engi"
+
+#: callbacks.cpp:5116 MainWnd.cpp:1003 MainWnd.cpp:1008 ShortcutsList.cpp:175
+msgid "Text Background Color"
+msgstr "Metin Arkaplan Rengi"
+
+#: callbacks.cpp:5123 MainWnd.cpp:1896
+msgid "_Remove formatting"
+msgstr "Biçimlendirmeyi temizle"
+
+#: callbacks.cpp:5200
+msgid "Link target no longer exists."
+msgstr "Bağlantı hedefi artık mevcut değil"
+
+#: callbacks.cpp:5567
+msgid "Save picture"
+msgstr "Resmi kaydet"
+
+#: callbacks.cpp:5568 DocActionPix.cpp:61
+msgid "PNG format (*.png)"
+msgstr "PNG biçemi (*.png)"
+
+#: callbacks.cpp:5569
+msgid "JPEG format (*.jpg)"
+msgstr "JPEG biçemi (*.jpg)"
+
+#: callbacks.cpp:5602
+msgid "Failed to save picture to file!"
+msgstr "Resim dosyaya kaydedilirken hata oldu!"
+
+#: callbacks.cpp:5779
+msgid "Unknown format! Do you want to load it as text?"
+msgstr "Bilinmeyen biçem! Metin olarak yüklemek ister misiniz?"
+
+#: callbacks.cpp:5811
+msgid "You'll need to save the document to commit the password change!"
+msgstr "Parola değşiminin geçerli olması için belgeyi kaydetmelisiniz!"
+
+#: callbacks.cpp:6028 FileAttachmentDlg.cpp:580
+msgid ""
+"Do you want to attach files to the node?\n"
+"\n"
+msgstr "Nota dosya eklemek ister misiniz?\n"
+
+#: callbacks.cpp:6051 FileAttachmentDlg.cpp:603
+msgid "Failed to open input file!\n"
+msgstr "Girdi dosyası açılırken hata oldu!\n"
+
+#: callbacks.cpp:6065 FileAttachmentDlg.cpp:302 FileAttachmentDlg.cpp:617
+#: lib/NoteDocument.cpp:341
+msgid "Loading file. Please wait..."
+msgstr "Dosya yükleniyor. Lütfen bekleyin..."
+
+#: callbacks.cpp:6141
+msgid "Node title must not be empty!"
+msgstr "Not başlığı boş olamaz!"
+
+#: callbacks.cpp:6281
+msgid "Document not encrypted!"
+msgstr "Belge şifrelenmiş değil!"
+
+#: callbacks.cpp:6285
+#, fuzzy
+msgid "Document not saved!"
+msgstr "Belge hala kaydolmadı!"
+
+#: callbacks.cpp:6368
+msgid "Insert new node or select an existing one to start typing."
+msgstr ""
+
+#: DateTimeDlg.cpp:64 MainWnd.cpp:1431
+msgid "Insert Date/Time"
+msgstr "Tarih/Zaman Ekle"
+
+#: DateTimeDlg.cpp:90
+msgid "Select date/time format:"
+msgstr "Tarih/zaman biçimini seç:"
+
+#: DateTimeDlg.cpp:101
+msgid "value"
+msgstr "değer"
+
+#: DocActionFinish.cpp:66
+#, fuzzy
+msgid "Do you want to remove 'Completed' status from all the descendants?"
+msgstr "Tüm 2. nesillerden bitmiş durumunu temizlemek ister misiniz?"
+
+#: DocActionFmt.cpp:90
+msgid "Pick text color"
+msgstr "Metin rengini seç"
+
+#: DocActionPix.cpp:57
+msgid "Open picture"
+msgstr "Resim aç"
+
+#: DocActionPix.cpp:60
+#, fuzzy
+msgid "All supported image formats (*.png,*.jpg,*.gif)"
+msgstr "Tüm desteklenen resim biçimleri (*.png,*.jpg)"
+
+#: DocActionPix.cpp:62
+msgid "JPG format (*.jpg)"
+msgstr "JPEG biçemi (*.jpg)"
+
+#: DocActionPix.cpp:63
+#, fuzzy
+msgid "GIF format (*.gif)"
+msgstr "PNG biçemi (*.png)"
+
+#: EditDlg.cpp:119
+msgid "Edit text"
+msgstr "Metini düzenle"
+
+#: FileAttachmentDlg.cpp:129
+msgid "Node attachments"
+msgstr "Not ekleri"
+
+#: FileAttachmentDlg.cpp:175
+msgid "Name"
+msgstr "İsim"
+
+#: FileAttachmentDlg.cpp:189
+msgid "Size"
+msgstr "Boyut"
+
+#: FileAttachmentDlg.cpp:206 NodePropertiesDlg.cpp:473
+msgid "Add"
+msgstr "Ekle"
+
+#: FileAttachmentDlg.cpp:211 LinkPropertiesDlg.cpp:162
+#: NodePropertiesDlg.cpp:477
+msgid "Remove"
+msgstr "Sil"
+
+#: FileAttachmentDlg.cpp:216
+msgid "Save to file"
+msgstr "Dosyaya kaydet"
+
+#: FileAttachmentDlg.cpp:261
+msgid "Add attachment"
+msgstr "Dosya ekle"
+
+#: FileAttachmentDlg.cpp:293
+msgid "Failed to open input file!"
+msgstr "Girdi dosyası açılırken hata oldu!"
+
+#: FileAttachmentDlg.cpp:408
+msgid "No attachment selected!"
+msgstr "Hiç ek seçilmedi."
+
+#: FileAttachmentDlg.cpp:419
+msgid "Save data"
+msgstr "Veriyi kaydet"
+
+#: FileAttachmentDlg.cpp:451 FileAttachmentDlg.cpp:704
+msgid "Failed to open output file!"
+msgstr "Çıktı dosyası açılırken hata oldu!"
+
+#: FileAttachmentDlg.cpp:456 FileAttachmentDlg.cpp:709
+#: lib/NoteDocument.cpp:489
+msgid "Saving file. Please wait..."
+msgstr "Dosya kaydediliyor. Lütfen bekleyin..."
+
+#: FileExportDlg.cpp:48
+msgid "HTML file (*.html)"
+msgstr "HTML dosyası (*.html)"
+
+#: FileExportDlg.cpp:50
+msgid "Text file (*.txt)"
+msgstr "Metin belgesi (*.txt)"
+
+#: FileExportDlg.cpp:53
+msgid "Standalone executable (*.exe)"
+msgstr "Ayrık çalışabilen (*.exe) "
+
+#: FileExportDlg.cpp:56
+msgid "Standalone executable"
+msgstr "Ayrık çalışabilen"
+
+#: FileExportDlg.cpp:75
+msgid "Selected branch"
+msgstr "Seçili dal"
+
+#: FileExportDlg.cpp:76
+msgid "Selected node only"
+msgstr "Sadece seçili not."
+
+#: FileExportDlg.cpp:77
+msgid "Entire document"
+msgstr "Tüm belge"
+
+#: FileExportDlg.cpp:285 ShortcutsList.cpp:130
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: FileExportDlg.cpp:310
+msgid "Document source:"
+msgstr "Belge kaynağı:"
+
+#: FileExportDlg.cpp:317 FileSaveAsDlg.cpp:248
+msgid "File format:"
+msgstr "Dosya biçemi:"
+
+#: FileExportDlg.cpp:336 FileSaveAsDlg.cpp:182
+msgid "File name:"
+msgstr "Dosya ismi:"
+
+#: FileExportDlg.cpp:368
+msgid "Use custom CSS path:"
+msgstr "Özel CSS yolu kullan:"
+
+#: FileExportDlg.cpp:377
+msgid "Export linked documents"
+msgstr "Bağlanmış belgeleri ihraç et"
+
+#: FileExportDlg.cpp:383
+msgid "Post-export script:"
+msgstr "İhraç-sonrası betiği:"
+
+#: FileExportDlg.cpp:404 MainWnd.cpp:744 MainWnd.cpp:747
+#: OptionsDialog.cpp:1102
+msgid "Save"
+msgstr "Kaydet"
+
+#: FileExportDlg.cpp:452
+msgid "Select export file"
+msgstr "İhraç edilecek dosyayı seçin"
+
+#: FileExportDlg.cpp:482
+msgid "You must define the export file name!"
+msgstr "İhraç edilecek dosyayı belirtmelisiniz!"
+
+#: FileSaveAsDlg.cpp:159
+msgid "Save document"
+msgstr "Belgeyi kaydet"
+
+#: FileSaveAsDlg.cpp:196
+msgid "File directory:"
+msgstr "Dosya dizini:"
+
+#: FileSaveAsDlg.cpp:270 MainWnd.cpp:1208 gui/FileDialog.cpp:99
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: FileSaveAsDlg.cpp:315
+msgid "Select target directory"
+msgstr "Hedef dizini seçin:"
+
+#: FileSaveAsDlg.cpp:369
+msgid "File name must not be empty!"
+msgstr "Dosya ismi boş olamaz!"
+
+#: FindDialog.cpp:31
+msgid "Node title/contents"
+msgstr "Not başlığı/içeriği"
+
+#: FindDialog.cpp:32
+msgid "Node tags"
+msgstr "Not etiketleri"
+
+#: FindDialog.cpp:55 ShortcutsList.cpp:162
+msgid "Find"
+msgstr "Bul"
+
+#: FindDialog.cpp:69
+msgid "Text:"
+msgstr "Metin :"
+
+#: FindDialog.cpp:83
+msgid "Search target:"
+msgstr "Hedefi ara:"
+
+#: FindDialog.cpp:96
+msgid "Direction:"
+msgstr "Yön:"
+
+#: FindDialog.cpp:103 MainWnd.cpp:2289
+msgid "Up"
+msgstr "Yukarı"
+
+#: FindDialog.cpp:111 MainWnd.cpp:2299
+msgid "Down"
+msgstr "Aşağı"
+
+#: FindDialog.cpp:119 FindReplaceDlg.cpp:167
+msgid "Case sensitive"
+msgstr "Büyük/küçük harf duyarlı"
+
+#: FindReplaceDlg.cpp:97 ShortcutsList.cpp:164
+msgid "Replace"
+msgstr "Değiştir"
+
+#: FindReplaceDlg.cpp:115
+msgid "Find what:"
+msgstr "Bulunacak:"
+
+#: FindReplaceDlg.cpp:129
+msgid "Replace with:"
+msgstr "Tümünü şununla değiştir:"
+
+#: FindReplaceDlg.cpp:177
+#, fuzzy
+msgid "_Find next"
+msgstr "_Sonrakini bul"
+
+#: FindReplaceDlg.cpp:184
+msgid "_Replace"
+msgstr "_Değiştir"
+
+#: FindReplaceDlg.cpp:191
+msgid "Replace _All"
+msgstr "Tümünü D_eğiştir"
+
+#: FindReplaceDlg.cpp:391
+#, c-format
+msgid ""
+"Done!\n"
+"\n"
+"%d string instances were replaced!"
+msgstr ""
+"Tamam!!\n"
+"\n"
+"%d karşılaşmaları değiştirildi."
+
+#: interface.cpp:303
+msgid "Are you sure you want to delete history list?"
+msgstr "Geçmiş listesini temizlemek istediğinize emin misiniz?"
+
+#: interface.cpp:428 interface.cpp:487 gui/ProgressDlg.cpp:80
+msgid "Info"
+msgstr "Bilgi"
+
+#: interface.cpp:573 interface.cpp:600
+msgid "OK!"
+msgstr "Tamam!"
+
+#: interface.cpp:575
+msgid "Loading aborted by user!"
+msgstr "Dosya açma işlemi kullanıcı tarafından iptal edildi!"
+
+#: interface.cpp:577
+msgid "File not found!"
+msgstr "Dosya bulunamadı!"
+
+#: interface.cpp:579
+msgid "Invalid document password!"
+msgstr "Belge şifresi yanlış!"
+
+#: interface.cpp:581
+msgid "Unsupported document format!"
+msgstr "Desteklenmeyen format!"
+
+#: interface.cpp:583
+msgid "Error when parsing document (bad formatting)!"
+msgstr "Belge incelenirken hata oluştu!'"
+
+#: interface.cpp:585
+msgid "Failed to load the file!"
+msgstr "Dosya açılırken bir hata oluştu!"
+
+#: interface.cpp:587
+msgid "Inadequate file permissions!"
+msgstr "Yetersiz dosya izni!"
+
+#: interface.cpp:589
+msgid "Load operation is not supported for this format!"
+msgstr "Bu dosya biçemi için yüklenme desteklemiyor!"
+
+#: interface.cpp:592 interface.cpp:617
+msgid "Unknown error!"
+msgstr "Bilinmeyen hata!"
+
+#: interface.cpp:602
+msgid "Saving aborted by user!"
+msgstr "Kaydetme işlemi kullanıcı tarafından iptal edildi!"
+
+#: interface.cpp:606
+msgid "Failed to overwrite target file!"
+msgstr "Hedef dosyanın üzerine yazılırken hata oldu!"
+
+#: interface.cpp:608
+msgid ""
+"Failed to open output file! Please check permissions or available disk size!"
+msgstr ""
+"Çıktı dosyası açılamadı! Lütfen izinleri veya boşd disk alanını kontrol edin!"
+
+#: interface.cpp:610
+msgid "Failed to open application file!"
+msgstr "Uygulama dosyası açılırken hata oldu!"
+
+#: interface.cpp:614
+msgid "Save operation is not supported for this format!"
+msgstr "Bu dosya biçemi için kaydetme desteklemiyor!"
+
+#: LinkPropertiesDlg.cpp:41
+msgid "Link to a node"
+msgstr "Bir nota bağ yap"
+
+#: LinkPropertiesDlg.cpp:42
+msgid "Link to a file or web address"
+msgstr "Bir dosyaya ya da web adresine bağ yap"
+
+#: LinkPropertiesDlg.cpp:73
+msgid "Link Properties"
+msgstr "Bağlantı Özellikleri"
+
+#: LinkPropertiesDlg.cpp:95
+msgid "Link text:"
+msgstr "Bağlantı metni:"
+
+#: LinkPropertiesDlg.cpp:108
+msgid "Link type:"
+msgstr "Bağ tipi:"
+
+#: LinkPropertiesDlg.cpp:115
+msgid "Target file or URL:"
+msgstr "Hedef dosya veya URL:"
+
+#: LinkPropertiesDlg.cpp:122
+msgid "Target node:"
+msgstr "Hedef not:"
+
+#: main.cpp:301
+#, c-format
+msgid ""
+"One or more crash logs were found in:\n"
+"%s.\n"
+"\n"
+"Press Yes to delete those files\n"
+"(consider sending the files to the author with the crash description)."
+msgstr ""
+"Bir veya daha fazla çökme kaydı bulundu: \n"
+"%s.\n"
+"\n"
+"Bu dosyaları silmek için Evet'e basın\n"
+"(dosyaları çökme kayıtlarıyla beraber yazara gönderebilirsiniz) "
+
+#: main.cpp:447
+msgid "Another NoteCase instance detected! Exiting!"
+msgstr "Başka bir NoteCase uygulaması açık! Uygulama kapanıyor."
+
+#: MainWnd.cpp:724 MainWnd.cpp:727
+msgid "New"
+msgstr "Yeni"
+
+#: MainWnd.cpp:734 MainWnd.cpp:737
+msgid "Open"
+msgstr "Aç"
+
+#: MainWnd.cpp:754 MainWnd.cpp:757
+msgid "Save As"
+msgstr "Farklı kaydet"
+
+#: MainWnd.cpp:769 MainWnd.cpp:772 ShortcutsList.cpp:153
+msgid "Undo"
+msgstr "Geri al"
+
+#: MainWnd.cpp:780 MainWnd.cpp:783 ShortcutsList.cpp:154
+msgid "Redo"
+msgstr "Yinele"
+
+#: MainWnd.cpp:791 MainWnd.cpp:794 ShortcutsList.cpp:155
+msgid "Cut"
+msgstr "Kes"
+
+#: MainWnd.cpp:801 MainWnd.cpp:804 ShortcutsList.cpp:156
+msgid "Copy"
+msgstr "Kopyala"
+
+#: MainWnd.cpp:811 MainWnd.cpp:814 ShortcutsList.cpp:157
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: MainWnd.cpp:821 MainWnd.cpp:824 ShortcutsList.cpp:158
+msgid "Delete"
+msgstr "Sil"
+
+#: MainWnd.cpp:834 MainWnd.cpp:837 MainWnd.cpp:2207
+msgid "Insert Node"
+msgstr "Not ekle"
+
+#: MainWnd.cpp:844 MainWnd.cpp:847 ShortcutsList.cpp:142 ShortcutsList.cpp:195
+msgid "Move Node Left"
+msgstr "Notu Sola Taşı"
+
+#: MainWnd.cpp:854 MainWnd.cpp:857 ShortcutsList.cpp:143 ShortcutsList.cpp:196
+msgid "Move Node Right"
+msgstr "Notu Sağa Taşı"
+
+#: MainWnd.cpp:872 MainWnd.cpp:875 MainWnd.cpp:2277
+msgid "Link wizard"
+msgstr "Bağlantı sihirbazı"
+
+#: MainWnd.cpp:883 MainWnd.cpp:886 ShortcutsList.cpp:166
+msgid "Insert Picture"
+msgstr "Resim ekle"
+
+#: MainWnd.cpp:895 MainWnd.cpp:900
+msgid "Node Attachments"
+msgstr "Not Ekleri"
+
+#: MainWnd.cpp:913 MainWnd.cpp:918 ShortcutsList.cpp:170
+msgid "Bold"
+msgstr "Kalın"
+
+#: MainWnd.cpp:931 MainWnd.cpp:936 ShortcutsList.cpp:171
+msgid "Italic"
+msgstr "İtalik"
+
+#: MainWnd.cpp:949 MainWnd.cpp:954 ShortcutsList.cpp:172
+msgid "Underline"
+msgstr "Altı çizili"
+
+#: MainWnd.cpp:967 MainWnd.cpp:972 ShortcutsList.cpp:173
+msgid "Strikethrough"
+msgstr "Üstü çizili"
+
+#: MainWnd.cpp:985 MainWnd.cpp:990
+msgid "Text Color"
+msgstr "Metin Rengi"
+
+#: MainWnd.cpp:1018 MainWnd.cpp:1021
+msgid "Help"
+msgstr "Yardım"
+
+#: MainWnd.cpp:1058
+#, fuzzy
+msgid "Please enter the password for file: "
+msgstr "Dosya için şifreyi girin \n"
+
+#: MainWnd.cpp:1154
+msgid "_File"
+msgstr "_Dosya"
+
+#: MainWnd.cpp:1165
+#, fuzzy
+msgid "New _Window"
+msgstr "Yeni not"
+
+#: MainWnd.cpp:1178
+msgid "_New"
+msgstr "_Yeni"
+
+#: MainWnd.cpp:1188 gui/FileDialog.cpp:99
+msgid "_Open"
+msgstr "_Aç"
+
+#: MainWnd.cpp:1198
+#, fuzzy
+msgid "_Close"
+msgstr "Kapat"
+
+#: MainWnd.cpp:1218
+msgid "Save _As"
+msgstr "_Farklı kaydet"
+
+#: MainWnd.cpp:1228
+msgid "Re_load"
+msgstr "Y_eniden aç"
+
+#: MainWnd.cpp:1238
+msgid "Read-Only"
+msgstr "Salt-okunur"
+
+#: MainWnd.cpp:1245
+msgid "Document property that forbids document editing."
+msgstr ""
+
+#: MainWnd.cpp:1247
+msgid "_Lock Document"
+msgstr "Belgeyi _Kitle"
+
+#: MainWnd.cpp:1258
+#, fuzzy
+msgid "Unload encrypted document from memory."
+msgstr "Şu kadar süre aktif değilse şifrelenmiş belgeyi kaydet ve kapat:"
+
+#: MainWnd.cpp:1260
+msgid "_Change Password"
+msgstr "Şifreyi Deği_ştir"
+
+#: MainWnd.cpp:1277
+#, fuzzy
+msgid "_Import"
+msgstr "İçe aktar"
+
+#: MainWnd.cpp:1285
+#, fuzzy
+msgid "_Export"
+msgstr "Dışa aktar"
+
+#: MainWnd.cpp:1303
+msgid "_Recent"
+msgstr "_En son kullandıklarım"
+
+#: MainWnd.cpp:1317
+msgid "_Quit"
+msgstr "_Çıkış"
+
+#: MainWnd.cpp:1331
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: MainWnd.cpp:1342
+msgid "_Undo"
+msgstr "_Geri al"
+
+#: MainWnd.cpp:1353
+msgid "_Redo"
+msgstr "_Yinele"
+
+#: MainWnd.cpp:1369
+msgid "Cu_t"
+msgstr "_Kes"
+
+#: MainWnd.cpp:1379
+msgid "_Copy"
+msgstr "K_opyala"
+
+#: MainWnd.cpp:1389
+msgid "_Paste"
+msgstr "Ya_pıştır"
+
+#: MainWnd.cpp:1399
+msgid "_Delete"
+msgstr "_Sil"
+
+#: MainWnd.cpp:1409
+msgid "Copy Branch _Structure"
+msgstr "Dal Yapısını Kopyla"
+
+#: MainWnd.cpp:1420
+msgid "Paste Branch To Root"
+msgstr "Dalı Köke Yapıştır"
+
+#: MainWnd.cpp:1448
+msgid "_Find"
+msgstr "_Bul"
+
+#: MainWnd.cpp:1458
+msgid "Find _Next"
+msgstr "_Sonrakini bul"
+
+#: MainWnd.cpp:1468
+#, fuzzy
+msgid "R_eplace"
+msgstr "_En son kullandıklarım"
+
+#: MainWnd.cpp:1478
+msgid "Link _Wizard"
+msgstr "Bağlantı S_ihirbazı"
+
+#: MainWnd.cpp:1489
+#, fuzzy
+msgid "_Insert Picture"
+msgstr "Not ekle"
+
+#: MainWnd.cpp:1500
+msgid "Node _Attachments"
+msgstr "Not E_kleri"
+
+#: MainWnd.cpp:1516 ShortcutsList.cpp:168
+#, fuzzy
+msgid "Configure Shortcuts"
+msgstr "Kısayollar"
+
+#: MainWnd.cpp:1526 ShortcutsList.cpp:169
+#, fuzzy
+msgid "Configure NoteCase"
+msgstr "NoteCase Hakkında"
+
+#: MainWnd.cpp:1539
+msgid "_View"
+msgstr "_Görünüm"
+
+#: MainWnd.cpp:1550
+msgid "_Full Screen"
+msgstr "_Tam Ekran"
+
+#: MainWnd.cpp:1563
+msgid "_Always on top"
+msgstr ""
+
+#: MainWnd.cpp:1570
+#, fuzzy
+msgid "_Tool Bar"
+msgstr "Araç çubuğu"
+
+#: MainWnd.cpp:1578
+#, fuzzy
+msgid "_Node Title Bar"
+msgstr "Not başlık çubuğu"
+
+#: MainWnd.cpp:1586
+#, fuzzy
+msgid "_Status Bar"
+msgstr "Durum çubuğu"
+
+#: MainWnd.cpp:1594
+#, fuzzy
+msgid "_Wrap"
+msgstr "Böl"
+
+#: MainWnd.cpp:1602
+msgid "Change View _Mode"
+msgstr "Görüntü _Kipini Değiştir"
+
+#: MainWnd.cpp:1609
+msgid "_Calculate Word Count"
+msgstr "Kelime Sayısını _Hesapla"
+
+#: MainWnd.cpp:1620
+msgid "_Tree"
+msgstr "_Ağaç"
+
+#: MainWnd.cpp:1632
+#, fuzzy
+msgid "_Insert Node"
+msgstr "Not ekle"
+
+#: MainWnd.cpp:1640
+#, fuzzy
+msgid "Insert Child _Node"
+msgstr "Alt not ekle"
+
+#: MainWnd.cpp:1648
+#, fuzzy
+msgid "_Delete Node"
+msgstr "Not sil"
+
+#: MainWnd.cpp:1659
+#, fuzzy
+msgid "_Rename Node"
+msgstr "Notu yeniden adlandır"
+
+#: MainWnd.cpp:1667
+#, fuzzy
+msgid "_Move Node"
+msgstr "Notu taşı"
+
+#: MainWnd.cpp:1671
+msgid "_Sort"
+msgstr "_Sırala"
+
+#: MainWnd.cpp:1675
+#, fuzzy
+msgid "_Expand All"
+msgstr "Tümünü göster"
+
+#: MainWnd.cpp:1683
+#, fuzzy
+msgid "_Collapse All"
+msgstr "Tümünü gizle"
+
+#: MainWnd.cpp:1691
+#, fuzzy
+msgid "Node _Properties"
+msgstr "Not özellikleri"
+
+#: MainWnd.cpp:1705
+#, fuzzy
+msgid "_Up"
+msgstr "Yukarı"
+
+#: MainWnd.cpp:1716
+#, fuzzy
+msgid "_Down"
+msgstr "Aşağı"
+
+#: MainWnd.cpp:1727
+#, fuzzy
+msgid "_Left"
+msgstr "Sol"
+
+#: MainWnd.cpp:1738
+#, fuzzy
+msgid "_Right"
+msgstr "Sağ"
+
+#: MainWnd.cpp:1754 MainWnd.cpp:2334
+msgid "_Sort Children Ascending"
+msgstr "Birinci Nesli A_rtarak Sırala"
+
+#: MainWnd.cpp:1765 MainWnd.cpp:2344
+msgid "Sort _Children Descending"
+msgstr "Birinci Nesli Az_alarak Sırala"
+
+#: MainWnd.cpp:1776 MainWnd.cpp:2354
+msgid "Sort Root Ascending"
+msgstr "Kökü Artarak Sırala"
+
+#: MainWnd.cpp:1787 MainWnd.cpp:2364
+msgid "Sort Root Descending"
+msgstr "Kökü Azalarak Sırala"
+
+#: MainWnd.cpp:1800
+#, fuzzy
+msgid "Delete all _Completed nodes"
+msgstr "Tüm b_iten notları sil"
+
+#: MainWnd.cpp:1885
+msgid "Text Background _Color"
+msgstr "Metin Arkaplan _Rengi"
+
+#: MainWnd.cpp:1912
+msgid "_Help"
+msgstr "_Yardım"
+
+#: MainWnd.cpp:1923
+#, fuzzy
+msgid "_Visit Website"
+msgstr "Web Sitesi:"
+
+#: MainWnd.cpp:1933
+msgid "_Show help"
+msgstr "Y_ardım dosyasını göster"
+
+#: MainWnd.cpp:1948
+msgid "_About"
+msgstr "_Hakkında"
+
+#: MainWnd.cpp:2214
+msgid "Insert Child Node"
+msgstr "Alt not ekle"
+
+#: MainWnd.cpp:2221 ShortcutsList.cpp:138 ShortcutsList.cpp:191
+msgid "Delete Node"
+msgstr "Not sil"
+
+#: MainWnd.cpp:2231 ShortcutsList.cpp:139 ShortcutsList.cpp:192
+msgid "Rename Node"
+msgstr "Notu yeniden adlandır"
+
+#: MainWnd.cpp:2238
+msgid "Move Node"
+msgstr "Notu taşı"
+
+#: MainWnd.cpp:2242
+msgid "Sort"
+msgstr "Sırala"
+
+#: MainWnd.cpp:2246 ShortcutsList.cpp:151 ShortcutsList.cpp:204
+msgid "Expand All"
+msgstr "Tümünü göster"
+
+#: MainWnd.cpp:2253
+msgid "Collapse All"
+msgstr "Tümünü gizle"
+
+#: MainWnd.cpp:2260 NodePropertiesDlg.cpp:481
+#, fuzzy
+msgid "Mark node as Completed"
+msgstr "Notu bitmiş olarak işaretle"
+
+#: MainWnd.cpp:2267 NodePropertiesDlg.cpp:320
+msgid "Node Properties"
+msgstr "Not özellikleri"
+
+#: MainWnd.cpp:2309
+msgid "Left"
+msgstr "Sol"
+
+#: MainWnd.cpp:2319
+msgid "Right"
+msgstr "Sağ"
+
+#: mru.cpp:137
+msgid " - Clear list - "
+msgstr "- Listeyi temizle -"
+
+#: mru.cpp:145
+msgid "( empty )"
+msgstr "(boş)"
+
+#: NodePropertiesDlg.cpp:223
+msgid "Tag must not contain \";\" character!"
+msgstr "Etiket \";\" karakterini içeremez!"
+
+#: NodePropertiesDlg.cpp:239
+msgid "This tag was already added for this node!"
+msgstr "Şu anki etiket bu nota zaten eklenmiş!"
+
+#: NodePropertiesDlg.cpp:331
+msgid "Title:"
+msgstr "Başlık:"
+
+#: NodePropertiesDlg.cpp:363
+msgid "Created:"
+msgstr "Oluşturuldu:"
+
+#: NodePropertiesDlg.cpp:370 NodePropertiesDlg.cpp:384
+#: PixPropertiesDlg.cpp:110 PixPropertiesDlg.cpp:123
+msgid "unknown"
+msgstr "bilinmeyen"
+
+#: NodePropertiesDlg.cpp:377
+msgid "Modified:"
+msgstr "Değişmiş:"
+
+#: NodePropertiesDlg.cpp:401
+msgid "Icon:"
+msgstr "İkon:"
+
+#: NodePropertiesDlg.cpp:406 OptionsDialog.cpp:1191
+msgid "None"
+msgstr "Yok"
+
+#: NodePropertiesDlg.cpp:412 OptionsDialog.cpp:1199
+msgid "Internal"
+msgstr "Dahili"
+
+#: NodePropertiesDlg.cpp:418 OptionsDialog.cpp:1207
+msgid "Custom"
+msgstr "Özelleştirilmiş"
+
+#: NodePropertiesDlg.cpp:456
+msgid "Tags:"
+msgstr "Etiketler:"
+
+#: NodePropertiesDlg.cpp:616
+#, fuzzy
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg,*.gif)"
+msgstr "Tüm desteklenen formatlar (*.ncd,*.nce,*.hnc)"
+
+#: NodePropertiesDlg.cpp:617 OptionsDialog.cpp:1500
+msgid "XPM icon file (*.xpm)"
+msgstr "XPM ikon dosyası (*.xpm)"
+
+#: NodePropertiesDlg.cpp:618 OptionsDialog.cpp:1501
+#, fuzzy
+msgid "Icon file (*.ico)"
+msgstr "XPM ikon dosyası (*.xpm)"
+
+#: NodePropertiesDlg.cpp:619 OptionsDialog.cpp:1502
+msgid "PNG file format (*.png)"
+msgstr "PNG dosya biçemi (*.png)"
+
+#: NodePropertiesDlg.cpp:620 OptionsDialog.cpp:1503
+msgid "JPEG file format (*.jpg)"
+msgstr "JPEG dosya biçemiş (*.jpg)"
+
+#: NodePropertiesDlg.cpp:621
+#, fuzzy
+msgid "GIF file format (*.gif)"
+msgstr "PNG dosya biçemi (*.png)"
+
+#: NodePropertiesDlg.cpp:686 OptionsDialog.cpp:1623
+msgid "Failed to load node icon file!"
+msgstr "Not simge dosyası açılırken hata oldu!"
+
+#: OptionsDialog.cpp:638
+msgid "Some of the changed options require program restart!"
+msgstr ""
+
+#: OptionsDialog.cpp:769
+msgid "You must restart NoteCase for this change to take effect!"
+msgstr ""
+"Ayarların geçerlilik kazanması için Notecase'i yeniden başlatmalısınız!"
+
+#: OptionsDialog.cpp:849
+msgid "Options"
+msgstr "Ayarlar"
+
+#: OptionsDialog.cpp:884
+msgid "Start at logon"
+msgstr "Başlandıçta çalıştır"
+
+#: OptionsDialog.cpp:888
+msgid "Maximize on startup"
+msgstr "Başlangıçta ekranı kapla"
+
+#: OptionsDialog.cpp:892
+msgid "Allow single instance only"
+msgstr "Aynı anda tek bir uygulamanın çalışmasına izin ver"
+
+#: OptionsDialog.cpp:896
+msgid "Reload last used document"
+msgstr "Son kullanılan dosyayı yeniden aç"
+
+#: OptionsDialog.cpp:900
+msgid "Register document formats"
+msgstr "Belge formatlarını sisteme kaydet"
+
+#: OptionsDialog.cpp:904
+msgid "Restore last position/size"
+msgstr "Son pozisyon ve boyuta dön"
+
+#: OptionsDialog.cpp:908
+msgid "Startup"
+msgstr "Başlangıç"
+
+#: OptionsDialog.cpp:920
+msgid "Tree font:"
+msgstr "Ağaç menü yazı tipi"
+
+#: OptionsDialog.cpp:925
+msgid "Text font:"
+msgstr "Yazı tipi:"
+
+#: OptionsDialog.cpp:948
+msgid "Text/background color:"
+msgstr "Metin/arkaplan rengi:"
+
+#: OptionsDialog.cpp:961
+msgid "Link color:"
+msgstr "Bağlantı rengi:"
+
+#: OptionsDialog.cpp:970
+msgid "Custom Tab Size"
+msgstr "Özel Sekme Boyutu"
+
+#: OptionsDialog.cpp:979
+msgid "Wrap text"
+msgstr "Yazıyı böl"
+
+#: OptionsDialog.cpp:983
+#, fuzzy
+msgid "Wrap titles tree"
+msgstr "Yazıyı böl"
+
+#: OptionsDialog.cpp:987
+msgid "Show tree lines"
+msgstr ""
+
+#: OptionsDialog.cpp:991
+msgid "Display"
+msgstr "Görünüm"
+
+#: OptionsDialog.cpp:1001
+msgid "Use system language settings"
+msgstr "Sistem dil ayarlarını kullan"
+
+#: OptionsDialog.cpp:1005
+msgid "Language:"
+msgstr "Dil:"
+
+#: OptionsDialog.cpp:1014
+msgid "Date/time format:"
+msgstr "Tarih/zaman biçemi: "
+
+#: OptionsDialog.cpp:1029
+msgid "Show node tree on the right"
+msgstr "Not ağacını sağda göster"
+
+#: OptionsDialog.cpp:1033
+msgid "Draw message over inactive text view"
+msgstr ""
+
+#: OptionsDialog.cpp:1037
+msgid "Minimize to tray"
+msgstr "Simge durumuna küçült"
+
+#: OptionsDialog.cpp:1041
+#, fuzzy
+msgid "Close to tray"
+msgstr "Simge durumuna küçült"
+
+#: OptionsDialog.cpp:1045
+msgid "[Enter] key press in text area closes the window"
+msgstr "Metin alanında pencereyi kapatmak için [Enter] tuşuna basın"
+
+#: OptionsDialog.cpp:1049 ShortcutsListDlg.cpp:134
+msgid "Global"
+msgstr "Genel"
+
+#: OptionsDialog.cpp:1061
+msgid "Autosave to temporary crash-protection copy every:"
+msgstr ""
+
+#: OptionsDialog.cpp:1072
+msgid "seconds"
+msgstr "saniye"
+
+#: OptionsDialog.cpp:1077
+msgid "Do not autosave memory-only (new/unsaved) documents (data security)"
+msgstr ""
+"Sadece hafızada bulunan (yeni/kayıt edilmemiş) belgeleri otomatik kaydetme "
+"(veri güvenliği)"
+
+#: OptionsDialog.cpp:1082
+msgid "For each document, create up to:"
+msgstr "Her belge için, şuraya oluştur:"
+
+#: OptionsDialog.cpp:1093
+msgid "backup files"
+msgstr "dosyaları yedekle"
+
+#: OptionsDialog.cpp:1098
+msgid "Automatically save when closing application"
+msgstr "Uygulamayı kapatırken kaydet"
+
+#: OptionsDialog.cpp:1114
+msgid "Generate table of contents (depth):"
+msgstr "Genel içerik tablosu (derinlik):"
+
+#: OptionsDialog.cpp:1125
+msgid "Export link to image file as the image tag"
+msgstr "Bağlantırı resim etiketi olarak resim dosyasına ihraç et"
+
+#: OptionsDialog.cpp:1129
+msgid "Embed CSS into exported file"
+msgstr "Hiraç edilen dosyada gömülü CSS"
+
+#: OptionsDialog.cpp:1133
+msgid "Export image and attachment data as separate files"
+msgstr "Resim ve eklenmiş veriyi ayrı dosyalar olarak ihraç et"
+
+#: OptionsDialog.cpp:1137
+msgid "Html export"
+msgstr "Html ihracı"
+
+#: OptionsDialog.cpp:1149
+msgid "Protect memory space from swapping (requires Notecase restart)"
+msgstr ""
+"Bellek boşluğunu takaslamadan koru (Notecase'i yeniden başlatmak gerekir)"
+
+#: OptionsDialog.cpp:1156
+msgid "Security"
+msgstr "Güvenlik"
+
+#: OptionsDialog.cpp:1160
+msgid "Save and unload encrypted document if inactive for:"
+msgstr "Şu kadar süre aktif değilse şifrelenmiş belgeyi kaydet ve kapat:"
+
+#: OptionsDialog.cpp:1171
+msgid "minutes"
+msgstr "dakika"
+
+#: OptionsDialog.cpp:1184
+msgid "Default Note Icon"
+msgstr "Ön Tanımlı Not Simgesi"
+
+#: OptionsDialog.cpp:1234
+msgid "Preview:"
+msgstr "Görünüm:"
+
+#: OptionsDialog.cpp:1248
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: OptionsDialog.cpp:1499
+#, fuzzy
+msgid "All supported icon formats (*.xpm,*.ico,*.png,*.jpg)"
+msgstr "Tüm desteklenen formatlar (*.ncd,*.nce,*.hnc)"
+
+#: OptionsDialog.cpp:1667
+#, c-format
+msgid "Minimal value is %d sec!"
+msgstr ""
+
+#: PasswordDialog.cpp:99
+msgid "Password"
+msgstr "Şifre"
+
+#: PasswordDialog.cpp:133
+msgid "Please enter the password:"
+msgstr "Şifreyi giriniz"
+
+#: PasswordDialog.cpp:151
+msgid "Please enter the new password:"
+msgstr "Yeni parolayı girin:"
+
+#: PasswordDialog.cpp:173
+msgid "Please enter the new password (once more):"
+msgstr "Yeni parolayı bir kere daha girin:"
+
+#: PasswordDialog.cpp:192
+msgid "_Show passwords"
+msgstr "_Parolaları Göster"
+
+#: PasswordDialog.cpp:248 PasswordDialog.cpp:298
+msgid "Password must not be empty!"
+msgstr "Parola boş olamaz!"
+
+#: PasswordDialog.cpp:260
+msgid "Passwords do not match! Check for typing errors."
+msgstr "Parola uyuşmuyor! Yazım hatasını kontrol edin."
+
+#: PasswordDialog.cpp:275
+msgid "Old password was not correct!"
+msgstr "Eski parola doğru değil!"
+
+#: PasswordDialog.cpp:288
+msgid "New passwords do not match! Check for typing errors."
+msgstr "Yeni parolalar uyuşmuyor! Yazım hatalarını kontrol edin."
+
+#: PixPropertiesDlg.cpp:86
+msgid "Image Properties"
+msgstr "Resim özellikleri"
+
+#: PixPropertiesDlg.cpp:103
+msgid "Original size:"
+msgstr "Asıl boyut:"
+
+#: PixPropertiesDlg.cpp:116
+msgid "Selected size:"
+msgstr "Seçili boyut:"
+
+#: PixPropertiesDlg.cpp:129
+msgid "Resize to:"
+msgstr "Şu boyuta getir:"
+
+#: PixPropertiesDlg.cpp:142
+msgid "Store as PNG"
+msgstr "PNG olarak sakla"
+
+#: PortableTrayIcon.cpp:118
+msgid "Restore"
+msgstr "Eski haline getir"
+
+#: PortableTrayIcon.cpp:126
+msgid "Quit"
+msgstr "Çıkış"
+
+#: ShortcutsList.cpp:26
+msgid "Ctrl+"
+msgstr "Ctrl+"
+
+#: ShortcutsList.cpp:28
+msgid "Shift+"
+msgstr "Shift+"
+
+#: ShortcutsList.cpp:30
+msgid "Alt+"
+msgstr "Alt+"
+
+#: ShortcutsList.cpp:37
+msgid "Space"
+msgstr "Boşluk"
+
+#: ShortcutsList.cpp:124
+msgid "New Document"
+msgstr "Yeni Belge"
+
+#: ShortcutsList.cpp:125
+#, fuzzy
+msgid "Open Document"
+msgstr "Belge aç"
+
+#: ShortcutsList.cpp:126
+#, fuzzy
+msgid "Save Document"
+msgstr "Belgeyi kaydet"
+
+#: ShortcutsList.cpp:127
+msgid "Save As Document"
+msgstr "Belgeyi farklı kaydet"
+
+#: ShortcutsList.cpp:128
+#, fuzzy
+msgid "Reload Document"
+msgstr "Son kullanılan dosyayı yeniden aç"
+
+#: ShortcutsList.cpp:129
+msgid "Import"
+msgstr "İçe aktar"
+
+#: ShortcutsList.cpp:131
+msgid "New Notecase"
+msgstr "Yeni Notluk"
+
+#: ShortcutsList.cpp:132
+msgid "Read-Only (Document)"
+msgstr "Salt-okunur (Dosya)"
+
+#: ShortcutsList.cpp:133
+msgid "Lock Document"
+msgstr "Belgeyi Kitle"
+
+#: ShortcutsList.cpp:134
+msgid "Change Password"
+msgstr "Parola Değiştir"
+
+#: ShortcutsList.cpp:135
+msgid "Quit Notecase"
+msgstr "Notecase'den Çık"
+
+#: ShortcutsList.cpp:136 ShortcutsList.cpp:189
+#, fuzzy
+msgid "New Node"
+msgstr "Yeni not"
+
+#: ShortcutsList.cpp:137 ShortcutsList.cpp:190
+#, fuzzy
+msgid "New Child Node"
+msgstr "Alt not ekle"
+
+#: ShortcutsList.cpp:140 ShortcutsList.cpp:193
+msgid "Move Node Up"
+msgstr "Notu yukarı taşı"
+
+#: ShortcutsList.cpp:141 ShortcutsList.cpp:194
+msgid "Move Node Down"
+msgstr "Notu aşağı taşı"
+
+#: ShortcutsList.cpp:144 ShortcutsList.cpp:197
+#, fuzzy
+msgid "Show Node Properties"
+msgstr "Not özellikleri"
+
+#: ShortcutsList.cpp:145 ShortcutsList.cpp:198
+#, fuzzy
+msgid "Delete Completed Nodes"
+msgstr "Not sil"
+
+#: ShortcutsList.cpp:146 ShortcutsList.cpp:199
+#, fuzzy
+msgid "Toggle Completed Status"
+msgstr "Bitiş Durumunu Ayarla"
+
+#: ShortcutsList.cpp:147 ShortcutsList.cpp:200
+msgid "Sort Children Ascending"
+msgstr "Birinci Nesli Artarak Sırala"
+
+#: ShortcutsList.cpp:148 ShortcutsList.cpp:201
+msgid "Sort Children Descending"
+msgstr "Birinci Nesli Azalarak Sırala"
+
+#: ShortcutsList.cpp:149 ShortcutsList.cpp:202
+msgid "Sort Tree Ascending"
+msgstr "Ağacı Artarak Sırala"
+
+#: ShortcutsList.cpp:150 ShortcutsList.cpp:203
+msgid "Sort Tree Descending"
+msgstr "Ağacı Azalarak Sırala"
+
+#: ShortcutsList.cpp:152 ShortcutsList.cpp:205
+#, fuzzy
+msgid "Colapse All"
+msgstr "Tümünü gizle"
+
+#: ShortcutsList.cpp:159 ShortcutsList.cpp:206
+msgid "Copy Branch Structure"
+msgstr "Dal Yapısını Kopyala"
+
+#: ShortcutsList.cpp:160 ShortcutsList.cpp:207
+msgid "Paste Branch Root"
+msgstr "Dal Kökünü Yapıştır"
+
+#: ShortcutsList.cpp:161
+#, fuzzy
+msgid "Insert date/time"
+msgstr "Not ekle"
+
+#: ShortcutsList.cpp:163
+#, fuzzy
+msgid "Find Next"
+msgstr "_Sonrakini bul"
+
+#: ShortcutsList.cpp:167
+msgid "Attachments"
+msgstr "Ekler"
+
+#: ShortcutsList.cpp:174
+msgid "Color"
+msgstr "Renk"
+
+#: ShortcutsList.cpp:176
+msgid "Remove Formatting"
+msgstr "Biçemi Temizle"
+
+#: ShortcutsList.cpp:177
+msgid "Full Screen"
+msgstr "Tam Ekran"
+
+#: ShortcutsList.cpp:178
+#, fuzzy
+msgid "View Toolbar"
+msgstr "Araç çubuğu"
+
+#: ShortcutsList.cpp:179
+#, fuzzy
+msgid "View Node Title Bar"
+msgstr "Not başlık çubuğu"
+
+#: ShortcutsList.cpp:180
+#, fuzzy
+msgid "View Status Bar"
+msgstr "Durum çubuğu"
+
+#: ShortcutsList.cpp:181
+#, fuzzy
+msgid "Word Wrap"
+msgstr "Böl"
+
+#: ShortcutsList.cpp:182
+msgid "Change View Mode"
+msgstr "Görüntü Kipini Değiştir"
+
+#: ShortcutsList.cpp:183
+msgid "Calculate Word Count"
+msgstr "Kelime Sayısını Hesapla"
+
+#: ShortcutsList.cpp:184
+#, fuzzy
+msgid "Show help"
+msgstr "Y_ardım dosyasını göster"
+
+#: ShortcutsList.cpp:185
+#, fuzzy
+msgid "About"
+msgstr "_Hakkında"
+
+#: ShortcutsList.cpp:186
+#, fuzzy
+msgid "Visit Website"
+msgstr "Web Sitesi:"
+
+#: ShortcutsListDlg.cpp:56
+msgid "You need to restart the application to use new shortcut definitions!"
+msgstr ""
+"Yeni kısayol tanımlamalarını kullanmak için uygulamayı yeniden "
+"başlatmalısınız!"
+
+#: ShortcutsListDlg.cpp:107
+msgid "Shortcut editor"
+msgstr "Kısayol düzenleyicisi"
+
+#: ShortcutsListDlg.cpp:126
+#, fuzzy
+msgid "Context:"
+msgstr "Metin :"
+
+#: ShortcutsListDlg.cpp:135
+msgid "Tree widget"
+msgstr "Ağaç Uygulamacığı"
+
+#: ShortcutsListDlg.cpp:158
+msgid "Action"
+msgstr "Eylem:"
+
+#: ShortcutsListDlg.cpp:172
+msgid "Shortcut"
+msgstr "Kısayol"
+
+#: ShortcutsListDlg.cpp:192
+msgid ""
+"Use mouse click to select an action, and then press key combination to "
+"assign the shortcut to it. Some actions are listed in more than one context "
+"so they can have more than one shortcut attached."
+msgstr ""
+"Bir eylemi seçmek için fareyi kullanıp ardından atamak istediğiniz tuş "
+"kombinasyonuna basın. Bazı eylemler birden fazla içerik altında "
+"listelenebilir, böylece bunlara farklı kısayollar atanabilir."
+
+#: ShortcutsListDlg.cpp:207
+msgid "Clear All"
+msgstr "Tümünü temizle"
+
+#: ShortcutsListDlg.cpp:213
+msgid "Reset All"
+msgstr "Hepsini Sıfırla"
+
+#: ShortcutsListDlg.cpp:219
+msgid "Cancel"
+msgstr "İptal"
+
+#: ShortcutsListDlg.cpp:225
+#, fuzzy
+msgid "OK"
+msgstr "Tamam!"
+
+#: ShortcutsListDlg.cpp:298
+msgid "This shortcut combination is already taken!"
+msgstr "Bu kısayol kombinasyonu zaten kullanılıyor!"
+
+#: ShortcutsListDlg.cpp:334
+#, c-format
+msgid "%d items in this context"
+msgstr "Bu içerikte %d parça var"
+
+#: gui/FileDialog.cpp:45
+msgid "Open file"
+msgstr "Dosya aç"
+
+#: gui/FileDialog.cpp:45
+msgid "Save file"
+msgstr "Dosyayı kaydet"
+
+#: gui/FileDialog.cpp:70
+msgid "File Name:"
+msgstr "Dosa İsmi:"
+
+#: gui/FileDialog.cpp:80
+#, fuzzy
+msgid "Save as type:"
+msgstr "Farklı kaydet"
+
+#: gui/ProgressDlg.cpp:115
+#, fuzzy
+msgid "Abort"
+msgstr "_Hakkında"
+
+#: lib/FormatIOHtml.cpp:1210 lib/FormatIOHtml.cpp:1527
+#: lib/FormatIOHtml.cpp:1614
+#, fuzzy, c-format
+msgid ""
+"File %s\n"
+"already exists. Overwrite this and all other files?"
+msgstr "%s dosyası zaten var! Üzerine yazmak ister misiniz?"
+
+#: lib/FormatIOHtml.cpp:1261
+msgid "Attachment"
+msgstr "Ek"
+
+#: lib/FormatIOHtml.cpp:1894
+msgid "Contents"
+msgstr "İçerik"
+
+#: lib/FormatIOMMLX.cpp:79
+msgid ""
+"There were problems converting text from ibm850 to utf-8.\n"
+"Consider installing \"glibc-gconv-ibm850\" package"
+msgstr ""
+"Metni ibm850'den utf-8'e çeviriken hata meydana geldi.\n"
+"\"glibc-gconv-ibm850\" paketini kurmayı deneyin."
+
+#: lib/NoteDocument.cpp:377
+#, fuzzy
+msgid ""
+"Warning:\n"
+"This document was created either by a different application\n"
+"Notecase and Notecase Pro are not considered the same application),\n"
+"or by a newer version of this program.\n"
+"\n"
+"If you edit this document, you might lose some formatting!"
+msgstr ""
+"Uyarı:\n"
+"Bu belge ya başka bir program ya da bu programın yeni bir sürümü arafından "
+"oluşturuldu.\n"
+" \n"
+"Eğer bu belgeyi düzenlerseniz bazı biçimleme kaybı yaşayabilirsiniz!"
+
+#~ msgid "New No_tecase"
+#~ msgstr "Yeni Notluk "
+
+#~ msgid "_Shortcuts"
+#~ msgstr "_Kısayollar"
+
+#~ msgid "_Options"
+#~ msgstr "_Ayarlar"
+
+#~ msgid "Autosave document every:"
+#~ msgstr "Belgeyi şu aralıkta kendiliğinden kaydet:"
+
+#~ msgid "Untitled"
+#~ msgstr "Adsız"
+
+#~ msgid "All supported formats (*.ncd,*.nce,*.hnc,*.gjots2,*.xml)"
+#~ msgstr "Tüm desteklenen formatlar (*.ncd,*.nce,*.hnc,*.gjots2,*.xml)"
+
+#~ msgid "Export to file"
+#~ msgstr "Dosyaya çıkar"
+
+#~ msgid "Selected node with children"
+#~ msgstr "Seçili not ve alt notları."
+
+#~ msgid "Backup document (autosave) every:"
+#~ msgstr "Otomatik kayıt yineleme zamanı :"
