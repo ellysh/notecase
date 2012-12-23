@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Miroslav Rajcic <miroslav.rajcic@inet.hr>
 Build-Depends: cdbs, debhelper (>= 4.1.0), libgtk2.0-dev (>= 2.4), libgnomevfs2-dev
 Package: notecase
-Architecture: i686 
+Architecture: amd64
 Version: 1.9.8
 Depends:
 Description: A hierarchical text notes manager
