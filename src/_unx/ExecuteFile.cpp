@@ -6,6 +6,7 @@
 // File: Execute any file path or URL
 ////////////////////////////////////////////////////////////////////////////
 
+#include <stdio.h>
 #include <glib.h>
 #include "../ExecuteFile.h"
 #include "../config.h"

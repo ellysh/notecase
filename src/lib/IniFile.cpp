@@ -6,6 +6,8 @@
 // File:  INI file implementation
 ////////////////////////////////////////////////////////////////////////////
 
+#include <stdio.h>
+
 #include "IniFile.h"
 #include <algorithm>    //find() function
 #include <string>
