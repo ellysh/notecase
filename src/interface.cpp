@@ -482,6 +482,7 @@ int gtkMessageBoxYNC(const char *szText)
 		GTK_DIALOG_DESTROY_WITH_PARENT,
 		(GtkMessageType)GTK_MESSAGE_INFO,
 		(GtkButtonsType)GTK_BUTTONS_NONE,
+		"%s",
 		szText);
 
 	gtk_window_set_title (GTK_WINDOW (msgbox), _("Info"));
