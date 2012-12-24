@@ -1,0 +1,5 @@
+notecase (1.9.8.1-precise0) stable; urgency=low
+
+  * Packaging for Ubuntu precise
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Mon, 24 Dec 2012 02:52:40 +0100

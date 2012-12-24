@@ -1,5 +1,5 @@
 ?package(notecase):needs="X11"\
-  	title="notecase"\
+	title="notecase"\
 	section="Apps/Editors"\
 	hints="Productivity,Text"\
 	icon="/usr/share/pixmaps/notecase.xpm"\

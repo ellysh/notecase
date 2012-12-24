@@ -1,12 +1,19 @@
 Source: notecase
 Section: editors
 Priority: optional
-Maintainer: Miroslav Rajcic <miroslav.rajcic@inet.hr>
-Build-Depends: cdbs, debhelper (>= 4.1.0), libgtk2.0-dev (>= 2.4), libgnomevfs2-dev
+Maintainer: Enrico Weigelt, metux IT service <weigelt@metux.de>
+Build-Depends:
+ cdbs,
+ debhelper (>= 4.1.0),
+ libgtk2.0-dev (>= 2.4),
+ libgnomevfs2-dev,
+ libgtksourceview2.0-dev,
+ zlib1g-dev
+
 Package: notecase
-Architecture: amd64
-Version: 1.9.8
+Architecture: all
 Depends:
+ ${shlibs:Depends}
 Description: A hierarchical text notes manager
  NoteCase is a hierarchical text notes manager (outliner).
  It helps you organize your everyday text notes into a single document

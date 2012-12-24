@@ -3,30 +3,30 @@
 # Register with freedesktop.org Shared MIME-Info database
 # gnome 2.6
 if [ -x /usr/bin/update-mime-database ] ; then
-    /usr/bin/update-mime-database /usr/share/mime > /dev/null
+	/usr/bin/update-mime-database /usr/share/mime > /dev/null
 fi
 
 # gnome 2.8
 if [ -x /usr/bin/update-desktop-database ] ; then
-    /usr/bin/update-desktop-database > /dev/null
+	/usr/bin/update-desktop-database > /dev/null
 fi
 
 # MAEMO:
 if [ -x /usr/bin/osso-update-category-database ]; then
- osso-update-category-database /usr/share/mime > /dev/null
+	osso-update-category-database /usr/share/mime > /dev/null
 fi
 
 # refresh icon cache
 if [ -x /usr/bin/gtk-update-icon-cache ]; then
-  /usr/bin/gtk-update-icon-cache -q /usr/share/icons/hicolor
+	/usr/bin/gtk-update-icon-cache -q /usr/share/icons/hicolor
 fi
 
 # MAEMO: if this is a new install, add app to "Utilities" menu
 oldversion="$2"
 if [ -z "$oldversion" ]; then
- if [ -x /usr/bin/maemo-select-menu-location ]; then
-  maemo-select-menu-location notecase.desktop  tana_fi_utilities
- fi
-fi 
+	if [ -x /usr/bin/maemo-select-menu-location ]; then
+		maemo-select-menu-location notecase.desktop tana_fi_utilities
+	fi
+fi
 
 exit 0
