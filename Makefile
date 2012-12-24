@@ -268,7 +268,6 @@ OBJS= $(OBJ)/main.o $(OBJ)/support.o $(OBJ)/callbacks.o $(OBJ)/interface.o $(OBJ
  $(OBJ)/IOLayerRedirect.o $(OBJ)/FileExportDlg.o $(OBJ)/FormatIOTxt.o $(OBJ)/FindReplaceDlg.o \
  $(OBJ)/FindReplaceInfo.o $(OBJ)/LinkInfo.o $(OBJ)/LinkPropertiesDlg.o $(OBJ)/ExecuteFile.o \
  $(OBJ)/FileSaveAsDlg.o $(OBJ)/CircularBuffer.o $(OBJ)/FormatIOMMLX.o \
- $(OBJ)/libz.a \
  $(OBJ)/ProgressDlg.o $(OBJ)/DocActionPix.o $(OBJ)/DocActionFinish.o $(OBJ)/DocActionFmt.o $(OBJ)/FmtInfo.o \
  $(OBJ)/FileAttachmentDlg.o $(OBJ)/DocActionAtt.o $(OBJ)/PixPropertiesDlg.o $(OBJ)/DocActionFinishDel.o \
  $(OBJ)/ShortcutsList.o $(OBJ)/ShortcutsListDlg.o $(OBJ)/DateTimeDlg.o $(OBJ)/AboutDlg.o $(OBJ)/EditDlg.o \
@@ -534,9 +533,6 @@ $(OBJ)/PixPropertiesDlg.o: $(GUIPATH)/PixPropertiesDlg.cpp $(GUIPATH)/PixPropert
 
 $(OBJ)/DocActionFinishDel.o: $(GUIPATH)/DocActionFinishDel.cpp $(GUIPATH)/DocActionFinishDel.h
 	$(CC) $(FLAGS) -c $(GUIPATH)/DocActionFinishDel.cpp -o $(OBJ)/DocActionFinishDel.o $(GTKCFLAGS)
-	
-$(OBJ)/libz.a:
-	@cd ./src/lib/zlib/; $(MAKE); cp ./libz.a ../../../$(OBJ)/
 
 $(OBJ)/ShortcutsList.o: $(GUIPATH)/ShortcutsList.cpp $(GUIPATH)/ShortcutsList.h
 	$(CC) $(FLAGS) -c $(GUIPATH)/ShortcutsList.cpp -o $(OBJ)/ShortcutsList.o  $(GTKCFLAGS)
@@ -883,17 +879,14 @@ zaurus: touch
 # helper to adapt to date changes
 #
 touch:
-	$(Q)touch ./Makefile ./src/* ./src/lib/* ./src/lib/zlib/* ./src/gui/* ./src/_unx/*
+	$(Q)touch ./Makefile ./src/* ./src/lib/* ./src/gui/* ./src/_unx/*
 
 #
 # clean up the source tree
 #
 clean:
 	@echo cleaning up
-	$(Q)cd ./src/lib/zlib/; $(MAKE) clean;
 	$(Q)rm -f $(OBJ)/*.o $(OBJ)/*.d $(OBJ)/*.a $(BIN)/core.* $(BIN)/notecase$(EXE) ./gmon.out
 	$(Q)rm -rf ./notecase
 
-
 .PHONY : all help poinstall pouninstall install uninstall rpm pack packdos updatesrcdos updatesrc updatemime clean ipk deb weexpc check install2
-

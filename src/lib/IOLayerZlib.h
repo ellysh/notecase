@@ -17,8 +17,9 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
+#include <zlib.h>
+
 #include "IOLayerBase.h"
-#include "zlib/zlib.h"
 
 class IOLayerZlib : public IOLayerBase
 {
