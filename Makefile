@@ -47,8 +47,8 @@ ifneq ($(AUTODETECT_GTKSOURCEVIEW),)
 endif
 
 #comment these two lines to remove gnome-vfs support
-AUTODETECT_GNOME_VFS=1
-HAVE_GNOME_VFS=1
+#AUTODETECT_GNOME_VFS=1
+#HAVE_GNOME_VFS=1
 
 ifneq ($(AUTODETECT_GNOME_VFS),)
  TEST_GNOME_VFS=$(shell pkg-config --libs gnome-vfs-2.0 2>/dev/null)
@@ -287,7 +287,7 @@ ifdef WINDIR
  HAVE_GNOME_VFS=
 endif
 
-LIBS=gtk+-2.0 glib-2.0 gthread-2.0
+LIBS=gtk+-2.0 glib-2.0 gthread-2.0 x11 zlib
 
 ifneq ($(HAVE_GNOME_VFS),)
  LIBS += gnome-vfs-2.0

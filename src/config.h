@@ -17,7 +17,7 @@
 #define GENERATE_CRASHLOG	// comment this to suppress crash log generation
 #define MRU_LIST_SIZE  10	// maximal size for recent documents list
 
-//#define HAVE_GTKSOURCEVIEW
+#define HAVE_GTKSOURCEVIEW
 #ifdef HAVE_GTKSOURCEVIEW
  #include <gtksourceview/gtksourceview.h>
  #include <gtksourceview/gtksourcebuffer.h>
